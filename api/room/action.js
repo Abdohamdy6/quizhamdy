@@ -63,7 +63,6 @@ export default async function handler(req, res) {
     return res.json({ok:true});
   }
 
-  // بدأ التايمر تلقائياً فور فتح السؤال
   if (action==="open_question") {
     const {catIndex,qIndex} = payload;
     if (!isMyTurn) return res.status(403).json({error:"مش دورك!"});
@@ -78,8 +77,6 @@ export default async function handler(req, res) {
       points:pts,basePts:q.points,isDouble,phase:"playing",owner:playerNum,
       pendingWinner:null,pendingPts:0,
     };
-    
-    // تشغيل التايمر مباشرة
     room.timerStart=Date.now(); room.timerSeconds=60; room.timerPhase="main";
     
     addEv(room,"question_opened",{catIndex,qIndex,question:q.q,points:pts,isDouble,owner:playerNum});
@@ -91,7 +88,6 @@ export default async function handler(req, res) {
     return res.json({ok:true});
   }
 
-  // الكارت الأحمر يمكن استخدامه أثناء اللعب (التايمر شغال)
   if (action==="use_power_red") {
     if (isMyTurn) return res.status(403).json({error:"مش قادر تستخدمه على نفسك!"});
     if (room.powersUsed[pStr].red) return res.status(400).json({error:"استخدمتها قبل!"});
@@ -110,9 +106,12 @@ export default async function handler(req, res) {
     if (!cq) return res.status(400).json({error:"مفيش سؤال مفتوح"});
     const ownerStr = String(cq.owner);
     const phase    = cq.phase;
+    
+    // تم تصحيح الخطأ هنا لضمان أن الخصم فقط هو من يجيب في مرحلة الـ Pass
     if (phase==="playing"    && pStr!==ownerStr) return res.status(403).json({error:"مش دورك!"});
-    if (phase==="pass"       && pStr!==other)    return res.status(403).json({error:"مش دورك!"});
+    if (phase==="pass"       && pStr===ownerStr) return res.status(403).json({error:"مش دورك!"}); 
     if (phase==="double_ans" && pStr!==ownerStr) return res.status(403).json({error:"مش دورك!"});
+    
     room.timerStart=room.timerSeconds=room.timerPhase=null;
     addEv(room,"answer_submitted",{by:playerNum});
     await saveRoom(code,room);
@@ -130,17 +129,15 @@ export default async function handler(req, res) {
       await saveRoom(code,room2); return res.json({ok:true});
     }
 
-    // إخفاء الإجابة في حالة الخطأ والانتقال لفرصة الخصم
     if (!correct && phase==="playing") {
       room2.currentQ.phase="pass";
       room2.timerStart=Date.now(); room2.timerSeconds=10; room2.timerPhase="pass";
-      addEv(room2,"wrong_try_pass",{by:playerNum}); // إرسال خطأ بدون كشف الإجابة
+      addEv(room2,"wrong_try_pass",{by:playerNum});
       addEv(room2,"time_up_pass",{seconds:10});
       addEv(room2,`your_turn_${other}`,{});
       await saveRoom(code,room2); return res.json({ok:true});
     }
 
-    // إظهار الإجابة فقط لو صح، أو لو الفرصة التانية/الخصم خلصت
     addEv(room2,"answer_revealed",{correct,correctAnswer:cq.answer,givenAnswer:answer,by:playerNum,pts});
 
     if (correct) {
