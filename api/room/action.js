@@ -107,7 +107,6 @@ export default async function handler(req, res) {
     const ownerStr = String(cq.owner);
     const phase    = cq.phase;
     
-    // تم تصحيح الخطأ هنا لضمان أن الخصم فقط هو من يجيب في مرحلة الـ Pass
     if (phase==="playing"    && pStr!==ownerStr) return res.status(403).json({error:"مش دورك!"});
     if (phase==="pass"       && pStr===ownerStr) return res.status(403).json({error:"مش دورك!"}); 
     if (phase==="double_ans" && pStr!==ownerStr) return res.status(403).json({error:"مش دورك!"});
@@ -141,7 +140,10 @@ export default async function handler(req, res) {
     addEv(room2,"answer_revealed",{correct,correctAnswer:cq.answer,givenAnswer:answer,by:playerNum,pts});
 
     if (correct) {
-      const canY = !room2.powersUsed[other].yellow;
+      // التعديل هنا: السماح بالكارت الأصفر فقط لو "صاحب السؤال" هو اللي بيجاوب 
+      const isOwnerAnswering = (pStr === ownerStr);
+      const canY = isOwnerAnswering && !room2.powersUsed[other].yellow;
+      
       if (canY) {
         room2.currentQ.phase="yellow_window";
         room2.currentQ.pendingWinner=playerNum;
@@ -150,6 +152,7 @@ export default async function handler(req, res) {
         addEv(room2,"yellow_window",{seconds:10,pts});
         addEv(room2,`can_use_yellow_${other}`,{can:true,pts});
       } else {
+        // لو الخصم اللي جاوب صح في فرصته، ياخد النقط فوراً ومفيش كارت أصفر
         endQuestion(room2,playerNum,pts);
       }
     } else {
