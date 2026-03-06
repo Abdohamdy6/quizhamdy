@@ -51,7 +51,6 @@ export default async function handler(req, res) {
   const other = pStr==="1"?"2":"1";
   const isMyTurn = room.turn===playerNum;
 
-  // ── use_power_pre ─────────────────────────────
   if (action==="use_power_pre") {
     const {type} = payload;
     if (!isMyTurn) return res.status(403).json({error:"مش دورك!"});
@@ -64,7 +63,7 @@ export default async function handler(req, res) {
     return res.json({ok:true});
   }
 
-  // ── open_question ──────────────────────────────
+  // بدأ التايمر تلقائياً فور فتح السؤال
   if (action==="open_question") {
     const {catIndex,qIndex} = payload;
     if (!isMyTurn) return res.status(403).json({error:"مش دورك!"});
@@ -76,21 +75,27 @@ export default async function handler(req, res) {
     const pts      = q.points*(isDouble?2:1);
     room.currentQ  = {
       catIndex,qIndex,question:q.q,answer:q.a,
-      points:pts,basePts:q.points,isDouble,phase:"pre",owner:playerNum,
+      points:pts,basePts:q.points,isDouble,phase:"playing",owner:playerNum,
       pendingWinner:null,pendingPts:0,
     };
+    
+    // تشغيل التايمر مباشرة
+    room.timerStart=Date.now(); room.timerSeconds=60; room.timerPhase="main";
+    
     addEv(room,"question_opened",{catIndex,qIndex,question:q.q,points:pts,isDouble,owner:playerNum});
     if (isDouble) addEv(room,"double_revealed",{});
     addEv(room,`can_use_red_${other}`,{can:!room.powersUsed[other].red});
+    addEv(room,"timer_started",{seconds:60,team:playerNum});
+    
     await saveRoom(code,room);
     return res.json({ok:true});
   }
 
-  // ── use_power_red ─────────────────────────────
+  // الكارت الأحمر يمكن استخدامه أثناء اللعب (التايمر شغال)
   if (action==="use_power_red") {
     if (isMyTurn) return res.status(403).json({error:"مش قادر تستخدمه على نفسك!"});
     if (room.powersUsed[pStr].red) return res.status(400).json({error:"استخدمتها قبل!"});
-    if (room.currentQ?.phase!=="pre") return res.status(400).json({error:"وقتها فات!"});
+    if (room.currentQ?.phase!=="playing") return res.status(400).json({error:"وقتها فات!"});
     room.powersUsed[pStr].red=true;
     room.activePower={team:playerNum,type:"red"};
     room.currentQ.points=Math.floor(room.currentQ.points/2);
@@ -99,18 +104,6 @@ export default async function handler(req, res) {
     return res.json({ok:true});
   }
 
-  // ── start_timer ───────────────────────────────
-  if (action==="start_timer") {
-    if (!isMyTurn) return res.status(403).json({error:"مش دورك!"});
-    if (room.currentQ?.phase!=="pre") return res.status(400).json({error:"مش وقته!"});
-    room.currentQ.phase="playing";
-    room.timerStart=Date.now(); room.timerSeconds=60; room.timerPhase="main";
-    addEv(room,"timer_started",{seconds:60,team:playerNum});
-    await saveRoom(code,room);
-    return res.json({ok:true});
-  }
-
-  // ── submit_answer ─────────────────────────────
   if (action==="submit_answer") {
     const {answer} = payload;
     const cq = room.currentQ;
@@ -124,14 +117,12 @@ export default async function handler(req, res) {
     addEv(room,"answer_submitted",{by:playerNum});
     await saveRoom(code,room);
 
-    // Judge (async — reload room after)
     const correct = await judgeAnswer(cq.question, cq.answer, answer);
     const pts = correct?cq.points:0;
     const room2 = await getRoom(code);
     if (!room2?.currentQ) return res.json({ok:true});
     const ap = room2.activePower;
 
-    // doubleAns second chance
     if (!correct && phase==="playing" && ap?.type==="doubleAns" && String(ap.team)===ownerStr) {
       room2.currentQ.phase="double_ans";
       addEv(room2,`wrong_try_double_ans_${ownerStr}`,{question:cq.question});
@@ -139,6 +130,17 @@ export default async function handler(req, res) {
       await saveRoom(code,room2); return res.json({ok:true});
     }
 
+    // إخفاء الإجابة في حالة الخطأ والانتقال لفرصة الخصم
+    if (!correct && phase==="playing") {
+      room2.currentQ.phase="pass";
+      room2.timerStart=Date.now(); room2.timerSeconds=10; room2.timerPhase="pass";
+      addEv(room2,"wrong_try_pass",{by:playerNum}); // إرسال خطأ بدون كشف الإجابة
+      addEv(room2,"time_up_pass",{seconds:10});
+      addEv(room2,`your_turn_${other}`,{});
+      await saveRoom(code,room2); return res.json({ok:true});
+    }
+
+    // إظهار الإجابة فقط لو صح، أو لو الفرصة التانية/الخصم خلصت
     addEv(room2,"answer_revealed",{correct,correctAnswer:cq.answer,givenAnswer:answer,by:playerNum,pts});
 
     if (correct) {
@@ -154,20 +156,12 @@ export default async function handler(req, res) {
         endQuestion(room2,playerNum,pts);
       }
     } else {
-      if (phase==="playing") {
-        room2.currentQ.phase="pass";
-        room2.timerStart=Date.now(); room2.timerSeconds=10; room2.timerPhase="pass";
-        addEv(room2,"time_up_pass",{seconds:10});
-        addEv(room2,`your_turn_${other}`,{});
-      } else {
-        endQuestion(room2,null,0);
-      }
+      endQuestion(room2,null,0);
     }
     await saveRoom(code,room2);
     return res.json({ok:true});
   }
 
-  // ── use_yellow_card ───────────────────────────
   if (action==="use_yellow_card") {
     if (isMyTurn) return res.status(403).json({error:"مش قادر تستخدمه على نفسك!"});
     if (room.powersUsed[pStr].yellow) return res.status(400).json({error:"استخدمتها قبل!"});
@@ -180,7 +174,6 @@ export default async function handler(req, res) {
     return res.json({ok:true});
   }
 
-  // ── skip_yellow ───────────────────────────────
   if (action==="skip_yellow") {
     room.timerStart=room.timerSeconds=room.timerPhase=null;
     endQuestion(room,room.currentQ?.pendingWinner,room.currentQ?.pendingPts||0);
@@ -188,7 +181,6 @@ export default async function handler(req, res) {
     return res.json({ok:true});
   }
 
-  // ── timer_check ───────────────────────────────
   if (action==="timer_check") {
     if (!room.timerPhase || !room.timerStart) return res.json({ok:true});
     const elapsed = Math.floor((Date.now()-room.timerStart)/1000);
