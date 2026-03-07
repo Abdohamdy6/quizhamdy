@@ -82,6 +82,14 @@ export default async function handler(req, res) {
     const q        = room.gameData[catIndex].questions[qIndex];
     const di       = room.doubleInfo;
     const isDouble = di.catIndex===catIndex && di.qIndex===qIndex;
+
+    // التعديل: لو السؤال دبل واللاعب مفعل الحفرة، هنلغيها ونرجعله الكارت
+    if (isDouble && room.activePower?.type === "hole") {
+      room.activePower = null;
+      room.powersUsed[pStr].hole = false;
+      addEv(room, "hole_refunded", { by: playerNum });
+    }
+
     const pts      = q.points*(isDouble?2:1);
     room.currentQ  = {
       catIndex,qIndex,question:q.q,answer:q.a,
