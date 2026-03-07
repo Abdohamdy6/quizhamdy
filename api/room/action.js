@@ -60,7 +60,6 @@ export default async function handler(req, res) {
     room.powersUsed[pStr][type]=true;
     room.activePower={team:playerNum,type};
     
-    // التعديل هنا: إرسال الحدث للجميع ليعرف الخصم أن الخاصية فُعلت
     addEv(room, `power_pre_used`, {type, by: playerNum});
     
     await saveRoom(code,room);
@@ -81,12 +80,16 @@ export default async function handler(req, res) {
       points:pts,basePts:q.points,isDouble,phase:"playing",owner:playerNum,
       pendingWinner:null,pendingPts:0,
     };
+    
+    // تتبع الأسئلة التي تم فتحها لحفظها في قاعدة البيانات لاحقاً ومنع تكرارها
+    room.openedQuestions = room.openedQuestions || [];
+    if (!room.openedQuestions.includes(q.q)) room.openedQuestions.push(q.q);
+
     room.timerStart=Date.now(); room.timerSeconds=60; room.timerPhase="main";
     
     addEv(room,"question_opened",{catIndex,qIndex,question:q.q,points:pts,isDouble,owner:playerNum});
     if (isDouble) addEv(room,"double_revealed",{});
     
-    // التعديل هنا: الكارت الأحمر يظهر للخصم فقط لو مفيش خاصية تانية شغالة
     const canRed = !room.powersUsed[other].red && !room.activePower;
     addEv(room,`can_use_red_${other}`,{can: canRed});
     
@@ -101,7 +104,6 @@ export default async function handler(req, res) {
     if (room.powersUsed[pStr].red) return res.status(400).json({error:"استخدمتها قبل!"});
     if (room.currentQ?.phase!=="playing") return res.status(400).json({error:"وقتها فات!"});
     
-    // التعديل هنا: منع استخدام الكارت لو الخصم مفعل الحفرة أو الدبل
     if (room.activePower) return res.status(400).json({error:"تم استخدام خاصية أخرى في هذا السؤال!"});
     
     room.powersUsed[pStr].red=true;
@@ -141,10 +143,16 @@ export default async function handler(req, res) {
     }
 
     if (!correct && phase==="playing") {
+      // تطبيق خصم الكارت الأحمر في حالة الإجابة الخاطئة
+      if (ap?.type === "red") {
+         room2.scores[ownerStr] = (room2.scores[ownerStr] || 0) - cq.points;
+         addEv(room2, "red_penalty", { team: ownerStr, deduct: cq.points });
+      }
+      
       room2.currentQ.phase="pass";
-      room2.timerStart=Date.now(); room2.timerSeconds=10; room2.timerPhase="pass";
-      addEv(room2,"wrong_try_pass",{by:playerNum});
-      addEv(room2,"time_up_pass",{seconds:10});
+      room2.timerStart=Date.now(); room2.timerSeconds=20; room2.timerPhase="pass"; // تعديل الفرصة لـ 20 ثانية
+      addEv(room2,"wrong_try_pass",{by:playerNum, givenAnswer: answer});
+      addEv(room2,"time_up_pass",{seconds:20});
       addEv(room2,`your_turn_${other}`,{});
       await saveRoom(code,room2); return res.json({ok:true});
     }
@@ -153,7 +161,6 @@ export default async function handler(req, res) {
 
     if (correct) {
       const isOwnerAnswering = (pStr === ownerStr);
-      // التعديل هنا: منع ظهور الكارت الأصفر لو فيه أي خاصية تانية كانت شغالة
       const canY = isOwnerAnswering && !room2.powersUsed[other].yellow && !room2.activePower;
       
       if (canY) {
@@ -176,7 +183,6 @@ export default async function handler(req, res) {
   if (action==="use_yellow_card") {
     if (isMyTurn) return res.status(403).json({error:"مش قادر تستخدمه على نفسك!"});
     if (room.powersUsed[pStr].yellow) return res.status(400).json({error:"استخدمتها قبل!"});
-    // التعديل هنا أيضاً للأمان المزدوج
     if (room.activePower) return res.status(400).json({error:"تم استخدام خاصية أخرى في هذا السؤال!"});
     
     room.powersUsed[pStr].yellow=true;
@@ -204,9 +210,16 @@ export default async function handler(req, res) {
     if (phase==="main") {
       const ownerStr=String(room.currentQ?.owner||room.turn);
       const otherStr=ownerStr==="1"?"2":"1";
+      
+      // تطبيق خصم الكارت الأحمر في حالة انتهاء الوقت بدون إجابة
+      if (room.activePower?.type === "red") {
+         room.scores[ownerStr] = (room.scores[ownerStr] || 0) - room.currentQ.points;
+         addEv(room, "red_penalty", { team: ownerStr, deduct: room.currentQ.points });
+      }
+      
       if (room.currentQ) room.currentQ.phase="pass";
-      room.timerStart=Date.now(); room.timerSeconds=10; room.timerPhase="pass";
-      addEv(room,"time_up_pass",{seconds:10});
+      room.timerStart=Date.now(); room.timerSeconds=20; room.timerPhase="pass"; // تعديل الفرصة لـ 20 ثانية
+      addEv(room,"time_up_pass",{seconds:20});
       addEv(room,`your_turn_${otherStr}`,{});
     } else if (phase==="pass") {
       endQuestion(room,null,0);
