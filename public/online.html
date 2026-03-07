@@ -118,9 +118,22 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
 .toast.show{transform:translateX(-50%) translateY(0)}
 .dcov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9000;justify-content:center;align-items:center;flex-direction:column;gap:14px;text-align:center}
 .dcov.show{display:flex}
+
+/* === إضافات الشارة (AI Badge) === */
+.ai-badge { position:fixed; top:14px; left:14px; background:var(--sur); border:1px solid var(--brd); padding:6px 14px; border-radius:20px; font-size:11px; font-weight:700; display:flex; align-items:center; gap:7px; z-index:9999; transition:all 0.3s; }
+.ai-dot { width:8px; height:8px; border-radius:50%; transition:all 0.3s; }
+.ai-badge.checking .ai-dot { background:var(--ylw); animation: spn 1s infinite; }
+.ai-badge.online .ai-dot { background:var(--acc3); box-shadow: 0 0 8px var(--acc3); }
+.ai-badge.offline .ai-dot { background:var(--red); box-shadow: 0 0 8px var(--red); }
 </style>
 </head>
 <body>
+
+<div class="ai-badge checking" id="ai-badge">
+  <div class="ai-dot"></div>
+  <span id="ai-txt">فحص الـ AI...</span>
+</div>
+
 <div class="toast" id="toast"></div>
 <div class="dcov" id="dcov">
   <div style="font-size:46px">📡</div>
@@ -313,7 +326,11 @@ if (!userToken) window.location.href = 'index.html';
 else window.onload = () => {
   if(document.getElementById('host-nm')) document.getElementById('host-nm').value = savedUsername;
   if(document.getElementById('guest-nm')) document.getElementById('guest-nm').value = savedUsername;
+  
+  // تشغيل الفحص أول ما الصفحة تفتح
+  checkAIStatus(); 
 };
+
 // ── state ──
 let myNum=0, myCode="", selCats=[], lastEvId=0;
 let pollTmr=null, localTmr=null, localSec=0;
@@ -321,6 +338,28 @@ let silentPow=null, lastSt=null, modOpen=false, boardBuilt=false;
 
 // ── utils ──
 const $=id=>document.getElementById(id);
+
+async function checkAIStatus() {
+  try {
+    const r = await fetch('/api/check-ai');
+    const d = await r.json();
+    const b = $('ai-badge'), t = $('ai-txt');
+    if (d.ok) {
+      b.className = 'ai-badge online';
+      t.textContent = 'AI متصل 🤖';
+      t.style.color = 'var(--acc3)';
+    } else {
+      b.className = 'ai-badge offline';
+      t.textContent = 'AI معطل ⚠️';
+      t.style.color = 'var(--red)';
+    }
+  } catch(e) {
+    $('ai-badge').className = 'ai-badge offline';
+    $('ai-txt').textContent = 'AI معطل ⚠️';
+    $('ai-txt').style.color = 'var(--red)';
+  }
+}
+
 function showPage(id){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));$(id).classList.add('active');}
 function toast(msg,col){const t=$('toast');t.textContent=msg;t.style.borderColor=col||'var(--brd)';t.style.color=col||'var(--txt)';t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),2800);}
 async function post(url,body){const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json', 'Authorization': userToken},body:JSON.stringify(body)});return r.json();}
