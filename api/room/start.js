@@ -1,9 +1,21 @@
 import { getRoom, saveRoom } from "../../lib/redis.js";
 import { pickQuestions } from "../../lib/questions.js";
+import { MongoClient } from 'mongodb';
+
+let cachedDb = null;
+async function getDb() {
+  if (cachedDb) return cachedDb;
+  const client = new MongoClient(process.env.MONGODB_URI);
+  await client.connect();
+  cachedDb = client.db(); 
+  return cachedDb;
+}
+
 function freshP() { return { hole:false, yellow:false, red:false, doubleAns:false }; }
 function addEv(room,type,data={}) {
   room.events=[...(room.events||[]),{type,data,id:Date.now()+Math.random()}].slice(-60);
 }
+
 export default async function handler(req, res) {
   if (req.method !== "POST") return res.status(405).end();
   const { code, playerNum, selectedFiles } = req.body;
@@ -12,12 +24,23 @@ export default async function handler(req, res) {
   if (playerNum !== 1) return res.status(403).json({ error: "المضيف بس يقدر يبدأ" });
   if (!selectedFiles || selectedFiles.length !== 6)
     return res.status(400).json({ error: "اختر 6 كاتيجوريز بالضبط" });
+
+  // جلب الأسئلة الملعوبة للاعبين
+  let playedQuestions = [];
+  try {
+    const db = await getDb();
+    const users = await db.collection('users').find({ username: { $in: [room.hostName, room.guestName] } }).toArray();
+    playedQuestions = users.reduce((acc, u) => acc.concat(u.playedQuestions || []), []);
+  } catch(e) { console.error("DB Error:", e); }
+
   const gameData = [];
   for (const f of selectedFiles) {
-    const r = pickQuestions(f);
-    if (!r) return res.status(400).json({ error: `أسئلة غير كافية: ${f}` });
+    // تمرير الأسئلة الملعوبة للدالة عشان تستبعدها
+    const r = pickQuestions(f, playedQuestions); 
+    if (!r) return res.status(400).json({ error: `أسئلة غير كافية أو انتهت في: ${f}` });
     gameData.push(r);
   }
+  
   const flat = gameData.flatMap((c,ci)=>c.questions.map((_,qi)=>({ci,qi})));
   const dbl  = flat[Math.floor(Math.random()*flat.length)];
   const catsClient = gameData.map(c=>({ category:c.category, questions:c.questions.map(q=>({points:q.points})) }));
@@ -28,6 +51,7 @@ export default async function handler(req, res) {
     currentQ:null, doneBtns:[], events:[],
     timerStart:null, timerSeconds:null, timerPhase:null,
   });
+  
   addEv(room, "game_started", {});
   await saveRoom(code, room);
   res.json({ ok:true });
