@@ -1,5 +1,16 @@
 import { getRoom, saveRoom } from "../../lib/redis.js";
 import { judgeAnswer } from "../../lib/ai.js";
+import { MongoClient } from 'mongodb';
+
+// إعداد اتصال قاعدة البيانات (MongoDB)
+let cachedDb = null;
+async function getDb() {
+  if (cachedDb) return cachedDb;
+  const client = new MongoClient(process.env.MONGODB_URI);
+  await client.connect();
+  cachedDb = client.db(); 
+  return cachedDb;
+}
 
 function addEv(room, type, data={}) {
   room.events = [...(room.events||[]), {type,data,id:Date.now()+Math.random()}].slice(-60);
@@ -56,12 +67,9 @@ export default async function handler(req, res) {
     if (!isMyTurn) return res.status(403).json({error:"مش دورك!"});
     if (room.powersUsed[pStr][type]) return res.status(400).json({error:"استخدمتها قبل!"});
     if (room.activePower) return res.status(400).json({error:"هناك خاصية مفعّلة!"});
-    
     room.powersUsed[pStr][type]=true;
     room.activePower={team:playerNum,type};
-    
     addEv(room, `power_pre_used`, {type, by: playerNum});
-    
     await saveRoom(code,room);
     return res.json({ok:true});
   }
@@ -81,20 +89,21 @@ export default async function handler(req, res) {
       pendingWinner:null,pendingPts:0,
     };
     
-    // تتبع الأسئلة التي تم فتحها لحفظها في قاعدة البيانات لاحقاً ومنع تكرارها
-    room.openedQuestions = room.openedQuestions || [];
-    if (!room.openedQuestions.includes(q.q)) room.openedQuestions.push(q.q);
+    // حفظ السؤال في الداتابيز عشان ميتكررش تاني لأي واحد فيهم
+    try {
+      const db = await getDb();
+      await db.collection('users').updateMany(
+        { username: { $in: [room.hostName, room.guestName] } },
+        { $addToSet: { playedQuestions: q.q } }
+      );
+    } catch(e) { console.error("DB Error:", e); }
 
     room.timerStart=Date.now(); room.timerSeconds=60; room.timerPhase="main";
-    
     addEv(room,"question_opened",{catIndex,qIndex,question:q.q,points:pts,isDouble,owner:playerNum});
     if (isDouble) addEv(room,"double_revealed",{});
-    
     const canRed = !room.powersUsed[other].red && !room.activePower;
     addEv(room,`can_use_red_${other}`,{can: canRed});
-    
     addEv(room,"timer_started",{seconds:60,team:playerNum});
-    
     await saveRoom(code,room);
     return res.json({ok:true});
   }
@@ -103,9 +112,7 @@ export default async function handler(req, res) {
     if (isMyTurn) return res.status(403).json({error:"مش قادر تستخدمه على نفسك!"});
     if (room.powersUsed[pStr].red) return res.status(400).json({error:"استخدمتها قبل!"});
     if (room.currentQ?.phase!=="playing") return res.status(400).json({error:"وقتها فات!"});
-    
     if (room.activePower) return res.status(400).json({error:"تم استخدام خاصية أخرى في هذا السؤال!"});
-    
     room.powersUsed[pStr].red=true;
     room.activePower={team:playerNum,type:"red"};
     room.currentQ.points=Math.floor(room.currentQ.points/2);
@@ -143,14 +150,14 @@ export default async function handler(req, res) {
     }
 
     if (!correct && phase==="playing") {
-      // تطبيق خصم الكارت الأحمر في حالة الإجابة الخاطئة
-      if (ap?.type === "red") {
+      // خصم الكارت الأحمر لو جاوب غلط
+      if (ap?.type === "red" && String(ap.team) !== ownerStr) {
          room2.scores[ownerStr] = (room2.scores[ownerStr] || 0) - cq.points;
          addEv(room2, "red_penalty", { team: ownerStr, deduct: cq.points });
       }
       
       room2.currentQ.phase="pass";
-      room2.timerStart=Date.now(); room2.timerSeconds=20; room2.timerPhase="pass"; // تعديل الفرصة لـ 20 ثانية
+      room2.timerStart=Date.now(); room2.timerSeconds=20; room2.timerPhase="pass";
       addEv(room2,"wrong_try_pass",{by:playerNum, givenAnswer: answer});
       addEv(room2,"time_up_pass",{seconds:20});
       addEv(room2,`your_turn_${other}`,{});
@@ -211,14 +218,14 @@ export default async function handler(req, res) {
       const ownerStr=String(room.currentQ?.owner||room.turn);
       const otherStr=ownerStr==="1"?"2":"1";
       
-      // تطبيق خصم الكارت الأحمر في حالة انتهاء الوقت بدون إجابة
-      if (room.activePower?.type === "red") {
+      // خصم الكارت الأحمر لو الوقت خلص ومجاوبش
+      if (room.activePower?.type === "red" && String(room.activePower.team) !== ownerStr) {
          room.scores[ownerStr] = (room.scores[ownerStr] || 0) - room.currentQ.points;
          addEv(room, "red_penalty", { team: ownerStr, deduct: room.currentQ.points });
       }
       
       if (room.currentQ) room.currentQ.phase="pass";
-      room.timerStart=Date.now(); room.timerSeconds=20; room.timerPhase="pass"; // تعديل الفرصة لـ 20 ثانية
+      room.timerStart=Date.now(); room.timerSeconds=20; room.timerPhase="pass";
       addEv(room,"time_up_pass",{seconds:20});
       addEv(room,`your_turn_${otherStr}`,{});
     } else if (phase==="pass") {
