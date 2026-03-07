@@ -118,21 +118,9 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
 .toast.show{transform:translateX(-50%) translateY(0)}
 .dcov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9000;justify-content:center;align-items:center;flex-direction:column;gap:14px;text-align:center}
 .dcov.show{display:flex}
-
-/* === إضافات الشارة (AI Badge) === */
-.ai-badge { position:fixed; top:14px; left:14px; background:var(--sur); border:1px solid var(--brd); padding:6px 14px; border-radius:20px; font-size:11px; font-weight:700; display:flex; align-items:center; gap:7px; z-index:9999; transition:all 0.3s; }
-.ai-dot { width:8px; height:8px; border-radius:50%; transition:all 0.3s; }
-.ai-badge.checking .ai-dot { background:var(--ylw); animation: spn 1s infinite; }
-.ai-badge.online .ai-dot { background:var(--acc3); box-shadow: 0 0 8px var(--acc3); }
-.ai-badge.offline .ai-dot { background:var(--red); box-shadow: 0 0 8px var(--red); }
 </style>
 </head>
 <body>
-
-<div class="ai-badge checking" id="ai-badge">
-  <div class="ai-dot"></div>
-  <span id="ai-txt">فحص الـ AI...</span>
-</div>
 
 <div class="toast" id="toast"></div>
 <div class="dcov" id="dcov">
@@ -284,7 +272,7 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
       
       <div id="ph-pass" style="display:none">
         <div id="pass-ans">
-          <div style="font-size:12px;color:var(--acc2);margin-bottom:7px;font-weight:700">🔄 فرصتك — ١٠ ثواني!</div>
+          <div style="font-size:12px;color:var(--acc2);margin-bottom:7px;font-weight:700">🔄 فرصتك — ٢٠ ثانية!</div>
           <div class="ainp-row">
             <input class="inp" id="pass-inp" placeholder="اكتب إجابتك..." autocomplete="off">
             <button class="pb-sub" id="btn-psub" onclick="subPass()">إرسال ✓</button>
@@ -326,9 +314,6 @@ if (!userToken) window.location.href = 'index.html';
 else window.onload = () => {
   if(document.getElementById('host-nm')) document.getElementById('host-nm').value = savedUsername;
   if(document.getElementById('guest-nm')) document.getElementById('guest-nm').value = savedUsername;
-  
-  // تشغيل الفحص أول ما الصفحة تفتح
-  checkAIStatus(); 
 };
 
 // ── state ──
@@ -338,27 +323,6 @@ let silentPow=null, lastSt=null, modOpen=false, boardBuilt=false;
 
 // ── utils ──
 const $=id=>document.getElementById(id);
-
-async function checkAIStatus() {
-  try {
-    const r = await fetch('/api/check-ai');
-    const d = await r.json();
-    const b = $('ai-badge'), t = $('ai-txt');
-    if (d.ok) {
-      b.className = 'ai-badge online';
-      t.textContent = 'AI متصل 🤖';
-      t.style.color = 'var(--acc3)';
-    } else {
-      b.className = 'ai-badge offline';
-      t.textContent = 'AI معطل ⚠️';
-      t.style.color = 'var(--red)';
-    }
-  } catch(e) {
-    $('ai-badge').className = 'ai-badge offline';
-    $('ai-txt').textContent = 'AI معطل ⚠️';
-    $('ai-txt').style.color = 'var(--red)';
-  }
-}
 
 function showPage(id){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));$(id).classList.add('active');}
 function toast(msg,col){const t=$('toast');t.textContent=msg;t.style.borderColor=col||'var(--brd)';t.style.color=col||'var(--txt)';t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),2800);}
@@ -401,7 +365,6 @@ async function poll(){
 
 // ── events ──
 function handleEv(t,d){
-  // تعديل: المضيف فقط هو اللي يشوف الكاتيجوريز
   if(t==='guest_joined'){
     toast(`${d.guestName} دخل الروم! 🎮`,'var(--acc3)');
     if(myNum === 1) { showPage('cat-pg'); loadCats(); }
@@ -429,7 +392,15 @@ function handleEv(t,d){
   else if(t==='answer_submitted'){ stopLocalTimer(); $('jdg').classList.add('show'); }
   else if(t==='wrong_try_pass'){
     $('jdg').classList.remove('show');
-    toast('❌ إجابة خاطئة!','var(--acc2)'); // رسالة بدون إظهار الإجابة للمستخدم
+    const isMe = d.by === myNum;
+    if(isMe) {
+        toast('❌ إجابة خاطئة!', 'var(--acc2)');
+    } else {
+        toast(`❌ الخصم جاوب غلط: "${d.givenAnswer}"`, 'var(--acc2)');
+    }
+  }
+  else if(t==='red_penalty'){
+    toast(`🟥 إجابة خاطئة! تم خصم ${d.deduct} نقطة بسبب الكارت الأحمر`, 'var(--red)');
   }
   else if(t==='time_up_pass'){
     stopLocalTimer();
@@ -437,9 +408,9 @@ function handleEv(t,d){
     $('ph-play').style.display='none';$('ph-pass').style.display='block';
     if(isOpp){
       $('pass-ans').style.display='block';$('pass-owait').style.display='none';
-      $('tlbl').textContent='فرصتك! ١٠ ثواني';$('tteam').textContent='اكتب إجابتك';
+      $('tlbl').textContent='فرصتك! ٢٠ ثانية';$('tteam').textContent='اكتب إجابتك';
       $('tteam').style.color='var(--acc2)';startLocalTimer(d.seconds,'pass');
-      toast('🔄 الفرصة جاتلك! ١٠ ثواني','var(--acc2)');
+      toast('🔄 الفرصة جاتلك! ٢٠ ثانية','var(--acc2)');
     }else{$('pass-ans').style.display='none';$('pass-owait').style.display='block';startLocalTimer(d.seconds,'pass');}
   }
   else if(t===`wrong_try_double_ans_${myNum}`){
@@ -451,8 +422,14 @@ function handleEv(t,d){
     stopLocalTimer();$('jdg').classList.remove('show');
     ['ph-play','ph-pass','ph-da'].forEach(id=>$(id).style.display='none');
     $('rbox').classList.add('show');$('rans').textContent=d.correctAnswer;
-    $('rmsg').innerHTML=d.correct?`<div class="rc">✅ صح! ${d.pts} نقطة</div>`:`<div class="rw">❌ غلط!</div>`;
-    toast(d.correct?`✅ صح — ${d.pts} نقطة`:'❌ غلط',d.correct?'var(--acc3)':'var(--acc2)');
+    $('rmsg').innerHTML=d.correct?`<div class="rc">✅ صح! ${d.pts} نقطة</div>`:`<div class="rw">❌ غلط! الإجابة المكتوبة: "${d.givenAnswer}"</div>`;
+    
+    if(d.correct) {
+        toast(`✅ صح — ${d.pts} نقطة`, 'var(--acc3)');
+    } else {
+        const pName = d.by === myNum ? 'أنت' : 'الخصم';
+        toast(`❌ غلط! ${pName} جاوب: "${d.givenAnswer}"`, 'var(--acc2)');
+    }
   }
   else if(t==='yellow_window'){
     if(lastSt?.currentQ?.owner!==myNum){
@@ -460,7 +437,15 @@ function handleEv(t,d){
       const iv=setInterval(()=>{s--;const e=$('ywtmr');if(e)e.textContent=s;if(s<=0)clearInterval(iv);},1000);
     }
   }
-  else if(t==='yellow_card_played'){toast(`🟨 كارت أصفر من لاعب ${d.by} — النقاط اتلغت!`,'var(--ylw)');$('ywbox').classList.remove('show');}
+  else if(t==='yellow_card_played'){
+    const isMe = d.by !== myNum; 
+    if (isMe) {
+        toast('🟨 الخصم استخدم الكارت الأصفر! نقاطك اتلغت ❌', 'var(--ylw)');
+    } else {
+        toast('🟨 استخدمت الكارت الأصفر! لغيت نقاط الخصم', 'var(--ylw)');
+    }
+    $('ywbox').classList.remove('show');
+  }
   else if(t==='question_ended'){
     silentPow=null;
     setTimeout(()=>{$('qmod').classList.remove('open');modOpen=false;resetInps();},2200);
@@ -586,7 +571,7 @@ function startLocalTimer(sec,phase){
   },1000);
 }
 function stopLocalTimer(){clearInterval(localTmr);}
-function syncTimer(left,phase){if(Math.abs(localSec-left)>2){localSec=left;$('tnum').textContent=left;setRing(left,phase==='pass'?10:60,phase||'main');}}
+function syncTimer(left,phase){if(Math.abs(localSec-left)>2){localSec=left;$('tnum').textContent=left;setRing(left,phase==='pass'?20:60,phase||'main');}}
 
 // ── answers ──
 function subAns(){
