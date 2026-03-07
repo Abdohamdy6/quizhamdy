@@ -453,6 +453,16 @@ function handleEv(t,d){
     if(d.winner)toast(`${d.winner===1?(lastSt?.hostName||'لاعب ١'):(lastSt?.guestName||'لاعب ٢')} أخذ ${d.pts} نقطة 🎯`,'var(--acc3)');
     else toast('لا أحد أخذ نقاط ❌','var(--dim)');
   }
+    else if(t==='hole_refunded'){
+    silentPow = null;
+    $('apb').classList.remove('show');
+    const isMe = d.by === myNum;
+    if (isMe) {
+        toast('⚡ السؤال طلع دابل! الحفرة رجعتلك عشان مينفعش يشتغلو مع بعض', 'var(--gold)');
+    } else {
+        toast('⚡ السؤال طلع دابل! حفرة الخصم اتلغت', 'var(--gold)');
+    }
+  }
   else if(t==='power_pre_used'){
     silentPow={type:d.type};
     const pName = d.by === 1 ? (lastSt?.hostName || 'لاعب ١') : (lastSt?.guestName || 'لاعب ٢');
