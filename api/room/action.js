@@ -56,9 +56,13 @@ export default async function handler(req, res) {
     if (!isMyTurn) return res.status(403).json({error:"مش دورك!"});
     if (room.powersUsed[pStr][type]) return res.status(400).json({error:"استخدمتها قبل!"});
     if (room.activePower) return res.status(400).json({error:"هناك خاصية مفعّلة!"});
+    
     room.powersUsed[pStr][type]=true;
     room.activePower={team:playerNum,type};
-    addEv(room,`power_pre_${pStr}`,{type});
+    
+    // التعديل هنا: إرسال الحدث للجميع ليعرف الخصم أن الخاصية فُعلت
+    addEv(room, `power_pre_used`, {type, by: playerNum});
+    
     await saveRoom(code,room);
     return res.json({ok:true});
   }
@@ -81,7 +85,11 @@ export default async function handler(req, res) {
     
     addEv(room,"question_opened",{catIndex,qIndex,question:q.q,points:pts,isDouble,owner:playerNum});
     if (isDouble) addEv(room,"double_revealed",{});
-    addEv(room,`can_use_red_${other}`,{can:!room.powersUsed[other].red});
+    
+    // التعديل هنا: الكارت الأحمر يظهر للخصم فقط لو مفيش خاصية تانية شغالة
+    const canRed = !room.powersUsed[other].red && !room.activePower;
+    addEv(room,`can_use_red_${other}`,{can: canRed});
+    
     addEv(room,"timer_started",{seconds:60,team:playerNum});
     
     await saveRoom(code,room);
@@ -92,6 +100,10 @@ export default async function handler(req, res) {
     if (isMyTurn) return res.status(403).json({error:"مش قادر تستخدمه على نفسك!"});
     if (room.powersUsed[pStr].red) return res.status(400).json({error:"استخدمتها قبل!"});
     if (room.currentQ?.phase!=="playing") return res.status(400).json({error:"وقتها فات!"});
+    
+    // التعديل هنا: منع استخدام الكارت لو الخصم مفعل الحفرة أو الدبل
+    if (room.activePower) return res.status(400).json({error:"تم استخدام خاصية أخرى في هذا السؤال!"});
+    
     room.powersUsed[pStr].red=true;
     room.activePower={team:playerNum,type:"red"};
     room.currentQ.points=Math.floor(room.currentQ.points/2);
@@ -140,9 +152,9 @@ export default async function handler(req, res) {
     addEv(room2,"answer_revealed",{correct,correctAnswer:cq.answer,givenAnswer:answer,by:playerNum,pts});
 
     if (correct) {
-      // التعديل هنا: السماح بالكارت الأصفر فقط لو "صاحب السؤال" هو اللي بيجاوب 
       const isOwnerAnswering = (pStr === ownerStr);
-      const canY = isOwnerAnswering && !room2.powersUsed[other].yellow;
+      // التعديل هنا: منع ظهور الكارت الأصفر لو فيه أي خاصية تانية كانت شغالة
+      const canY = isOwnerAnswering && !room2.powersUsed[other].yellow && !room2.activePower;
       
       if (canY) {
         room2.currentQ.phase="yellow_window";
@@ -152,7 +164,6 @@ export default async function handler(req, res) {
         addEv(room2,"yellow_window",{seconds:10,pts});
         addEv(room2,`can_use_yellow_${other}`,{can:true,pts});
       } else {
-        // لو الخصم اللي جاوب صح في فرصته، ياخد النقط فوراً ومفيش كارت أصفر
         endQuestion(room2,playerNum,pts);
       }
     } else {
@@ -165,6 +176,9 @@ export default async function handler(req, res) {
   if (action==="use_yellow_card") {
     if (isMyTurn) return res.status(403).json({error:"مش قادر تستخدمه على نفسك!"});
     if (room.powersUsed[pStr].yellow) return res.status(400).json({error:"استخدمتها قبل!"});
+    // التعديل هنا أيضاً للأمان المزدوج
+    if (room.activePower) return res.status(400).json({error:"تم استخدام خاصية أخرى في هذا السؤال!"});
+    
     room.powersUsed[pStr].yellow=true;
     room.activePower={team:playerNum,type:"yellow"};
     room.timerStart=room.timerSeconds=room.timerPhase=null;
