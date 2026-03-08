@@ -200,6 +200,9 @@ export default async function handler(req, res) {
     if (room.powersUsed[pStr].yellow) return res.status(400).json({error:"استخدمتها قبل!"});
     if (room.activePower) return res.status(400).json({error:"تم استخدام خاصية أخرى في هذا السؤال!"});
     
+    // حماية لمنع التنفيذ المزدوج
+    if (!room.currentQ || room.currentQ.phase !== "yellow_window") return res.json({ok:true});
+    
     room.powersUsed[pStr].yellow=true;
     room.activePower={team:playerNum,type:"yellow"};
     room.timerStart=room.timerSeconds=room.timerPhase=null;
@@ -210,6 +213,9 @@ export default async function handler(req, res) {
   }
 
   if (action==="skip_yellow") {
+    // حماية لمنع الضغط المزدوج
+    if (!room.currentQ || room.currentQ.phase !== "yellow_window") return res.json({ok:true});
+    
     room.timerStart=room.timerSeconds=room.timerPhase=null;
     endQuestion(room,room.currentQ?.pendingWinner,room.currentQ?.pendingPts||0);
     await saveRoom(code,room);
@@ -218,6 +224,10 @@ export default async function handler(req, res) {
 
   if (action==="timer_check") {
     if (!room.timerPhase || !room.timerStart) return res.json({ok:true});
+    
+    // حماية لمنع قلب الدور مرتين
+    if (!room.currentQ) return res.json({ok:true});
+    
     const elapsed = Math.floor((Date.now()-room.timerStart)/1000);
     if (elapsed < room.timerSeconds) return res.json({ok:true});
     const phase = room.timerPhase;
