@@ -580,7 +580,15 @@ function startLocalTimer(sec,phase){
   stopLocalTimer();localSec=sec;$('tnum').textContent=sec;setRing(sec,sec,phase);
   localTmr=setInterval(()=>{
     localSec--;$('tnum').textContent=localSec;setRing(localSec,sec,phase);
-    if(localSec<=0){stopLocalTimer();act('timer_check');}
+    if(localSec<=0){
+      stopLocalTimer();
+      // المضيف يبعت فوراً، والخصم يستنى ثانيتين عشان ميحصلش تضارب
+      if (myNum === 1) {
+        act('timer_check');
+      } else {
+        setTimeout(() => { if (modOpen) act('timer_check'); }, 2000);
+      }
+    }
   },1000);
 }
 function stopLocalTimer(){clearInterval(localTmr);}
