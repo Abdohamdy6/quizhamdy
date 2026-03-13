@@ -195,30 +195,31 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
   <button class="btn btn-p" style="width:200px;margin-top:10px" onclick="location.href='online.html'">العودة للوبي</button>
 </div>
 
-<!-- ══ LOBBY ══ -->
 <div class="page active" id="lobby-pg">
   <div class="logo">Hamdy Quiz</div>
   <div class="sub">1 VS 1 ONLINE</div>
   <div class="card">
     <h2>🎮 إنشاء روم جديد</h2>
-    <label>اسمك</label>
-    <input class="inp" id="host-nm" placeholder="اكتب اسمك" maxlength="20">
+    <div style="margin-bottom: 15px; color: var(--acc); font-weight: bold;">
+      مرحباً، <span id="display-host-name"></span>
+    </div>
     <button class="btn btn-p" onclick="createRoom()">إنشاء روم ➕</button>
   </div>
   <div class="div">أو</div>
   <div class="card">
     <h2>🔗 الدخول لروم</h2>
-    <label>اسمك</label>
-    <input class="inp" id="guest-nm" placeholder="اكتب اسمك" maxlength="20">
+    <div style="margin-bottom: 15px; color: var(--acc); font-weight: bold;">
+      ستدخل باسم: <span id="display-guest-name"></span>
+    </div>
     <label>كود الروم (4 أرقام)</label>
     <input class="inp" id="code-inp" placeholder="0000" maxlength="4" style="letter-spacing:10px;text-align:center;font-size:24px;font-weight:900" oninput="this.value=this.value.replace(/\D/g,'')">
     <button class="btn btn-g" onclick="joinRoom()">الدخول ✅</button>
   </div>
   <button class="btn btn-stats" style="max-width:440px;margin-bottom:12px" onclick="openStats()">📊 إحصائياتي</button>
+  <button class="btn" style="max-width:440px;background:var(--sur2); border:1px solid var(--brd); margin-bottom:12px;" onclick="checkSystem()">🔍 فحص نظام الحفظ</button>
   <a href="#" onclick="localStorage.clear(); location.href='index.html'" style="color:var(--acc2);font-size:12px;text-decoration:none;margin-top:4px">🚪 تسجيل خروج</a>
 </div>
 
-<!-- ══ WAIT ══ -->
 <div class="page" id="wait-pg">
   <div class="logo">Hamdy Quiz</div>
   <div class="card" style="text-align:center;margin-top:18px">
@@ -232,7 +233,6 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
   </div>
 </div>
 
-<!-- ══ CATEGORIES ══ -->
 <div class="page" id="cat-pg">
   <div class="inner">
     <div style="text-align:center;margin-bottom:22px">
@@ -247,7 +247,6 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
   </div>
 </div>
 
-<!-- ══ GWAIT ══ -->
 <div class="page" id="gwait-pg">
   <div class="logo">Hamdy Quiz</div>
   <div class="card" style="text-align:center;margin-top:28px">
@@ -260,7 +259,6 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
   </div>
 </div>
 
-<!-- ══ GAME ══ -->
 <div class="page" id="game-pg">
   <div class="gh">
     <div class="gsb">
@@ -288,7 +286,6 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
   </div>
 </div>
 
-<!-- ══ END ══ -->
 <div class="page" id="end-pg">
   <div class="ewrap">
     <div class="trophy">🏆</div>
@@ -306,7 +303,6 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
   </div>
 </div>
 
-<!-- ══ STATS ══ -->
 <div class="page" id="stats-pg">
   <div class="stats-wrap">
     <button class="back-btn" onclick="showPage('lobby-pg')">← رجوع للوبي</button>
@@ -320,7 +316,6 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
   </div>
 </div>
 
-<!-- ══ QUESTION MODAL ══ -->
 <div class="mov" id="qmod">
   <div class="mbox">
     <div class="mtop">
@@ -356,7 +351,6 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
         </div>
         <div id="opp-wait" style="display:none;color:var(--dim);font-size:12px;margin-bottom:8px">
           ⏳ الخصم بيفكر...
-          <!-- كارت أصفر = نص النقاط (كان أحمر) -->
           <button class="pb pb-ylw-now-red" id="btn-red" onclick="act('use_power_red')" style="display:none;">🟨 كارت أصفر (نص النقاط)</button>
         </div>
         <div class="jdg" id="jdg"><div class="spin">🤖</div><div style="margin-top:7px">الذكاء الاصطناعي بيحكم...</div></div>
@@ -387,7 +381,6 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
         <div id="rmsg"></div>
       </div>
       
-      <!-- كارت أحمر = إلغاء النقاط (كان أصفر) -->
       <div class="ywbox" id="ywbox">
         <div class="ywt">🟥 كارت أحمر؟ — <span id="ywtmr">10</span> ثانية</div>
         <div style="font-size:12px;color:var(--dim);margin-bottom:9px">الخصم أجاب صح — تقدر تلغي نقاطه!</div>
@@ -403,10 +396,14 @@ label{font-size:12px;color:var(--dim);display:block;margin-bottom:5px}
 <script>
 const userToken = localStorage.getItem('token');
 const savedUsername = localStorage.getItem('username');
-if (!userToken) window.location.href = 'index.html';
-else window.onload = () => {
-  if(document.getElementById('host-nm')) document.getElementById('host-nm').value = savedUsername;
-  if(document.getElementById('guest-nm')) document.getElementById('guest-nm').value = savedUsername;
+
+if (!userToken) {
+  window.location.href = 'index.html';
+}
+
+window.onload = () => {
+  if ($('display-host-name')) $('display-host-name').textContent = savedUsername;
+  if ($('display-guest-name')) $('display-guest-name').textContent = savedUsername;
 };
 
 let myNum=0, myCode="", selCats=[], lastEvId=0;
@@ -416,24 +413,46 @@ let silentPow=null, lastSt=null, modOpen=false, boardBuilt=false;
 const $=id=>document.getElementById(id);
 function showPage(id){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));$(id).classList.add('active');}
 function toast(msg,col){const t=$('toast');t.textContent=msg;t.style.borderColor=col||'var(--brd)';t.style.color=col||'var(--txt)';t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),3200);}
-async function post(url,body){const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json','Authorization':userToken,'x-username':savedUsername},body:JSON.stringify(body)});return r.json();}
+
+async function post(url,body){
+  const r=await fetch(url,{
+    method:'POST',
+    headers:{
+      'Content-Type':'application/json',
+      'Authorization':userToken,
+      'x-username':savedUsername
+    },
+    body:JSON.stringify(body)
+  });
+  return r.json();
+}
 async function act(action,extra={}){const d=await post('/api/room/action',{code:myCode,playerNum:myNum,action,...extra});if(d.error)toast(d.error,'var(--acc2)');}
+
+async function checkSystem() {
+  try {
+    const r = await fetch('/api/stats', { headers: { 'Authorization': userToken } });
+    const d = await r.json();
+    if (d.myUsername) {
+      toast(`✅ النظام متصل باسم: ${d.myUsername}`, 'var(--acc3)');
+    } else {
+      toast('❌ مشكلة في التعرف على الحساب', 'var(--acc2)');
+    }
+  } catch (e) {
+    toast('السيرفر لا يستجيب', 'var(--acc2)');
+  }
+}
 
 // ── lobby ──
 async function createRoom(){
-  const name=$('host-nm').value.trim();
-  if(!name){toast('اكتب اسمك!','var(--acc2)');return;}
-  const d=await post('/api/room/create',{hostName:name});
+  const d=await post('/api/room/create',{hostName:savedUsername});
   if(d.error){toast(d.error,'var(--acc2)');return;}
   myNum=1;myCode=d.code;$('code-disp').textContent=d.code;
   showPage('wait-pg');startPolling();
 }
 async function joinRoom(){
-  const name=$('guest-nm').value.trim();
   const code=$('code-inp').value.trim();
-  if(!name){toast('اكتب اسمك!','var(--acc2)');return;}
   if(code.length!==4){toast('الكود 4 أرقام!','var(--acc2)');return;}
-  const d=await post('/api/room/join',{code,guestName:name});
+  const d=await post('/api/room/join',{code,guestName:savedUsername});
   if(d.error){toast(d.error,'var(--acc2)');return;}
   myNum=2;myCode=code;showPage('gwait-pg');startPolling();
 }
