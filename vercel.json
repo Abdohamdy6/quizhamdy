@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/room/judge.js": { "maxDuration": 60 },
+    "api/room/action.js": { "maxDuration": 30 },
+    "api/room/start.js":  { "maxDuration": 30 }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/online", "destination": "/public/online.html" },
+    { "source": "/login",  "destination": "/public/login.html" },
+    { "source": "/",       "destination": "/public/index.html" }
+  ]
+}
