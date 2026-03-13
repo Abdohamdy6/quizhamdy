@@ -18,18 +18,27 @@ async function saveGameResult(room) {
   try {
     const db = await getDb();
     const s = room.scores;
-    const winner = s["1"]>s["2"]?1:s["2"]>s["1"]?2:0;
-    const hostU  = room.hostUsername  || room.hostName;
-    const guestU = room.guestUsername || room.guestName;
+    const hostU  = room.hostUsername;
+    const guestU = room.guestUsername;
+    
+    if (!hostU || !guestU) return console.error("Missing Usernames for game history");
+
+    const winnerNum = s["1"] > s["2"] ? 1 : (s["2"] > s["1"] ? 2 : 0);
+    const winnerUsername = winnerNum === 1 ? hostU : (winnerNum === 2 ? guestU : null);
+
     await db.collection('gameHistory').insertOne({
-      hostUsername:hostU, guestUsername:guestU,
-      hostDisplayName:room.hostName, guestDisplayName:room.guestName,
-      players:[hostU,guestU], scores:s, winner,
-      winnerUsername: winner===1?hostU:winner===2?guestU:null,
-      categories:(room.catsClient||[]).map(c=>c.category),
-      playedAt:new Date(),
+      hostUsername: hostU, 
+      guestUsername: guestU,
+      hostDisplayName: room.hostName, 
+      guestDisplayName: room.guestName,
+      players: [hostU, guestU], 
+      scores: s, 
+      winner: winnerNum,
+      winnerUsername: winnerUsername,
+      categories: (room.catsClient || []).map(c => c.category),
+      playedAt: new Date(),
     });
-  } catch(e) { console.error("saveGameResult:", e); }
+  } catch(e) { console.error("saveGameResult Error:", e); }
 }
 
 function endQuestion(room, winner, pts) {
@@ -94,6 +103,7 @@ export default async function handler(req, res) {
     if (!isMyTurn) return res.status(403).json({error:"مش دورك!"});
     const bid=`${catIndex}-${qIndex}`;
     if (room.doneBtns.includes(bid)) return res.status(400).json({error:"سؤال اتجاوب قبل كده"});
+    
     const q=room.gameData[catIndex].questions[qIndex];
     const di=room.doubleInfo;
     const isDouble=di.catIndex===catIndex&&di.qIndex===qIndex;
@@ -102,14 +112,19 @@ export default async function handler(req, res) {
       addEv(room,"hole_refunded",{by:playerNum});
     }
     const pts=q.points*(isDouble?2:1);
-    room.currentQ={catIndex,qIndex,question:q.q,answer:q.a,points:pts,basePts:q.points,isDouble,phase:"playing",owner:playerNum,pendingWinner:null,pendingPts:0};
+    room.currentQ={catIndex,qIndex,question:q.q,answer:q.a,points:pts,basePts:q.points,isDouble,phase:"playing",owner:playerNum};
+    
     try {
-      const db=await getDb();
-      const hostU=room.hostUsername||room.hostName;
-      const guestU=room.guestUsername||room.guestName;
-      await db.collection('users').updateMany({username:{$in:[hostU,guestU]}},{$addToSet:{playedQuestions:q.q}});
-    } catch(e){console.error("DB:",e);}
-    room.timerStart=Date.now();room.timerSeconds=60;room.timerPhase="main";
+      const db = await getDb();
+      const hostU = room.hostUsername;
+      const guestU = room.guestUsername;
+      await db.collection('users').updateMany(
+        { username: { $in: [hostU, guestU] } },
+        { $addToSet: { playedQuestions: q.q } }
+      );
+    } catch(e){ console.error("MongoDB Error:", e); }
+
+    room.timerStart=Date.now(); room.timerSeconds=60; room.timerPhase="main";
     addEv(room,"question_opened",{catIndex,qIndex,question:q.q,points:pts,isDouble,owner:playerNum});
     if (isDouble) addEv(room,"double_revealed",{});
     addEv(room,`can_use_red_${other}`,{can:!room.powersUsed[other].red&&!room.activePower});
@@ -141,16 +156,11 @@ export default async function handler(req, res) {
     if (phase==="pass"       && pStr===ownerStr) return res.status(403).json({error:"مش دورك!"});
     if (phase==="double_ans" && pStr!==ownerStr) return res.status(403).json({error:"مش دورك!"});
 
-    // حفظ الـ phase الأصلية قبل ما نغيّرها
     const originalPhase = phase;
-
-    // وقف التايمر + ماركّ السؤال كـ judging
     room.timerStart=room.timerSeconds=room.timerPhase=null;
     room.currentQ.phase="judging";
     addEv(room,"answer_submitted",{by:playerNum});
     await saveRoom(code,room);
-
-    // ✅ رد فوراً — الـ client هيناديك على /api/room/judge بعدين
     return res.json({ok:true, needsJudge:true, originalPhase});
   }
 
@@ -179,7 +189,7 @@ export default async function handler(req, res) {
   if (action==="timer_check") {
     if (!room.timerPhase||!room.timerStart) return res.json({ok:true});
     if (!room.currentQ)                     return res.json({ok:true});
-    if (room.currentQ.phase==="judging")    return res.json({ok:true}); // AI شغّال
+    if (room.currentQ.phase==="judging")    return res.json({ok:true});
     const elapsed=Math.floor((Date.now()-room.timerStart)/1000);
     if (elapsed<room.timerSeconds)          return res.json({ok:true});
     const phase=room.timerPhase;
