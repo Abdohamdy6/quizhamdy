@@ -7,10 +7,12 @@ function addEv(room, type, data={}) {
 
 export default async function handler(req, res) {
   if (req.method !== "POST") return res.status(405).end();
-  const { code, guestName } = req.body;
+  
+  // شلنا الـ guestName من الـ body لأننا هنجيبه من الداتا بيز عشان نمنع التلاعب
+  const { code } = req.body;
   const token = req.headers.authorization;
 
-  if (!code || !guestName) return res.status(400).json({ error: "بيانات ناقصة" });
+  if (!code) return res.status(400).json({ error: "بيانات ناقصة" });
   if (!token) return res.status(401).json({ error: "غير مصرح لك بالدخول" });
 
   try {
@@ -20,13 +22,16 @@ export default async function handler(req, res) {
 
     const room = await getRoom(code);
     if (!room) return res.status(404).json({ error: "الكود غير صحيح!" });
-    if (room.guestName) return res.status(400).json({ error: "الروم ممتلئ!" });
+    if (room.guestUsername) return res.status(400).json({ error: "الروم ممتلئ!" });
 
-    room.guestName = guestName;
-    room.guestUsername = user.username; // ← ربط بالأكونت الحقيقي
+    // ربط الروم بالأكونت الحقيقي للاعب التاني
+    room.guestName = user.username;
+    room.guestUsername = user.username; 
     room.state = "selecting";
-    addEv(room, "guest_joined", { guestName });
+    
+    addEv(room, "guest_joined", { guestName: user.username });
     await saveRoom(code, room);
+    
     res.json({ ok:true, hostName:room.hostName });
   } catch (error) {
     console.error(error);
