@@ -4,7 +4,7 @@
 
 1. روح على **https://upstash.com** وعمل حساب مجاني
 2. اضغط **Create Database**
-3. اختر اسم للـ database وأقرب region ليك
+3. اختر اسم للـ database وأقرب region ليكبيسيس
 4. بعد الإنشاء، روح لـ **REST API** وانسخ:
    - `UPSTASH_REDIS_REST_URL`
    - `UPSTASH_REDIS_REST_TOKEN`
