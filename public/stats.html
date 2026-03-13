@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hamdy Quiz — إحصائياتي</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Tajawal:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0f;--sur:#12121a;--sur2:#1a1a26;--brd:#2a2a3e;--acc:#6c63ff;--acc2:#ff6b9d;--acc3:#00d4aa;--gold:#ffd700;--txt:#e8e8f0;--dim:#7a7a9a;--win:#00d4aa;--loss:#ef4444;--draw:#f59e0b;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Cairo',sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;padding:0 0 60px;}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(ellipse 80% 50% at 20% 20%,rgba(108,99,255,.08),transparent 60%),
+             radial-gradient(ellipse 60% 40% at 80% 80%,rgba(255,107,157,.06),transparent 60%);}
+
+/* ── nav ── */
+nav{position:sticky;top:0;z-index:100;background:rgba(10,10,15,.85);backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--brd);padding:14px 20px;display:flex;align-items:center;gap:12px;}
+.nav-logo{font-family:'Tajawal',sans-serif;font-size:22px;font-weight:900;
+  background:linear-gradient(135deg,var(--acc),var(--acc2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.nav-spacer{flex:1;}
+.nav-user{font-size:13px;color:var(--dim);}
+.nav-user strong{color:var(--txt);}
+.nav-btn{padding:7px 16px;border-radius:8px;border:1px solid var(--brd);background:transparent;
+  color:var(--txt);font-family:'Cairo',sans-serif;font-size:13px;cursor:pointer;transition:all .2s;}
+.nav-btn:hover{border-color:var(--acc);color:var(--acc);}
+
+/* ── layout ── */
+.page{max-width:1000px;margin:0 auto;padding:32px 20px;position:relative;z-index:1;}
+
+/* ── section headings ── */
+.sec-title{font-size:13px;font-weight:700;color:var(--dim);letter-spacing:3px;text-transform:uppercase;
+  margin-bottom:16px;padding-right:10px;border-right:3px solid var(--acc);}
+
+/* ── profile card ── */
+.profile-card{background:var(--sur);border:1px solid var(--brd);border-radius:20px;padding:24px 28px;
+  display:flex;align-items:center;gap:24px;margin-bottom:28px;flex-wrap:wrap;}
+.avatar{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--acc),var(--acc2));
+  display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:900;color:#fff;flex-shrink:0;}
+.profile-info{flex:1;}
+.profile-name{font-size:22px;font-weight:900;}
+.profile-sub{font-size:13px;color:var(--dim);margin-top:2px;}
+.profile-since{font-size:12px;color:var(--dim);margin-top:6px;}
+
+/* ── global stats row ── */
+.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:28px;}
+.stat-box{background:var(--sur);border:1px solid var(--brd);border-radius:16px;padding:18px;text-align:center;}
+.stat-num{font-size:32px;font-weight:900;line-height:1;}
+.stat-lbl{font-size:11px;color:var(--dim);margin-top:4px;font-weight:600;letter-spacing:1px;}
+.stat-box.wins .stat-num{color:var(--win);}
+.stat-box.losses .stat-num{color:var(--loss);}
+.stat-box.draws .stat-num{color:var(--draw);}
+.stat-box.total .stat-num{color:var(--acc);}
+
+/* ── win rate ring ── */
+.winrate-card{background:var(--sur);border:1px solid var(--brd);border-radius:16px;padding:20px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.ring-wrap{position:relative;width:88px;height:88px;}
+.ring-wrap svg{transform:rotate(-90deg);}
+.ring-pct{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:18px;font-weight:900;color:var(--acc);}
+.ring-lbl{font-size:11px;color:var(--dim);margin-top:8px;font-weight:600;letter-spacing:1px;}
+
+/* ── opponent cards ── */
+.opp-list{display:flex;flex-direction:column;gap:16px;margin-bottom:32px;}
+.opp-card{background:var(--sur);border:1px solid var(--brd);border-radius:18px;overflow:hidden;cursor:pointer;transition:border-color .2s;}
+.opp-card:hover{border-color:var(--acc);}
+.opp-header{padding:18px 20px;display:flex;align-items:center;gap:16px;}
+.opp-avatar{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:18px;font-weight:900;color:#fff;flex-shrink:0;
+  background:linear-gradient(135deg,var(--acc2),var(--gold));}
+.opp-meta{flex:1;}
+.opp-name{font-size:16px;font-weight:700;}
+.opp-sub{font-size:12px;color:var(--dim);margin-top:2px;}
+.opp-wld{display:flex;gap:6px;align-items:center;}
+.wld-pill{padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;}
+.wld-w{background:rgba(0,212,170,.15);color:var(--win);}
+.wld-l{background:rgba(239,68,68,.15);color:var(--loss);}
+.wld-d{background:rgba(245,158,11,.15);color:var(--draw);}
+.opp-remain{font-size:12px;color:var(--acc3);font-weight:600;text-align:left;}
+.opp-detail{display:none;border-top:1px solid var(--brd);padding:16px 20px;}
+.opp-detail.open{display:block;}
+.cats-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin-top:10px;}
+.cat-pill{background:var(--sur2);border:1px solid var(--brd);border-radius:10px;padding:10px 12px;font-size:12px;}
+.cat-name{font-weight:700;margin-bottom:4px;}
+.cat-bar-wrap{background:var(--brd);border-radius:4px;height:4px;margin:6px 0;}
+.cat-bar{height:4px;border-radius:4px;transition:width .6s;}
+.cat-nums{display:flex;justify-content:space-between;font-size:10px;color:var(--dim);}
+.exhausted{opacity:.5;}
+
+/* ── recent games ── */
+.recent-list{display:flex;flex-direction:column;gap:8px;}
+.game-row{background:var(--sur);border:1px solid var(--brd);border-radius:12px;
+  padding:12px 16px;display:flex;align-items:center;gap:12px;}
+.result-badge{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:900;flex-shrink:0;}
+.rb-win{background:rgba(0,212,170,.15);color:var(--win);}
+.rb-loss{background:rgba(239,68,68,.15);color:var(--loss);}
+.rb-draw{background:rgba(245,158,11,.15);color:var(--draw);}
+.game-info{flex:1;}
+.game-opp{font-size:14px;font-weight:700;}
+.game-date{font-size:11px;color:var(--dim);margin-top:2px;}
+.game-score{font-size:15px;font-weight:900;color:var(--acc);}
+
+/* ── empty state ── */
+.empty{text-align:center;padding:40px;color:var(--dim);}
+.empty .emoji{font-size:48px;display:block;margin-bottom:12px;}
+.empty p{font-size:14px;}
+
+/* ── loading ── */
+#loading{text-align:center;padding:80px 20px;color:var(--dim);}
+.spinner{width:44px;height:44px;border:3px solid var(--brd);border-top-color:var(--acc);
+  border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 16px;}
+@keyframes spin{to{transform:rotate(360deg);}}
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-logo">HQ</span>
+  <span class="nav-spacer"></span>
+  <span class="nav-user">أهلاً <strong id="nav-name">...</strong></span>
+  <button class="nav-btn" onclick="window.location.href='/'">🎮 العب</button>
+  <button class="nav-btn" onclick="doLogout()">خروج</button>
+</nav>
+
+<div class="page">
+  <div id="loading">
+    <div class="spinner"></div>
+    <div>جاري تحميل إحصائياتك...</div>
+  </div>
+
+  <div id="content" style="display:none">
+    <!-- Profile -->
+    <div class="profile-card" id="profile-card"></div>
+
+    <!-- Global stats -->
+    <div class="sec-title">الإحصائيات العامة</div>
+    <div class="stats-row" id="stats-row"></div>
+
+    <!-- Opponents -->
+    <div class="sec-title" style="margin-bottom:16px">سجلك مع كل خصم</div>
+    <div class="opp-list" id="opp-list"></div>
+
+    <!-- Recent games -->
+    <div class="sec-title" style="margin-bottom:16px">آخر الألعاب</div>
+    <div class="recent-list" id="recent-list"></div>
+  </div>
+</div>
+
+<script>
+// ── auth check ─────────────────────────────────────────────────────────────
+const sess = (() => { try { return JSON.parse(localStorage.getItem('hq_session') || 'null'); } catch(e) { return null; } })();
+if (!sess?.token) { window.location.href = '/login'; }
+
+async function doLogout() {
+  await fetch('/api/auth/logout', { method:'POST', headers:{'x-auth-token': sess.token} });
+  localStorage.removeItem('hq_session');
+  window.location.href = '/login';
+}
+
+// ── helpers ────────────────────────────────────────────────────────────────
+function initials(name) { return (name||'?').charAt(0).toUpperCase(); }
+function fmtDate(iso) {
+  const d = new Date(iso);
+  return d.toLocaleDateString('ar-EG', { year:'numeric', month:'short', day:'numeric' });
+}
+function fmtDateShort(iso) {
+  const d = new Date(iso);
+  return d.toLocaleDateString('ar-EG', { month:'short', day:'numeric' });
+}
+
+// ── load data ──────────────────────────────────────────────────────────────
+async function load() {
+  const r = await fetch('/api/auth/stats', { headers: { 'x-auth-token': sess.token } });
+  if (r.status === 401) { window.location.href = '/login'; return; }
+  const data = await r.json();
+
+  document.getElementById('nav-name').textContent = data.displayName;
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+
+  renderProfile(data);
+  renderStats(data);
+  renderOpponents(data.opponents || {});
+  renderRecent(data.recentGames || []);
+}
+
+function renderProfile(d) {
+  const since = d.createdAt ? `عضو منذ ${fmtDate(d.createdAt)}` : '';
+  document.getElementById('profile-card').innerHTML = `
+    <div class="avatar">${initials(d.displayName)}</div>
+    <div class="profile-info">
+      <div class="profile-name">${d.displayName}</div>
+      <div class="profile-sub" style="color:var(--dim)">@${d.username}</div>
+      <div class="profile-since">${since}</div>
+    </div>
+    ${renderRing(d.totalGames, d.wins)}
+  `;
+}
+
+function renderRing(total, wins) {
+  const pct = total > 0 ? Math.round((wins / total) * 100) : 0;
+  const r = 36, circ = 2 * Math.PI * r;
+  const dash = (pct / 100) * circ;
+  return `
+    <div style="display:flex;flex-direction:column;align-items:center;">
+      <div class="ring-wrap">
+        <svg width="88" height="88" viewBox="0 0 88 88">
+          <circle cx="44" cy="44" r="${r}" fill="none" stroke="var(--brd)" stroke-width="7"/>
+          <circle cx="44" cy="44" r="${r}" fill="none" stroke="var(--acc)" stroke-width="7"
+            stroke-dasharray="${dash} ${circ}" stroke-linecap="round"/>
+        </svg>
+        <div class="ring-pct">${pct}%</div>
+      </div>
+      <div class="ring-lbl">نسبة الفوز</div>
+    </div>`;
+}
+
+function renderStats(d) {
+  const total = d.totalGames || 0;
+  document.getElementById('stats-row').innerHTML = `
+    <div class="stat-box total"><div class="stat-num">${total}</div><div class="stat-lbl">إجمالي الألعاب</div></div>
+    <div class="stat-box wins"><div class="stat-num">${d.wins||0}</div><div class="stat-lbl">انتصارات</div></div>
+    <div class="stat-box losses"><div class="stat-num">${d.losses||0}</div><div class="stat-lbl">هزائم</div></div>
+    <div class="stat-box draws"><div class="stat-num">${d.draws||0}</div><div class="stat-lbl">تعادلات</div></div>
+  `;
+}
+
+function renderOpponents(opps) {
+  const el = document.getElementById('opp-list');
+  const entries = Object.entries(opps);
+  if (entries.length === 0) {
+    el.innerHTML = `<div class="empty"><span class="emoji">🎮</span><p>لسه ماعملتش أي لعبة — ابدأ لعبة عشان تبني سجلك!</p></div>`;
+    return;
+  }
+  // Sort by most games played
+  entries.sort((a,b) => b[1].games - a[1].games);
+  el.innerHTML = entries.map(([oppId, opp]) => {
+    const winRate = opp.games > 0 ? Math.round((opp.wins / opp.games) * 100) : 0;
+    const catsHtml = renderOppCats(opp.categories || []);
+    return `
+    <div class="opp-card" onclick="toggleDetail('${oppId}')">
+      <div class="opp-header">
+        <div class="opp-avatar">${initials(opp.displayName)}</div>
+        <div class="opp-meta">
+          <div class="opp-name">${opp.displayName}</div>
+          <div class="opp-sub">${opp.games} لعبة معاه — نسبة فوزك ${winRate}%</div>
+          <div class="opp-wld" style="margin-top:6px">
+            <span class="wld-pill wld-w">فوز ${opp.wins}</span>
+            <span class="wld-pill wld-l">خسارة ${opp.losses}</span>
+            <span class="wld-pill wld-d">تعادل ${opp.draws}</span>
+          </div>
+        </div>
+        <div class="opp-remain">
+          <div style="font-size:20px;font-weight:900;color:var(--acc3)">${opp.totalRemaining||0}</div>
+          <div style="font-size:10px;color:var(--dim)">لعبة متبقية</div>
+          ${opp.totalExhausted > 0 ? `<div style="font-size:10px;color:var(--acc2);margin-top:2px">${opp.totalExhausted} كاتيجوري خلصت</div>` : ''}
+        </div>
+      </div>
+      <div class="opp-detail" id="detail-${oppId}">
+        <div style="font-size:12px;font-weight:700;color:var(--dim);margin-bottom:10px">الأسئلة المتبقية لكل كاتيجوري</div>
+        <div class="cats-grid">${catsHtml}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderOppCats(cats) {
+  if (!cats || cats.length === 0) return '<div style="color:var(--dim);font-size:12px">لا توجد بيانات بعد</div>';
+  return cats.map(cat => {
+    const pct = cat.total > 0 ? Math.round((cat.remaining / cat.total) * 100) : 0;
+    const barCol = cat.remaining === 0 ? 'var(--loss)' : cat.remaining === 1 ? 'var(--draw)' : 'var(--win)';
+    const cls = cat.remaining === 0 ? ' exhausted' : '';
+    return `
+    <div class="cat-pill${cls}">
+      <div class="cat-name">${cat.name}</div>
+      <div class="cat-bar-wrap"><div class="cat-bar" style="width:${pct}%;background:${barCol}"></div></div>
+      <div class="cat-nums">
+        <span>${cat.remaining === 0 ? '❌ انتهت' : cat.remaining + ' متبقية'}</span>
+        <span style="color:var(--dim)">${cat.total} أصلاً</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderRecent(games) {
+  const el = document.getElementById('recent-list');
+  if (games.length === 0) {
+    el.innerHTML = `<div class="empty"><span class="emoji">📋</span><p>مفيش ألعاب لحد دلوقتي</p></div>`;
+    return;
+  }
+  el.innerHTML = games.map(g => {
+    const icon  = g.result==='win'?'W':g.result==='loss'?'L':'D';
+    const cls   = `rb-${g.result}`;
+    const label = g.result==='win'?'فوز':g.result==='loss'?'خسارة':'تعادل';
+    return `
+    <div class="game-row">
+      <div class="result-badge ${cls}">${icon}</div>
+      <div class="game-info">
+        <div class="game-opp">${label} ضد ${g.opponentName}</div>
+        <div class="game-date">${fmtDateShort(g.date)}</div>
+      </div>
+      <div class="game-score">${g.myScore} — ${g.oppScore}</div>
+    </div>`;
+  }).join('');
+}
+
+function toggleDetail(oppId) {
+  const el = document.getElementById('detail-' + oppId);
+  el.classList.toggle('open');
+}
+
+load();
+</script>
+</body>
+</html>
