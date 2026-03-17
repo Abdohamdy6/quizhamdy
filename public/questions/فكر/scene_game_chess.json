@@ -1,0 +1,3605 @@
+{
+    "category": "ألغاز شطرنج",
+    "questions": [
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r2/7P/5K2/8/2P2k2/P7/8/8%20w%20-%20-%201%2069",
+            "a": "Kg7"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/6p1/3q3p/1RrPp2P/P1p1p3/2Q3P1/5P2/5K2%20w%20-%20-%202%2037",
+            "a": "Qb4"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/8/P6p/8/2Rnk3/r7/3KN3%20b%20-%20-%202%2060&color=black",
+            "a": "Rd2#"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1r5p/p2b2kP/Kbp5/4R3/P1P5/8/5R2%20w%20-%20-%209%2049",
+            "a": "Re6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r3k1r/pNqnppb1/6pn/2p3Np/7P/2P2Q2/PP3PP1/R1B1K2R%20w%20KQ%20-%203%2016",
+            "a": "Ne6+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rk2/pbp2pp1/1p1N4/3P1q2/QPBP4/1KP2P2/P5r1/R3R3%20b%20-%20-%200%2025&color=black",
+            "a": "Qc2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r5k/p4q1p/2Q2p2/4pN2/Pr2P3/1P1n3P/K1P2P2/1R5R%20b%20-%20-%206%2027&color=black",
+            "a": "Rxb3"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r3k1/4pp2/3p1bp1/1p6/1P2P1Q1/P3q1P1/6BP/1Rr1R2K%20w%20-%20-%205%2024",
+            "a": "Qxc8+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6R1/6p1/p6p/P5kP/6P1/1r6/5K2%20b%20-%20-%205%2039&color=black",
+            "a": "Kf3"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r2k/6bp/p1bp2p1/1p2q3/1P2Pr2/2N2QP1/1BP2n1P/2K1R2R%20w%20-%20-%200%2027",
+            "a": "gxf4"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2p5/3b2kp/3p2p1/P3p1KP/1P2R3/1B4P1/8%20b%20-%20-%200%2036&color=black",
+            "a": "h5+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/7R/3k4/2pnp3/P1B5/3KP3/1r6/8%20b%20-%20-%202%2043&color=black",
+            "a": "e4+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3b2rk/p3q2p/1r3p1P/2p1RP2/2P4Q/1P1P4/P5P1/B4RK1%20b%20-%20-%200%2033&color=black",
+            "a": "fxe5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2k3r/ppp3Np/3p2pB/2b1p3/2B1P3/2NP3q/PPP2P2/R2R2K1%20w%20-%20-%204%2018",
+            "a": "Bg5+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/1p4pp/p3N3/2b1r3/8/2P5/PP2n1PP/2B1RR1K%20b%20-%20-%200%2026&color=black",
+            "a": "Ng3+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r1rk1/pp2bppp/2ppnn2/8/N1P1P3/q1P4P/P2N2PB/R2Q1R1K%20w%20-%20-%201%2017",
+            "a": "Nb1"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qk2r/1p3ppp/2P5/4Pn2/1pPn2b1/3Q1NP1/PP3PBP/RN3RK1%20b%20kq%20-%200%2014&color=black",
+            "a": "Nxf3+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r4/4kp1p/1PQ1p1p1/p3b3/1p2P2P/1P5K/6P1/8%20b%20-%20-%202%2036&color=black",
+            "a": "Rd3+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k4rr/pp3p2/b3p3/3p4/6R1/Q6P/PPq2PP1/4R1K1%20w%20-%20-%200%2028",
+            "a": "Qg3+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/ppR3pp/8/3pn1B1/8/3B1N1b/PP2NKPb/3QR3%20b%20-%20-%200%2019&color=black",
+            "a": "Ng4+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r6k/pp2r2p/4Rp1Q/3p4/8/1N1P2b1/PqP3PP/7K%20w%20-%20-%200%2025",
+            "a": "Rxe7"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/1p6/4p3/P2b1p1p/R4P1P/2k1K1P1/8%20b%20-%20-%201%2040&color=black",
+            "a": "Bc3"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/kp4R1/1p1P2p1/1P2K1r1/7p/8/8/8%20w%20-%20-%205%2048",
+            "a": "Ke6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b1k1nr/ppp2pbp/3p1qp1/4p3/2BnP3/N2P2QP/PPP2PP1/R1B1K2R%20w%20KQkq%20-%200%2010",
+            "a": "Bg5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/8/1q2pnpP/p2p4/1ppP4/2P1P3/PPQN1P2/2K4R%20w%20-%20-%200%2022",
+            "a": "Qxg6+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k5/p1p5/r6B/3b4/8/3P4/PPP2P1P/R4RK1%20b%20-%20-%200%2031&color=black",
+            "a": "Rg6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rk2/p4q2/1p3Q1b/8/1p5N/2P1p3/P3P3/2K5%20w%20-%20-%201%2044",
+            "a": "Ng6+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6pp/K1k2p2/4p3/P3P2P/5P2/5P2/8%20b%20-%20-%200%2032&color=black",
+            "a": "h5"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr4/pp4R1/2p1p1P1/4P3/4p3/2P5/PP6/1K6%20b%20-%20-%200%2028&color=black",
+            "a": "e3"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r2k/1b3Bpp/ppq2b1B/2p5/P2p2Q1/3P4/1PP2RPP/5K2%20b%20-%20-%200%2028&color=black",
+            "a": "Rf8"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3k4/2rb4/3p4/pp1PpBp1/6P1/PP2P1K1/8/2R5%20w%20-%20-%202%2041",
+            "a": "Rxc7"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3k2r/1ppqb2p/p1b1N3/3pPp2/3P2Q1/2P5/PP4PP/RNB3K1%20w%20kq%20-%200%2015",
+            "a": "Qh5#"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2Q3pp/1p1pk1r1/1PnN4/2P1n3/6P1/1r3PK1/8%20w%20-%20-%207%2042",
+            "a": "Qe7+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r3rk1/p4pp1/4p2p/1Q2Pn2/1b1P4/4BN2/q4PPP/R4RK1%20b%20-%20-%202%2019&color=black",
+            "a": "Qxa1"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/4R3/1N4k1/4Np2/4p1np/8/PP1K4/7r%20b%20-%20-%201%2039&color=black",
+            "a": "Nxe5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6Q1/q1k5/3pB1p1/2pP1p2/2P2P2/rp2PK1P/8/8%20w%20-%20-%203%2038",
+            "a": "Qc8+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/R3Rp2/6p1/1p5p/1P1r3K/2n5/7P/8%20w%20-%20-%208%2044",
+            "a": "Kg5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2r2p1p/p4Qpk/1q6/1P6/7P/2r3P1/4RR1K%20w%20-%20-%2010%2035",
+            "a": "Rf4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1rk/2R1B1bp/2B3p1/8/p4P2/Pb5P/6P1/2K4R%20b%20-%20-%202%2032&color=black",
+            "a": "Rc8"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/ppp4p/3p1kp1/1P1P1P2/P5P1/5K1P/8/8%20w%20-%20-%201%2032",
+            "a": "fxg6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rk2/pprR3p/1b4p1/6B1/4p2P/1B6/PP3PP1/6K1%20w%20-%20-%201%2032",
+            "a": "Bh6#"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6k1/4p3/6Kp/3P4/5P2/8/8%20w%20-%20-%201%2045",
+            "a": "Kxh5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p7/1p2k3/1Pp3pp/2P3p1/4KP1P/P7/8%20w%20-%20-%200%2033",
+            "a": "fxg4"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/1bb2ppp/p1n1p3/4P3/Np1q4/1B2NP2/1P4PP/2RQ1RK1%20w%20-%20-%200%2021",
+            "a": "Qxd4"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qk2r/1p3pp1/p1np4/3NpP2/4P1Qb/1P1B4/1PP3PK/R1B2R2%20b%20kq%20-%200%2021&color=black",
+            "a": "Bf2+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/pp4k1/2p3p1/3nRr2/3P1PK1/2P5/PP6/5R2%20b%20-%20-%200%2036&color=black",
+            "a": "Rxe5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/7p/3k3P/5Kp1/6P1/8/8%20w%20-%20-%206%2047",
+            "a": "Kf5"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/7k/R6p/3p4/5r2/2P1p2P/P5P1/6K1%20b%20-%20-%200%2040&color=black",
+            "a": "e2"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7k/p1r2rp1/1p2p1Qp/1Pbp1p1R/4qP2/7R/P1P3PP/7K%20w%20-%20-%202%2032",
+            "a": "Rxh6+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3B4/1p4kp/2b1Pp2/1pN2RpK/1P6/7P/6r1/8%20b%20-%20-%200%2034&color=black",
+            "a": "Be8#"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1p6/8/4k1p1/1P3p2/P1PRB1r1/4K3/8%20b%20-%20-%200%2045&color=black",
+            "a": "Rxe3+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/ppQ2ppp/8/8/4r3/1P2qNK1/P2r2PP/R5R1%20b%20-%20-%205%2020&color=black",
+            "a": "Qf2+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/8/6p1/2Q4p/P6P/1P3qPK/2P5/8%20b%20-%20-%200%2046&color=black",
+            "a": "Qh1#"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5pk1/P4b2/6p1/6Pp/3R3K/R1P1r2P/8%20b%20-%20-%200%2045&color=black",
+            "a": "Be5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/1pp2p1p/p4Qp1/3n3P/P2Nq3/8/1B4R1/5B1K%20w%20-%20-%200%2037",
+            "a": "Qg7+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5B2/1p5p/p5p1/8/1nk2PPP/5K2/8/8%20w%20-%20-%200%2045",
+            "a": "Bxb4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3q1r1/pppb1p1k/3p1B1p/7Q/3PP3/3P1R2/PP4PP/4R1K1%20b%20-%20-%204%2018&color=black",
+            "a": "Bg4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6R1/7p/k1r5/p4P2/P2pn1P1/8/4p2P/1R5K%20b%20-%20-%205%2040&color=black",
+            "a": "Rb6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2R5/3Nb1pk/1r5p/2pP4/1p2P3/3P4/4K1PP/8%20b%20-%20-%202%2039&color=black",
+            "a": "b3"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=N1b4r/pp2kppp/4p3/8/3P4/Q1q1P3/2pN1PPP/R3KB1R%20b%20KQ%20-%207%2019&color=black",
+            "a": "Qxa3"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5k2/8/1p1p2pn/1PpP2P1/2P1KP2/8/8%20w%20-%20-%200%2059",
+            "a": "gxh5"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr4/p1p2Q1p/1pP1p3/PP4r1/7q/7P/5PP1/R4RK1%20b%20-%20-%200%2026&color=black",
+            "a": "Qxh3"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7k/p1q4p/5Pp1/1ppb4/3n1PQ1/2KP4/PP6/2R1R3%20b%20-%20-%201%2027&color=black",
+            "a": "Qa5+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4k3/R5R1/5K1p/1Pp3r1/8/6P1/4p2P/8%20b%20-%20-%200%2053&color=black",
+            "a": "Rxg7"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3kb1r/p4ppp/b3p3/2pq4/3Q4/4BN2/PPP2PPP/R3K2R%20w%20KQkq%20-%200%2012",
+            "a": "Qa4+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4n3/2PR4/1p2r2k/7p/1P4p1/8/6BP/7K%20b%20-%20-%200%2048&color=black",
+            "a": "Re1+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p4R1p/bp4r1/4B1pk/4p3/1P2P1PP/P2r4/6K1%20w%20-%20-%203%2032",
+            "a": "Rxh7+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6rk/3b1prp/p2Q4/2pPp3/3qP1P1/5B1P/5PK1/R6R%20b%20-%20-%200%2026&color=black",
+            "a": "Bxg4"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1bn1k2/p2pbP2/1p4pr/1P5p/2B5/P1B3N1/2P3PP/1K2R3%20w%20-%20-%201%2024",
+            "a": "Rxe7"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5pk1/4b2p/8/2r1N1P1/4PK1P/5R2/8%20b%20-%20-%2013%2051&color=black",
+            "a": "Bd5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k5/1pp2B2/p1np4/4pR2/PP2P1q1/1NPP2P1/5bK1/8%20w%20-%20-%200%2031",
+            "a": "Be6+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/ppp2ppp/8/8/1P1P2nq/P1B1P2P/4NRPN/R2Q2K1%20b%20-%20-%200%2018&color=black",
+            "a": "Qxf2+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/pp2q1p1/2p1p2p/3nP1pP/3P2P1/2PQ1r2/PPB5/R5K1%20w%20-%20-%200%2024",
+            "a": "Qh7+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r4/5k2/p4Pp1/2K3Pp/2R5/P7/8/8%20b%20-%20-%200%2051&color=black",
+            "a": "Rc8+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3kr2/ppp4p/3qpQp1/5n2/4R3/2P1P2P/P4PP1/5RK1%20w%20q%20-%2010%2023",
+            "a": "Rxe6+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r1b2/6kp/3P2p1/RP3p2/1q2pP1P/1B1p2P1/Q6K/8%20w%20-%20-%201%2043",
+            "a": "Ra7+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qk2r/1p2bp2/p2pp1p1/8/4b2P/4B3/PPPQB3/2K3RR%20w%20kq%20-%200%2018",
+            "a": "Qd4"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1p6/p1b5/4k2p/1PB1p2P/P3P1K1/8/8%20w%20-%20-%203%2036",
+            "a": "Bf7"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qk2r/ppp2ppp/2n5/3pPb2/1b1n1B2/2NB1N2/PP3PPP/R2QK2R%20w%20KQkq%20-%204%2010",
+            "a": "Nxd4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3qr1k1/7p/3r2pP/1p2p1R1/p7/P1BPQP2/1PK5/8%20w%20-%20-%201%2030",
+            "a": "Rxe5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r5/2b5/2P2k2/1K1P1p2/5B2/8/7P/8%20w%20-%20-%209%2051",
+            "a": "Bxc7"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3kb1r/1p4p1/p1p1bp2/4p1Bp/4P3/2NQ1PP1/PPP2qBP/R6K%20w%20kq%20-%200%2017",
+            "a": "Be3"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r2r1k1/ppp1q1pp/4b3/4P3/1Q1R1P2/8/P5PP/R1B3K1%20b%20-%20-%200%2019&color=black",
+            "a": "c5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/2q4p/p3p1p1/3pP3/2rP1R2/2p5/PP3QP1/6K1%20w%20-%20-%200%2029",
+            "a": "Rf8+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k1r3/pp3p1p/2p5/q1b1B3/3nP3/2N3QP/PP3PP1/6KR%20b%20-%20-%205%2020&color=black",
+            "a": "Rxe5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2k5/2P3p1/pP1Kp1P1/P4p2/5P2/8/b7%20w%20-%20-%201%2059",
+            "a": "b6+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5qQk/pbb5/1p2Bn2/2p1p3/4P3/8/PPPN1P2/6RK%20b%20-%20-%204%2040&color=black",
+            "a": "Nxg8"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3r1k1/ppp2R2/1b5Q/3PP2n/2B3bq/2N5/PP4PP/R6K%20b%20-%20-%200%2018&color=black",
+            "a": "Ng3#"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/pp4Q1/3R3p/7k/2P4n/4P2P/5qPK/8%20b%20-%20-%200%2037&color=black",
+            "a": "Nf3+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r3/4bpkp/3P2pN/6P1/1p2qn1P/5N2/1P1Q1P2/3R2K1%20b%20-%20-%200%2030&color=black",
+            "a": "Qxf3"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b1r1k1/p1pq1p1p/2pb1p1B/8/3p4/5Q2/PP3PPP/R3R1K1%20w%20-%20-%200%2018",
+            "a": "Qg4+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r1r3k/5p1P/3R2PP/4q3/PnP1P3/1P6/6Q1/1K4R1%20b%20-%20-%200%2038&color=black",
+            "a": "Qxd6"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5q1/pp1k4/3bb1n1/1N4B1/2n1P3/3p2Q1/PP4PP/2R4K%20w%20-%20-%206%2024",
+            "a": "Qxd6+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r2r/p1p2kp1/2p2p2/2Qb4/8/2B3Nq/PPP2R1P/5RK1%20b%20-%20-%2011%2030&color=black",
+            "a": "Qxg3+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r1rk1/pp2npp1/1q2b2p/3p4/4N3/PBP2N1P/1P3PP1/R2Q1RK1%20b%20-%20-%200%2016&color=black",
+            "a": "dxe4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2pQ1pk1/pp2r3/2pR2p1/2P5/4PqP1/PP3P2/6K1%20b%20-%20-%201%2033&color=black",
+            "a": "Rf6"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2q1Bk1/pppb1pp1/2n4p/3nP3/8/2P2N2/P3QPPP/R2R2K1%20b%20-%20-%200%2014&color=black",
+            "a": "Nxc3"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p6k/2pr2p1/4Np1p/4B2P/2n1P1P1/P4P2/2R3K1%20b%20-%20-%200%2037&color=black",
+            "a": "Ne2+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r5/2r3k1/1p2Qp1p/p2p2p1/3P4/4P1P1/PPq2P1R/KR6%20b%20-%20-%200%2030&color=black",
+            "a": "Qxb1+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p1p4p/6p1/2p2k2/2Pb4/1P3P1K/P2RN2P/5r2%20w%20-%20-%2010%2036",
+            "a": "Ng3+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/7Q/3p1kp1/1p6/2b5/2q4P/5PPK/8%20w%20-%20-%200%2037",
+            "a": "Qh8+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2k4p/p3P3/1p3p2/1P1Kp3/P7/6PP/8%20w%20-%20-%200%2037",
+            "a": "g4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qr1k1/5pb1/1p1p1n2/p2P1QBR/8/P1N4P/1PP3PN/6K1%20b%20-%20-%200%2023&color=black",
+            "a": "Nxh5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k1r4/ppp2pb1/4b2p/5qp1/1P3p2/5N2/1P3QPP/R1BrR1K1%20w%20-%20-%203%2023",
+            "a": "Qxa7+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4R3/pp3ppk/7p/1qpQ3b/5B2/8/PPP2PP1/2K5%20b%20-%20-%200%2024&color=black",
+            "a": "Qf1+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/p4p1p/1p1R2n1/4p1Q1/1P2qn2/P7/1B3PP1/R5K1%20b%20-%20-%201%2024&color=black",
+            "a": "h6"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2rr2k1/1p3pp1/p4q1p/8/1P2P3/P2B4/6Q1/R4R1K%20b%20-%20-%202%2031&color=black",
+            "a": "Qh4+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r7/1p4kp/1N3pp1/2p5/p7/2P5/5PPP/5NK1%20w%20-%20-%200%2030",
+            "a": "Nxa8"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1rr5/3nppkp/1q1pb1p1/1p6/1P1nP3/P4NPP/2RN1PB1/3QR1K1%20w%20-%20-%202%2021",
+            "a": "Qa1"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rR2/3NP1kp/2p3p1/5p2/8/2rp3P/5PP1/4R1K1%20b%20-%20-%203%2034&color=black",
+            "a": "d2"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/2R4r/6k1/4p3/8/4KP2/8%20w%20-%20-%200%2052",
+            "a": "Rxh6"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r3b2/5p1k/3P1qRP/r1n1p3/ppB5/P2Q1P2/1PP5/1K6%20w%20-%20-%201%2036",
+            "a": "Rg7+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4b3/4P3/p7/8/1K6/1P6/P1k5/8%20w%20-%20-%201%2055",
+            "a": "Ka5"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rb2/4N3/P2P2k1/4K2p/4P1p1/3r4/R7/5R2%20b%20-%20-%202%2052&color=black",
+            "a": "Bxe7"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/pp3ppp/5b2/3qB3/3P4/1b3PQB/1P5P/K2R2R1%20w%20-%20-%202%2024",
+            "a": "Qxg7+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4r2/1ppb1p2/p2p2p1/5P1k/4P3/2PBB1R1/PKP2P1q/8%20w%20-%20-%205%2027",
+            "a": "Be2+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7k/2r3p1/1p2p2b/3p2NQ/1q1P4/1p6/5R2/6K1%20w%20-%20-%202%2039",
+            "a": "Qe8+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1k1/p5bp/1q2N1p1/2pPrp2/1pP5/6PP/P4QB1/1R3RK1%20b%20-%20-%203%2025&color=black",
+            "a": "R5xe6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r4k1/Q5pp/4p3/1BR2p2/3q4/B3nP1P/P5P1/6K1%20b%20-%20-%201%2035&color=black",
+            "a": "Ng4+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7r/2k2ppp/p1n1p3/8/PpR5/3r4/1P2NPPP/4R1K1%20w%20-%20-%200%2022",
+            "a": "Rec1"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=b6k/8/1Q4p1/4q2p/5r1P/P1N3R1/1PP3PK/8%20b%20-%20-%204%2035&color=black",
+            "a": "Rxh4+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rr1k/1pqbbppp/p2p4/3P4/5B2/2pB2Q1/PP4PP/4RRK1%20w%20-%20-%200%2021",
+            "a": "Rxe7"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/1p6/8/4p2B/1R2Pp1p/3r2pP/4K3/8%20b%20-%20-%202%2050&color=black",
+            "a": "Re3+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1Qrk3r/5p2/4p3/3pP2q/6p1/3B2P1/2P4n/5R1K%20w%20-%20-%203%2036",
+            "a": "Qd6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r6/5p1R/7R/4pPk1/2r2n2/1P3P1P/P4K2/8%20w%20-%20-%200%2044",
+            "a": "h4+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7R/1K3p2/6k1/PP6/6p1/6rp/8/8%20w%20-%20-%200%2048",
+            "a": "a6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/3k4/p6p/1p1PQ1pP/6b1/1PP2qP1/P3p3/1K2R3%20b%20-%20-%200%2044&color=black",
+            "a": "Qd3+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/rp3ppp/4p3/2r5/1n1N4/2PR4/R4PPP/6K1%20w%20-%20-%204%2031",
+            "a": "Nxe6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1pQ2rk1/3p3R/1P3pq1/Pn1P4/1r2P1P1/5PK1/8%20w%20-%20-%202%2043",
+            "a": "Rh7+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b2bkN/ppp3p1/3pPq1p/4n3/3Q4/8/PPP2PPP/RNB1K2R%20b%20KQ%20-%200%2012&color=black",
+            "a": "Nf3+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/2p4p/3kp1p1/2qp4/5PP1/Q5KP/2N5%20b%20-%20-%200%2047&color=black",
+            "a": "Qxa2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/4kpp1/8/5PP1/6K1/8/8%20b%20-%20-%202%2052&color=black",
+            "a": "Kd5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=kq3r2/p2R3p/1p2P3/2b1Q3/8/7P/P5PK/8%20w%20-%20-%203%2039",
+            "a": "Rc7"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1rb2rk1/4bppp/p1n1p3/1pq1P3/7N/P5P1/1PQ2PBP/R1B2RK1%20w%20-%20-%202%2016",
+            "a": "Qxc5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3r1k1/pp5p/2pq2p1/3nNQ1b/3P4/4pP1P/PP2P1B1/1K1R3R%20w%20-%20-%200%2020",
+            "a": "Qf7+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r1rk1/1pp2pp1/p4q2/5b2/1P1R1P2/P1N4P/5QP1/4R2K%20w%20-%20-%209%2030",
+            "a": "Nd5"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6r1/p1qk4/QbN5/3p1p2/8/4P1P1/P7/1R2R1K1%20b%20-%20-%200%2032&color=black",
+            "a": "Qxg3+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/k6p/p4p1P/K1p1pP2/2P1P3/1P6/8%20b%20-%20-%200%2049&color=black",
+            "a": "Kb6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/4P1kp/2R2Np1/2P5/1P4K1/r7/4n3%20b%20-%20-%200%2035&color=black",
+            "a": "Rg2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/4p3/8/k1K1Pn2/B7/2P5/8/8%20b%20-%20-%200%2054&color=black",
+            "a": "Kxa4"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1k6/1P1Kp1p1/3pP3/7P/8/8/8%20b%20-%20-%202%2048&color=black",
+            "a": "d4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3k4/1K1n4/2p1pp2/1pPpP3/3P1P2/1P4P1/8/8%20w%20-%20-%200%2050",
+            "a": "Kxc6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qnr1k/pppb2pp/2n4B/3Nb3/8/P5QP/1PP1B1P1/R4RK1%20w%20-%20-%200%2019",
+            "a": "Rxf8#"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r2r1k/7n/p6q/1p1nNb2/7P/3P2Q1/PPP2P2/1K4RR%20w%20-%20-%201%2031",
+            "a": "Qg8+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4k3/1R6/6N1/5p1p/7P/2r3PK/5b2/8%20b%20-%20-%200%2047&color=black",
+            "a": "Rxg3+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r1rk1/pbp1qppp/1p2pb2/8/2PB2Q1/5P1N/PP2KP1P/3R2R1%20w%20-%20-%207%2020",
+            "a": "Qxg7+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1rk4r/p4p2/2pQp3/2N4q/3Pp1p1/2P1P3/PP3P2/R3RK2%20b%20-%20-%204%2025&color=black",
+            "a": "Qh1+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r1k2r/1p2bppp/1q1p4/p2Pp1P1/P4n1P/1N3P2/1PPQ4/2KR1B1R%20b%20k%20-%200%2017&color=black",
+            "a": "Qxb3"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rn1qkbnr/pbp4p/1p2p3/3pN1p1/3P4/8/PPP2PPP/RN1QKB1R%20w%20KQkq%20-%200%208",
+            "a": "Qh5+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qr1k1/pbp2ppp/1p3n2/8/3nN3/5NP1/PP2QPBP/R3R1K1%20w%20-%20-%200%2014",
+            "a": "Nxf6+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/2p1q1p1/b2pP2p/p2P1p2/Pp1B1Pn1/6R1/BPQ3PP/4R1K1%20b%20-%20-%203%2025&color=black",
+            "a": "Qh4"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r4k1/p3R2p/3p2pQ/3q4/3b4/3p4/PP3rPP/1RB4K%20w%20-%20-%200%2023",
+            "a": "Qxh7+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3k2q1/pp3pN1/2b2b2/2pp2Q1/6n1/3P1N2/P1P2PPP/5K2%20w%20-%20-%204%2027",
+            "a": "Ne6+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k5/1bp3pp/1p2p3/2n1b3/2P5/Q4BqP/PP1r2P1/4RRBK%20b%20-%20-%200%2025&color=black",
+            "a": "Qxg2+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r2k1/1b4bR/p2P2p1/3p2N1/2p5/2P2N2/PP6/2K5%20w%20-%20-%200%2029",
+            "a": "Rxg7+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1k1/p1R1n2p/4N3/5r2/6K1/6PP/P3R3/8%20b%20-%20-%204%2046&color=black",
+            "a": "h5+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/pp2p1bp/6p1/8/4N1P1/7q/4QP2/3R2K1%20w%20-%20-%200%2026",
+            "a": "Qc4+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rn3k1N/p1pn3p/8/3b2B1/3p4/N7/PP4PP/4R1K1%20w%20-%20-%204%2022",
+            "a": "Bh6+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2Q2ppk/4b2p/8/4PP2/2p3P1/4K2P/2r5%20b%20-%20-%200%2049&color=black",
+            "a": "Bb3"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k3rr/pp1q1p2/3p1p2/1p1N4/1P1QP2p/P4bP1/2P2P1P/R4RK1%20b%20-%20-%200%2020&color=black",
+            "a": "Qh3"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/8/3K2kp/2P5/4P3/8/8%20b%20-%20-%200%2050&color=black",
+            "a": "h4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/1R6/8/6p1/4B3/5p1P/1p1r2PK/8%20b%20-%20-%201%2051&color=black",
+            "a": "f2"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rbk1/5ppp/3p1n2/R1pP4/2P5/1P1Q4/1P1BqPPP/4N1K1%20b%20-%20-%202%2024&color=black",
+            "a": "Qd1"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2q1r2/ppp2p2/3p1nk1/4p1p1/2B1P3/2NP2Q1/PPP5/2K4R%20w%20-%20-%201%2020",
+            "a": "Qh3"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rnb2rk1/pppp1pp1/5q1B/7Q/8/P1nB4/5PPP/R3K1NR%20w%20KQ%20-%201%2012",
+            "a": "Bh7+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/3n1P2/2k1K3/2pp4/P7/8/3B4%20b%20-%20-%203%2063&color=black",
+            "a": "d3"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/1q1p2pp/p3p3/2p1Q3/8/1B6/PPP2PbP/3RR1K1%20w%20-%20-%200%2022",
+            "a": "Rxd7"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rk2/1p2nb2/1N6/pN2b1pB/P1P1pp2/8/1P3PP1/3RK3%20w%20-%20-%204%2035",
+            "a": "Nd7+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r3/1p3p2/1p6/3p1kP1/2pP3P/P1P2K2/1P2R3/8%20b%20-%20-%200%2034&color=black",
+            "a": "Rxe2"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/7p/2p3p1/ppk5/2p1KP1P/P1P5/1P6/8%20w%20-%20-%201%2038",
+            "a": "Ke5"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r1k/3p2bp/p4pp1/qp1Pr3/8/1Q4B1/PP2RPPP/4R1K1%20b%20-%20-%200%2023&color=black",
+            "a": "Qxe1+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/5K2/5Q2/3k1p2/5Pp1/6P1/1q6%20b%20-%20-%203%2058&color=black",
+            "a": "Qxf5+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rrk1/5p2/3p3p/p1p3p1/2q1P3/4Q3/PP3P2/1K2R1R1%20w%20-%20-%200%2024",
+            "a": "Qxg5+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/1pp2p1p/5RpP/p3P3/8/2Q5/qPP5/2KR4%20w%20-%20-%200%2026",
+            "a": "e6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r6/3R2p1/p5kp/4p2N/2pn2K1/1P6/P5PP/8%20w%20-%20-%200%2031",
+            "a": "Rxg7#"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/3p4/3Pp1n1/4Pp1N/3k1P1P/6K1/8%20b%20-%20-%200%2057&color=black",
+            "a": "Ke2"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1q3k1/3nbppp/pp2p3/4B3/8/2N2Q2/PPPR1PPP/6K1%20w%20-%20-%201%2019",
+            "a": "Rxd7"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1bq4/p3p1bk/2p3p1/3pn2p/8/2NB3P/PPPBQ1P1/5RK1%20w%20-%20-%202%2018",
+            "a": "Qxh5+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r6r/1Q4p1/p1qkPp1p/3pb3/6P1/N1p5/PP6/3R1RK1%20w%20-%20-%202%2025",
+            "a": "Rxd5+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/pp1n1r2/3p2N1/2pQ4/2P5/4P1P1/qP2KPP1/7R%20w%20-%20-%202%2025",
+            "a": "Ne7+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r2/1pp4k/p1n1p2p/3p2Q1/3P2P1/2P2q2/PP3P2/1K3R1R%20b%20-%20-%200%2031&color=black",
+            "a": "Qd3+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2k4p/p2p2p1/2pP1p2/2P4P/3K4/P3RPP1/4r3%20b%20-%20-%201%2028&color=black",
+            "a": "Rxe2"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r1k/8/R4pK1/5P2/8/8/8/8%20w%20-%20-%209%2067",
+            "a": "Rxf6"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3rn2r/pp1q1pkp/2B1b1p1/1Np1p3/8/4N1P1/PP1QPP1P/R2R2K1%20b%20-%20-%200%2018&color=black",
+            "a": "Qxd2"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2q1rk1/4bppp/p3bn2/1p2N3/5B2/2N5/PP3PPP/R2QR1K1%20w%20-%20-%202%2020",
+            "a": "Nc6"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k2b1r/pp3ppp/8/BN2p1P1/2n1Nn1P/8/PP3P2/2KR4%20w%20-%20-%200%2025",
+            "a": "Rd8#"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2rr2k1/5ppp/p7/1p1nP3/1B1P1PP1/PK5P/2R5/3R4%20b%20-%20-%205%2030&color=black",
+            "a": "Rxc2"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r7/1pq1rp1R/6p1/pp1p3R/P2Pn1k1/3QP3/4KPP1/8%20w%20-%20-%200%2029",
+            "a": "Qxe4+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3r3/1p1n2pk/2p1p2p/2P5/1p2R3/P2Q1N1P/5PP1/q5K1%20w%20-%20-%200%2025",
+            "a": "Re1+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5k2/8/2N1p1p1/1P2Pn1p/2P2P1P/5RPK/1r6%20b%20-%20-%205%2037&color=black",
+            "a": "Nh5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/Q7/7r/8/6K1/1r4p1/4k1P1/8%20w%20-%20-%203%2065",
+            "a": "Qa2+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4Q3/6pk/p3p2p/5P2/1p1P4/4q2P/2B1n2B/7K%20b%20-%20-%200%2035&color=black",
+            "a": "Qf3#"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1bq2k1/pppp1pp1/5n1p/3N4/2P1r2B/3Q4/PP3PPP/R3K2R%20w%20KQ%20-%200%2014",
+            "a": "Qxe4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3B1rk1/5p1p/p4QpP/1pp5/2q5/3b4/PP1K1PP1/3R3R%20b%20-%20-%203%2026&color=black",
+            "a": "Qc2+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/1p3pp1/p3p3/r3b3/2P2B2/1P6/1PR1K1PP/8%20w%20-%20-%201%2034",
+            "a": "b4"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/1p3p2/2p1ppp1/3p4/2nP4/1QB4P/rPP1BPP1/qNKR3R%20b%20-%20-%204%2022&color=black",
+            "a": "Qxb1+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p4pp1/7p/2k1P2P/r1p2P2/2K1P3/P2R1P2/8%20b%20-%20-%201%2037&color=black",
+            "a": "Ra3+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3k3/ppp2p2/1b1p3p/4p2r/2B1P1bq/P1PP1P2/1P4PQ/RN3R1K%20w%20q%20-%203%2019",
+            "a": "Bxf7+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3n2k/2q1b2p/3p2p1/2n2N2/2B1P3/8/1Pp2B2/1NKR3R%20w%20-%20-%202%2030",
+            "a": "Rxh7+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7r/5pb1/3Qpk1p/5Bp1/3P4/1N2P1P1/Pr2qPP1/R5KR%20b%20-%20-%200%2029&color=black",
+            "a": "Qxf2+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2b2rk1/3pbppp/3r4/q7/2p5/6P1/PPQBPPBP/R3K2R%20b%20KQ%20-%203%2016&color=black",
+            "a": "Rxd2"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6p1/7p/5k1P/pK3P2/P4P2/8/8%20b%20-%20-%201%2053&color=black",
+            "a": "g6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r3/6K1/8/4R1P1/1PpP4/P1P3k1/8/4b3%20b%20-%20-%206%2052&color=black",
+            "a": "Rxe5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/q6p/6p1/5n1k/5P2/6PK/6Q1%20w%20-%20-%200%2046",
+            "a": "Qe1+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r2r2/pp4bk/6R1/q2p3B/3Pp2P/1Q2P3/PP3P2/R4K2%20b%20-%20-%200%2023&color=black",
+            "a": "Qd2"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/3B2pp/p5k1/6P1/1ppp1K2/8/1P6/8%20w%20-%20-%200%2039",
+            "a": "Be8#"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qk2r/pp2ppbp/1n1p2p1/3P4/2n5/2NBBP1P/PP3P2/R2QK2R%20w%20KQkq%20-%200%2013",
+            "a": "Bxc4"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qk2r/ppp2pp1/2p2n2/7p/3bP1b1/2N3QP/PPP2PP1/R1B1KB1R%20b%20KQkq%20-%200%209&color=black",
+            "a": "Bxc3+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/1R6/7p/4KP1r/8/8/8/8%20w%20-%20-%200%2054",
+            "a": "Ke6"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2Q5/2p2nk1/4K3/2r5/8/8/8%20b%20-%20-%205%2071&color=black",
+            "a": "Re4+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1b2r1k1/1R3ppp/p7/4n3/1P3rP1/P3K3/B1Q5/7R%20b%20-%20-%2014%2042&color=black",
+            "a": "Nc4+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4k2r/1pq2p2/p3ppp1/2p5/6Q1/1P2R2P/P1r2PP1/R5K1%20w%20k%20-%200%2021",
+            "a": "Qd1"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/5p1p/Q3p3/1p3q2/7P/P5P1/3r1P2/4R1K1%20w%20-%20-%201%2038",
+            "a": "Qc8+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4r2/2p2pk1/p5p1/np2PB1Q/5q2/1P4R1/P4PPP/R5K1%20b%20-%20-%200%2028&color=black",
+            "a": "Qxg3"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/7R/5p2/p7/7P/2p5/3k2N1/1K6%20b%20-%20-%200%2048&color=black",
+            "a": "c2+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r1kb1r/ppq2ppp/2n1p3/3pPn2/N2P4/4BN2/PPR1QPPP/5RK1%20b%20k%20-%2010%2014&color=black",
+            "a": "Ncxd4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6p1/3k4/5pPp/4K2P/8/8/8%20w%20-%20-%200%2045",
+            "a": "Kxf5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3qr2/2pn3k/p2p1P1b/1p4pp/3PN3/P2Q4/1PP2P2/2K4R%20w%20-%20-%201%2023",
+            "a": "Nxg5+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r1rk1/1p2q1pp/5p2/8/1P1n4/6Q1/PPBB1PPP/R4RK1%20b%20-%20-%200%2020&color=black",
+            "a": "Ne2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r2/1R6/8/8/2pN4/P1P1P1k1/8/5bK1%20b%20-%20-%201%2048&color=black",
+            "a": "Bd3"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k5/5p2/p4p2/8/B1P1N1K1/3p2P1/PP6/5r2%20b%20-%20-%201%2033&color=black",
+            "a": "f5+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/p3b1p1/1p6/7R/K1P5/1P4B1/P3rPPP/8%20b%20-%20-%202%2029&color=black",
+            "a": "Rxa2+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/pp3ppp/2pp1q2/4p1B1/2BnP3/P2P1b2/1PP2P2/R1Q2RK1%20w%20-%20-%202%2016",
+            "a": "Bxf6"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/3bnppp/p4n2/1pp5/4N3/1B1P1N2/PPP2PPP/6K1%20b%20-%20-%201%2019&color=black",
+            "a": "Nxe4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr3r/bpp2pp1/2pqbn2/P6p/1N2P3/2PP3P/4BPP1/R1BQK2R%20b%20KQ%20-%200%2014&color=black",
+            "a": "Nxe4"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5KP1/R7/2k5/2pp4/8/8/6r1%20w%20-%20-%202%2051",
+            "a": "Rg6"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p7/2p2ppk/1q6/2nP2P1/2p4R/PP2Q3/1K6%20b%20-%20-%202%2034&color=black",
+            "a": "Kg5"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2p5/p5kp/1p1p2P1/1P1P2P1/P1P3K1/8/8%20b%20-%20-%200%2052&color=black",
+            "a": "Kxg5"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/5pkp/8/PP3rPp/7P/r4P2/1R1R1K2%20b%20-%20-%200%2037&color=black",
+            "a": "Rfxf2+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3r1k1/1p3p1p/p1p3p1/8/6bP/Q3b1P1/PP2B3/R3K2R%20b%20KQ%20-%200%2020&color=black",
+            "a": "Bxe2"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1p1kpp2/p2p2pp/3P4/P3R3/2r5/1r3PPP/4R1K1%20w%20-%20-%200%2026",
+            "a": "Rxe7+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/ppp3p1/3pR3/4b2Q/8/3q2P1/P4PK1/8%20b%20-%20-%201%2037&color=black",
+            "a": "Qd5+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/p7/1pB4p/PPp1P1p1/2p3b1/2Q2rP1/5q1P/1R1R3K%20w%20-%20-%201%2035",
+            "a": "Qxc4+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/5k2/1p3pp1/p1p2P1p/P1P1KP1P/1P6/8%20w%20-%20-%200%2047",
+            "a": "fxg5+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1k3nr/p1p2Qpp/2pbN3/8/5B1q/2N5/PPP2P2/R4RK1%20b%20-%20-%202%2017&color=black",
+            "a": "Nh6"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3qr1k1/pb3p2/1p4pp/n1rp4/P1pRnN2/2P2N1P/BPQ2PP1/3R2K1%20w%20-%20-%203%2021",
+            "a": "Rxe4"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2r4/ppp2kp1/2P3bp/2P1p3/6P1/2P1KNnP/P7/RNB4R%20b%20-%20-%202%2017&color=black",
+            "a": "Rd3+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7k/5q1p/3Q2p1/8/P3p3/1p2B2P/1br3P1/R5K1%20w%20-%20-%201%2033",
+            "a": "Rf1"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r4/pR4p1/2p2N1k/4p2p/2B1Pn1N/1P6/P1P2PPP/3R2K1%20b%20-%20-%200%2031&color=black",
+            "a": "Rxd1+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rn1qk2r/pp3ppp/3bp1N1/3p4/3Pn3/3BB3/PPP2PPP/RN1Q1RK1%20b%20kq%20-%200%2010&color=black",
+            "a": "Bxh2+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/2p1r3/1p1p2p1/p2P2N1/P1P3PQ/3bq2P/5R1K/8%20w%20-%20-%201%2041",
+            "a": "Rf8+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/3k2P1/3PQ3/p1q2p2/1p6/1P4r1/P1P5/1K1R4%20b%20-%20-%200%2039&color=black",
+            "a": "Kxe6"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1rb2r1k/p3bp1B/2p1p1p1/3pP3/5q2/7R/PPP1Q1PP/1K1R4%20w%20-%20-%200%2020",
+            "a": "Bxg6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r3k/6p1/4Q3/4B3/1p3P2/4PKP1/3q4/8%20w%20-%20-%2018%2052",
+            "a": "Qh6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r6/6b1/4R3/2p3pp/3k1p2/P1N5/2K2PPP/8%20w%20-%20-%202%2044",
+            "a": "Re4#"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5k2/8/ppp5/6PP/P1P5/2P3K1/8%20b%20-%20-%202%2039&color=black",
+            "a": "a4"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r2k1/1p5p/pbbqp3/3PR3/P5p1/2B2r1P/1PQ2P1P/3R3K%20w%20-%20-%200%2027",
+            "a": "Rg5+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1b4p1/p3p1Pr/1p1p4/3N4/2PBk3/PP5r/1K3R2%20w%20-%20-%2021%2042",
+            "a": "Rf3+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qkb1r/pp1nppp1/2p2n1p/3p1b2/2PP4/BP2PN2/P4PPP/RN1QKB1R%20b%20KQkq%20-%200%207&color=black",
+            "a": "Bxb1"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/p7/3N4/1P1k1p1p/P4P2/5K2/8%20b%20-%20-%200%2042&color=black",
+            "a": "Kxd5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7r/4kpRp/2p2p1P/p1P1n3/Pp6/1B6/5PP1/6K1%20w%20-%20-%203%2036",
+            "a": "f4"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7R/8/p3p3/2rk3p/p4K2/6PP/P7/8%20w%20-%20-%204%2040",
+            "a": "Rxh5+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k1r1r2/pp4p1/6q1/2Qp4/5NP1/2P4p/PPN4P/R4R1K%20b%20-%20-%200%2030&color=black",
+            "a": "Qe4+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1K6/1p3p1p/kP4p1/P3B3/5P2/4n3/7P/8%20b%20-%20-%205%2039&color=black",
+            "a": "Ng4"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/6p1/PR3p2/1P3k1P/8/r5P1/7K%20b%20-%20-%200%2039&color=black",
+            "a": "Kg3"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4q1k/1p4pp/1n2Q1pN/p3P3/Pbp1P3/8/1P2p1PP/5RK1%20w%20-%20-%200%2026",
+            "a": "Rxf8+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3rk2r/pp2bppp/2pQ4/2Bn4/6P1/3P4/PPP4P/1K2R1Nq%20w%20k%20-%204%2020",
+            "a": "Rxe7+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr4/ppp4p/6p1/5p2/1bPrP3/1P5P/P1B1KPP1/3R3R%20b%20-%20-%200%2019&color=black",
+            "a": "Rd2+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r6k/3nq1pp/3pBp2/2p1nP2/1p2R2Q/1P5P/r5P1/2B1R1K1%20w%20-%20-%207%2032",
+            "a": "Qxh7+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6pk/R1b4p/4pp2/7P/1B4P1/PP1r1P2/5K2%20b%20-%20-%200%2034&color=black",
+            "a": "Bb5+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/8/p2b1q2/1p1p4/1P1P3p/P4QP1/5PK1/4R3%20b%20-%20-%201%2038&color=black",
+            "a": "h3+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/3Q4/8/pn6/k6r/8/2K5%20b%20-%20-%203%2083&color=black",
+            "a": "Rc3+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k5r/p4R2/1p4pp/2p3P1/7P/5K2/P7/8%20w%20-%20-%200%2031",
+            "a": "h5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r5/1b4k1/2q1p1pr/2p5/1p1pR1QP/pP1P1PP1/P1P5/4R1K1%20w%20-%20-%201%2031",
+            "a": "Rxe6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/1P5p/3R3P/8/2k5/3p3r/3K4%20b%20-%20-%200%2049&color=black",
+            "a": "Rh1+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/ppp1kpp1/3b2np/3p3b/3P1B2/2P4P/PPBN1PP1/5K2%20w%20-%20-%201%2024",
+            "a": "Bxd6+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1bq1rk1/pp2bppp/2pp1n2/8/5P2/2N2N2/PBPPB1PP/R2Q1RK1%20b%20-%20-%206%2011&color=black",
+            "a": "Qb6+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r1kb2/5p1p/p3p3/1p2P3/1Pq2Q2/P1p3P1/2P4P/2KR1R2%20b%20-%20-%201%2028&color=black",
+            "a": "Bh6"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k5/2p1b3/1p1p3q/pP1Pp3/P1P1Np2/5Q2/4KPP1/6Rr%20w%20-%20-%201%2041",
+            "a": "Rxh1"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1bq1rk1/pp1nb2p/4ppp1/3pP2Q/2pP4/2P1P3/PPBN2PP/R1B2RK1%20w%20-%20-%200%2013",
+            "a": "Bxg6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r4k1/1p5p/p1q2rp1/P2p1p2/2p5/2Q5/2P3PP/1R1R3K%20w%20-%20-%205%2030",
+            "a": "Rb6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3r1k1/pp2qp1p/3b2p1/3p4/3P2n1/1PN4P/PBP1BPP1/R2QK2R%20b%20KQ%20-%200%2015&color=black",
+            "a": "Nxf2"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/p1PBPk2/8/4p3/8/1r5P/7K%20w%20-%20-%200%2040",
+            "a": "Be5+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2N1rk1/4Q1pp/p4n2/1p6/2n2q2/1BN5/PP3PbP/R3R1K1%20w%20-%20-%202%2018",
+            "a": "Qxf8+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r3/1pp4k/p2p1b1p/3PnPp1/1PP2pPq/5P1P/P4Q1K/1BR2R2%20b%20-%20-%204%2027&color=black",
+            "a": "Nxf3+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/4p3/p2qN1p1/1p1Pb2p/1Pp3b1/Q1N3P1/P4rBP/4R2K%20w%20-%20-%204%2031",
+            "a": "Ne4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k5/Rnp4r/4N3/4Pp1p/6q1/5bP1/2R2P1P/5K2%20w%20-%20-%203%2039",
+            "a": "Ra8+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r2r1k1/2p2pbp/ppq5/5p2/4p3/1PPnP1PP/PB2QPB1/R4RK1%20w%20-%20-%205%2023",
+            "a": "Qxd3"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1k1/5pp1/5n1p/P5r1/7q/1QP1p1PP/1P3P1K/R3RB2%20b%20-%20-%201%2027&color=black",
+            "a": "Ng4+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r4k1/4Pp1p/p5pb/2q5/p2n4/P2Q2B1/r2N1PPP/3KR2R%20w%20-%20-%201%2028",
+            "a": "e8=Q+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b1k2r/pppp1ppp/8/2bNq3/5n2/4BN2/PPP2KPP/R2Q1B1R%20b%20kq%20-%205%2012&color=black",
+            "a": "Qxd5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4kb2/1b1p3p/pQ2N3/4P1rq/3n3P/8/PPP3P1/R6K%20w%20-%20-%200%2026",
+            "a": "Qd8+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6pp/2p1kp2/P1Bpn3/1P6/7P/r4PP1/4R1K1%20w%20-%20-%203%2032",
+            "a": "f4"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=b4rk1/p4p2/2q4p/2p5/2PbQ1p1/PR3PP1/1P4KP/2B1R3%20b%20-%20-%201%2031&color=black",
+            "a": "gxf3+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/p1q1b1pp/2p5/4ppB1/4p1nP/2N5/PPP1QPP1/3R1RK1%20w%20-%20-%209%2016",
+            "a": "Qc4+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4r2/2q1Nb2/5Qpk/2n4p/pp5P/8/1PP2PP1/2KR3R%20w%20-%20-%200%2029",
+            "a": "Nf5+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr3r/ppp2p2/2n5/2Pp2p1/1P1P2n1/4PPPq/1P2N1NP/R1BQR1K1%20b%20-%20-%200%2018&color=black",
+            "a": "Qxh2+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/p4pp1/2Q5/3n1PPP/8/2P5/Pq1r4/4R1K1%20w%20-%20-%200%2037",
+            "a": "Re8+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4Rbk1/p4p1p/6p1/8/1PQ1N3/2P4P/2rq1PP1/6K1%20b%20-%20-%202%2031&color=black",
+            "a": "Rc1+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5bk1/4rp1p/p2Q2p1/1p1P4/8/2P1q3/PP4PP/1B3R1K%20b%20-%20-%200%2030&color=black",
+            "a": "Qf2"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1n1q2rk/p3b3/1pr1p1Rp/2p1P3/4N3/2PP1N1P/P3B2K/6R1%20w%20-%20-%200%2029",
+            "a": "Rxh6#"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r3k1/6pp/2b5/3R4/3P4/2R1P1BP/5P1K/1r6%20b%20-%20-%204%2034&color=black",
+            "a": "Rh1+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rnb4r/pp2bkpp/4p3/2p2P2/2q1n3/8/PPPP1RPP/RNBQ2K1%20w%20-%20-%201%2011",
+            "a": "Qh5+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r3rk1/ppp2pp1/8/8/1nP5/1P5R/PbBq1PPP/1Q4K1%20w%20-%20-%202%2021",
+            "a": "Bh7+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/pbpp2p1/1p4Qp/3Nn3/3q1N2/3B4/PP3PPP/5RK1%20w%20-%20-%206%2021",
+            "a": "Ne7+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6p1/p1k2pn1/b1p2P2/1pPpK3/1P1P3P/3B4/8%20w%20-%20-%200%2043",
+            "a": "fxg6"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/5p2/1p1p1k1p/p1pP3P/P1P1K1P1/1P6/8%20b%20-%20-%201%2051&color=black",
+            "a": "Kg4"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1k1/p1Q2pp1/1p5p/4P3/5r1q/5R2/P3B1PP/R5K1%20b%20-%20-%200%2022&color=black",
+            "a": "Rxf3"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6r1/2P5/p7/1p6/1P6/P1K3p1/3R3k/8%20b%20-%20-%201%2053&color=black",
+            "a": "g2"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5p2/6pk/3PQp2/8/4PP2/p5PK/4q3%20w%20-%20-%200%2040",
+            "a": "Qh8+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/1p4pp/p7/5N2/3Rrn2/6KP/PPR2PP1/8%20b%20-%20-%202%2034&color=black",
+            "a": "Ne2+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/8/2p1K3/p7/1k6/8/2B5%20b%20-%20-%202%2054&color=black",
+            "a": "a3"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4Bk1/pp3p2/7p/3N2p1/2BpPbbq/2P5/PPQ3P1/R3R1K1%20b%20-%20-%202%2027&color=black",
+            "a": "Qh2+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/pp3ppp/3p1q2/P1P1p3/2B5/2B2n2/2P2P1P/R2Q1R1K%20b%20-%20-%201%2016&color=black",
+            "a": "Qf4"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/2k5/8/1r2p1R1/6p1/3K4/1p4PP/1N6%20b%20-%20-%201%2041&color=black",
+            "a": "e4+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6qk/1p4p1/B1n2rQp/3p4/8/2P2P2/P6P/6RK%20w%20-%20-%201%2030",
+            "a": "Qxf6"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2KQ4/8/5b2/p1B5/P7/3k4/6p1/8%20b%20-%20-%200%2077&color=black",
+            "a": "Bxd8"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/1p2p1bp/3p2p1/p3p1N1/q3P3/2PPp2P/1P2Q1P1/5R1K%20w%20-%20-%200%2023",
+            "a": "Qg4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5P1P/1p4Kr/8/6P1/8/2p5/k7%20w%20-%20-%201%2063",
+            "a": "Kxh6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r5/kpQ2p2/r2R3p/4pb2/2N1q3/8/PP3P1P/K1R5%20w%20-%20-%204%2028",
+            "a": "Rxa6+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/pppb2p1/1bnp1q2/6N1/8/2NQ2B1/PP4PP/7K%20w%20-%20-%200%2020",
+            "a": "Qh7+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1k1/4rp1p/p2p2pP/1pqP2P1/3b1B2/PP6/2PQ1R2/1K3R2%20w%20-%20-%201%2030",
+            "a": "Bxd6"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r2rk1/5p1p/3p3P/p2Npbq1/1p2Q3/8/PPP5/1K1R3R%20w%20-%20-%202%2024",
+            "a": "Qxf5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r5/8/8/pNp1r2p/4NppP/1P1k4/2R2K2/8%20w%20-%20-%200%2043",
+            "a": "Rd2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/3r4/8/1k6/1P1pK3/P6R/8/8%20b%20-%20-%207%2050&color=black",
+            "a": "Kc4"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/7p/6p1/2Q5/8/2pK1PP1/1r5P/1k6%20b%20-%20-%2011%2058&color=black",
+            "a": "c2"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3r1k1/p4ppp/2p5/5q2/2RPn3/3Q1PB1/P5PP/4R1K1%20b%20-%20-%200%2027&color=black",
+            "a": "Nxg3"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rnbQ3r/pp2n1bp/2p2k2/1q2p1p1/3P4/5N2/P1P2PPP/R1B1K2R%20w%20KQ%20-%201%2014",
+            "a": "Bxg5+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4Rrk1/pp4pp/2p5/3p1b1P/5p2/2PB1P2/PP1K4/8%20w%20-%20-%202%2033",
+            "a": "Rxf8+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4Rr2/1ppk4/r4q2/3p4/2P4p/1P2Q3/5P1P/1K2R3%20w%20-%20-%202%2038",
+            "a": "Qe7+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/7k/5pp1/5P2/6KP/R5P1/p7/r7%20b%20-%20-%200%2060&color=black",
+            "a": "Kh6"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5p2/1k2p3/pp1rPp1p/5P1P/1P2K1P1/P2R4/8%20w%20-%20-%200%2033",
+            "a": "Rxd5"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/kp1R4/pr1p1P2/2q5/2P5/1P1pQ3/1P3P2/1K6%20b%20-%20-%201%2035&color=black",
+            "a": "d2"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r2k1/pp3pp1/7p/b3N3/2b3Q1/P2qP2P/3N1PP1/3RK2R%20b%20K%20-%201%2030&color=black",
+            "a": "Bxd2+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1k1/pp3ppp/1q4b1/1Nb5/2Q4B/2P4P/PP3PP1/R5K1%20b%20-%20-%202%2024&color=black",
+            "a": "Re4"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/3R2pp/4pp2/8/2p5/1p2N1P1/1P3PKP/2r5%20b%20-%20-%201%2031&color=black",
+            "a": "c3"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/1p1b1pbp/p1pp2p1/8/2PNq3/1P1QP2P/PB3PP1/R2R2K1%20b%20-%20-%201%2019&color=black",
+            "a": "Qxd3"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r1r2/p5k1/2p4R/1pp3K1/4p3/8/PPP5/7R%20w%20-%20-%200%2028",
+            "a": "Rg6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r2k1nr/3b1ppp/1q1Qp3/8/8/B3P1P1/5P1P/5RK1%20w%20k%20-%201%2025",
+            "a": "Qf8#"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b4r/pp1k2p1/2nb2qp/1B1p2B1/3p3Q/8/PPP2PPP/3RR1K1%20w%20-%20-%200%2018",
+            "a": "Qg4+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5b1r/1Q3p2/p3pk1p/1p1p2p1/3q4/1P3PPP/P3K1P1/2R2B1R%20b%20-%20-%201%2022&color=black",
+            "a": "Qb2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k3r1/pp3p2/2pb2r1/4B2p/2P1Pq2/1P3NP1/PQ3PK1/R6R%20b%20-%20-%200%2023&color=black",
+            "a": "Rxg3+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r2/2p2pbk/4p1p1/7p/1q3P1n/pP3Q2/P5P1/1BBR3K%20w%20-%20-%200%2029",
+            "a": "Qxh5+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r1qkb1r/pQpbpppp/2n2n2/1N6/2pP4/8/PP2PPPP/R1B1KBNR%20w%20KQk%20-%203%208",
+            "a": "Nxc7+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k1r3r/1Bq1b1p1/p2p4/2n1p1P1/4P3/4BP2/1PPQN3/2KR3R%20b%20-%20-%200%2024&color=black",
+            "a": "Nb3+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r3/p2k1ppp/bn6/3pr3/8/1P3P2/PB1N1KPP/R3R3%20b%20-%20-%203%2022&color=black",
+            "a": "Re2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5p2/1pk2p2/p2p1P1p/2PP1KpP/PP4P1/8/8%20b%20-%20-%203%2041&color=black",
+            "a": "a4"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/4k1r1/4pRp1/6Pp/3K1P1P/8/8/8%20w%20-%20-%201%2062",
+            "a": "Ke5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3k2r/1p1b1ppp/1B1bp3/nN1pq3/7P/2P5/P3BPP1/R2Q1RK1%20w%20kq%20-%201%2018",
+            "a": "f4"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b3Q1/5R2/p3p1p1/1p4kp/8/1KPB1n2/PP3q2/8%20w%20-%20-%200%2043",
+            "a": "Qxg6+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/3b2q1/pn4p1/1rp2p2/8/8/1P2Q1P1/1K2R2R%20w%20-%20-%204%2033",
+            "a": "Rh8+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4k3/p1pp3p/1p3K2/8/5P2/8/8/8%20w%20-%20-%205%2045",
+            "a": "Kg7"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/npp3p1/p3Rr1p/2b5/3N4/4B2P/PPP2PP1/R5K1%20b%20-%20-%200%2022&color=black",
+            "a": "Bxd4"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r3rk1/pP2qppp/1b3n2/1Q2p1B1/4P3/2NP1bP1/PP2NP1P/R4RK1%20b%20-%20-%202%2015&color=black",
+            "a": "Qe6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/1p6/k7/P7/1KR4r/8/8%20b%20-%20-%2027%2064&color=black",
+            "a": "Rxc3+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/4k3/4p3/p2pP3/2pPb3/2K1P2B/PP2r3/4N1R1%20b%20-%20-%204%2054&color=black",
+            "a": "Rxe3+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r7/2p2pk1/q4np1/3PQ3/4P3/5PPK/2R2N1P/8%20b%20-%20-%200%2034&color=black",
+            "a": "Qf1+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1bqk2r/pp1np1bp/2p5/3pNp2/3P1B2/4P3/PPP2PPP/R2QK2R%20w%20KQkq%20-%200%2011",
+            "a": "Qh5+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6QR/pr5p/6p1/5p1k/q6P/2P2PPK/8%20b%20-%20-%207%2039&color=black",
+            "a": "Qg3+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/1p3pp1/pB2q2p/2P1b3/1P6/6QP/4r1P1/3R3K%20w%20-%20-%205%2034",
+            "a": "Rd8+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/Q5b1/p3p3/1p1kqpN1/1P6/P7/4nPP1/5K2%20w%20-%20-%206%2047",
+            "a": "Qc5#"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p7/6P1/4p3/R5K1/1r2kp1P/8/8%20w%20-%20-%200%2048",
+            "a": "g7"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1p6/k7/1q5P/p7/6P1/4Q2K/8%20w%20-%20-%206%2078",
+            "a": "Qxb5+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6pp/3Bp2k/p2pP2P/P3p1PK/8/r4b2/5R2%20w%20-%20-%203%2038",
+            "a": "Rxf2"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b1n1k1/2q1prbp/p1p3p1/3p4/5P2/1BN5/PPP3PP/R1BQR1K1%20w%20-%20-%202%2015",
+            "a": "Nxd5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/1p2npp1/p5qp/8/P7/4BN1P/1b3PP1/3Q2K1%20w%20-%20-%200%2027",
+            "a": "Qd8+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r6/4pQbk/p3P3/2p5/2pq3P/8/PP1N4/2K2R2%20w%20-%20-%205%2033",
+            "a": "Rf5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r2k2r/p2n1ppp/q1Bp4/2p5/4P3/8/Pb2NPPP/1R1Q1K1R%20w%20k%20-%200%2016",
+            "a": "Qxd6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rkr/1QN5/4R3/p1P5/P2p4/1B1q3P/1P4P1/6K1%20b%20-%20-%200%2044&color=black",
+            "a": "Rf1+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=Q1b2rk1/2q2p1p/1p2pbp1/pP6/2P5/P2B1N2/5PPP/3R1RK1%20b%20-%20-%200%2020&color=black",
+            "a": "Bb7"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r2r1k1/1p3ppp/p3b3/q1p4Q/2P4P/1P1p1B2/PB1P2P1/1K1R4%20w%20-%20-%203%2024",
+            "a": "Qg5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1n2k2r/2R1b1p1/pr1p1p1p/3P2PP/p4q2/P6B/1PP2P2/1K2R3%20w%20k%20-%200%2027",
+            "a": "Rc8+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b5/1pp4p/p2p2pk/3Pr3/1PP5/4qNP1/PQ4P1/R4R1K%20b%20-%20-%202%2023&color=black",
+            "a": "Rh5+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rrk1/ppp3pp/3q1n2/3b4/3B1P2/1P1P2Q1/P4PBP/2R1R1K1%20b%20-%20-%200%2018&color=black",
+            "a": "Rxe1+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r7/1b3R2/p3k3/1ppq3B/3p1B2/P2Pb1QP/1PP3P1/7K%20b%20-%20-%202%2034&color=black",
+            "a": "Qxh5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1bq2k1/pp1nbr1p/2p1pn1p/2Pp1pN1/3P4/2N4P/PPQ1PP2/R3KBR1%20w%20Q%20-%200%2013",
+            "a": "Nxe6+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/ppq2ppp/3bp3/3p1nPP/3P4/2P1B3/PP2Q1P1/R4RK1%20b%20-%20-%200%2019&color=black",
+            "a": "Bh2+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r2rk1/6pp/3Q1q2/8/3N1B2/6P1/PP1K3P/5R2%20b%20-%20-%200%2024&color=black",
+            "a": "Qxd6"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/pp1qrppp/2nb1n2/6N1/3PNp2/2P5/PPQ3PP/R1B2RK1%20b%20-%20-%205%2015&color=black",
+            "a": "Nxe4"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b2k1r/ppp2ppp/1n1q4/1B1PQ1B1/8/2P5/P4PPP/R3K2R%20w%20KQ%20-%203%2016",
+            "a": "Qe8#"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r5/1Q3p1k/6pp/p4q2/8/2P1R1R1/P2r1PK1/8%20w%20-%20-%206%2039",
+            "a": "Ref3"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/ppp3pp/2nbrq2/4p3/3PRp2/2B2N1b/PPPQ1PrP/4RBK1%20w%20-%20-%200%2020",
+            "a": "Bxg2"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1k1/pp2n1p1/q5Np/2p5/3PQ3/2P3Pb/PP1B1K1P/4R3%20b%20-%20-%202%2023&color=black",
+            "a": "Qxg6"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3qr1k1/1b2bp1p/p3p1pQ/4P3/1p2N3/8/PPr2PPP/2R2RK1%20w%20-%20-%200%2023",
+            "a": "Nf6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r1k/2p3p1/7p/p4N2/Pb1B4/3n1b2/1PP4P/R5K1%20w%20-%20-%200%2024",
+            "a": "Bxg7+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r2k1/5p1p/pq4p1/1p4P1/3RP2P/5P2/PPr3B1/1K2Q2R%20b%20-%20-%200%2027&color=black",
+            "a": "Qxd4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rn3bnr/pp2pk1p/2p3p1/1q3b1B/1P1PN3/2P2QR1/P4P1P/R1B1K3%20w%20Q%20-%201%2016",
+            "a": "c4"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5q1k/6Pp/p2pP3/2p1bp2/2P1Q1RP/P5PK/8%20b%20-%20-%200%2044&color=black",
+            "a": "Bxg6"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/p4p1p/4bp2/1p2p3/3r4/KP1nQPN1/P7/5B2%20b%20-%20-%201%2033&color=black",
+            "a": "Ra4+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r1k2/1b3ppQ/p2q3p/1p2b3/8/P2p2P1/1P3P1P/1B1RR1K1%20b%20-%20-%201%2031&color=black",
+            "a": "Qd5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r5N/1p2R1bp/p2k4/2pN3B/2Pn1P2/8/b5PP/6K1%20w%20-%20-%202%2026",
+            "a": "Nf7+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/4Q1pk/ppp3p1/3pN3/3Pqn2/2P4P/PP1K1PP1/8%20b%20-%20-%204%2029&color=black",
+            "a": "Qe2+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1P6/8/7p/3P4/3k1p1P/4p3/4K3%20b%20-%20-%201%2049&color=black",
+            "a": "Ke3"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1k1/4Pp2/pQ3b1p/6pP/q1p5/P4P2/5BPK/8%20w%20-%20-%203%2032",
+            "a": "Qxf6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4k3/R3P3/1p3Kpp/2p5/2P5/4r3/4p1P1/8%20w%20-%20-%203%2038",
+            "a": "Ra8+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/R5p1/p6p/4PK2/4P2P/1p6/r5P1/8%20b%20-%20-%201%2037&color=black",
+            "a": "Ra5"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r3/pp3kp1/5q2/3P3R/2Q5/2b3PP/P4P1K/3R4%20b%20-%20-%202%2034&color=black",
+            "a": "Qxf2+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2r3k/1pp3q1/2n1Q3/p2n4/8/P3PP2/1P1BB3/1R2K3%20w%20-%20-%200%2031",
+            "a": "Kf2"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k6/1p4p1/1pp1p3/8/5q2/Q4P1p/PPP3r1/1K1R4%20w%20-%20-%200%2032",
+            "a": "Rd8+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/R4pp1/1p5p/3Q4/1PPp2q1/3P2P1/5P2/4K3%20b%20-%20-%200%2034&color=black",
+            "a": "Re8+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p7/8/1PP1p3/4K3/2b3k1/8/8%20w%20-%20-%200%2049",
+            "a": "b6"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/4k3/1p4pp/p1pp4/3P1PP1/2PK4/P6P/8%20w%20-%20-%200%2032",
+            "a": "c4"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/4R3/p4kpp/3B4/5q2/8/5P1P/6K1%20w%20-%20-%206%2041",
+            "a": "Rf7+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p7/4p3/4Pk1p/1P1pNP2/6PK/8/8%20b%20-%20-%200%2044&color=black",
+            "a": "Kxe4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b1k2r/ppp3pp/2n2p2/2bBp3/2Pq4/3P1QP1/P2B1P1P/1R2K1NR%20w%20Kkq%20-%200%2013",
+            "a": "Ne2"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=Q7/4ppbk/6pp/5q2/P3n3/4PNBP/1r3PP1/3R2K1%20b%20-%20-%200%2031&color=black",
+            "a": "Nxg3"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r3k1/2r3p1/p3pqQ1/1p1p4/nP1P4/2P4R/P4PPP/2R3K1%20w%20-%20-%201%2031",
+            "a": "Qh7+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1k1/pp2rp1p/5Rp1/1q6/P7/1P4Q1/5PPP/5RK1%20b%20-%20-%200%2022&color=black",
+            "a": "Qxf1+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k1r4/1b1rb2p/p5pP/N4pP1/4p3/2R1Q3/PP1qN3/1KR5%20w%20-%20-%201%2032",
+            "a": "Qb6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r5/4kp2/p3p2q/1p3nNP/3rQP2/P1N5/1P3K2/6R1%20w%20-%20-%200%2035",
+            "a": "Qb7+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6r1/1pp2rpk/p5R1/3qpP1n/8/2P3Q1/PP3P1K/6R1%20w%20-%20-%200%2036",
+            "a": "Rh6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b1k1nr/pppp1ppp/2n5/4P1N1/5B2/2b5/Pq1QPPPP/RN2KB1R%20w%20KQkq%20-%200%208",
+            "a": "Qxc3"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1rbq1k1r/p1p1n1pp/3bPpn1/3N4/3P4/2P2Q2/PP3PPP/R1B1R1K1%20w%20-%20-%203%2019",
+            "a": "Qxf6+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/2qb2pp/p2bp3/1p2nN2/1P2Q3/P1n3N1/2B2PPP/R1B2RK1%20w%20-%20-%200%2022",
+            "a": "Nh6+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r3k/1Qp3p1/p4q1p/8/3N4/8/PPP2PPP/2K1R3%20b%20-%20-%200%2023&color=black",
+            "a": "Qxd4"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r2rk1/pp3p2/4p3/3p2q1/3P4/P1N4Q/1PP5/1R4K1%20w%20-%20-%200%2031",
+            "a": "Kh1"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r2k1/2B1P1pp/1Q3p2/2b5/P3n3/5N2/2q2PPP/5RK1%20b%20-%20-%200%2032&color=black",
+            "a": "Qxf2+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/3p1p1p/1p1k2p1/1P4PP/2PK2P1/8/8%20w%20-%20-%202%2036",
+            "a": "h5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r7/5P1p/4K3/2k5/1p2p3/2p1P2P/4R3/8%20w%20-%20-%201%2051",
+            "a": "Rg2"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=Q7/5qk1/p2p4/b1p1pr2/P7/6P1/4KP1R/8%20w%20-%20-%204%2039",
+            "a": "Qh8+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr2r1/Qp3p1p/2p5/5q2/P5p1/8/1PP2P1P/3R1R1K%20b%20-%20-%200%2023&color=black",
+            "a": "Rxd1"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1Q6/3kr3/2q4p/2p1pp1P/2Bb4/1P6/P6K/4R3%20w%20-%20-%205%2044",
+            "a": "Bb5"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/p3prb1/4BnP1/3p4/q1nP1B2/1p2PPN1/PRp4R/K3Q3%20b%20-%20-%200%2026&color=black",
+            "a": "Nxb2"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1qr3k/pp3pb1/1np1p3/8/3P3P/2N2PR1/PP1Q2P1/2KR4%20w%20-%20-%200%2023",
+            "a": "Qg5"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k5/ppp3pp/4r3/4nB2/2q2P2/2P1Q3/P5R1/RN1rN1K1%20b%20-%20-%200%2023&color=black",
+            "a": "Rxe1+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1p4k1/p2p1N2/P1pPp3/2P1Pbp1/1P6/6K1/8%20w%20-%20-%201%2043",
+            "a": "Ne8+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k3rr/ppp2p2/3B1p2/2pP1q1p/2P5/2N2B1b/PP1Q1PP1/R3R1K1%20b%20-%20-%200%2019&color=black",
+            "a": "Qxf3"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7k/5Bp1/3p3p/8/4P1n1/r2r4/6PP/1R1R2K1%20w%20-%20-%200%2037",
+            "a": "Rxd3"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7Q/4kp2/3q4/8/5r2/8/7P/6RK%20w%20-%20-%200%2049",
+            "a": "Re1+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/7k/5K2/4P3/6r1/R6p/8/8%20b%20-%20-%201%2051&color=black",
+            "a": "Rg6+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/r5p1/4pk2/ppQb2N1/2pP2pP/2P5/PP1q1rP1/1K2R2R%20w%20-%20-%209%2030",
+            "a": "Rxe6+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2R2rk1/5pp1/p5np/b2p4/3P4/Pq1BPN2/1P3QPP/3R2K1%20b%20-%20-%200%2026&color=black",
+            "a": "Qxd1+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p7/6p1/P1KRrk1p/1P6/8/8/8%20w%20-%20-%203%2053",
+            "a": "Rxe5+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3k3r/ppNb4/3B1p2/6pp/2B1P1n1/3P2KP/PPn3P1/7R%20b%20-%20-%200%2019&color=black",
+            "a": "h4+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3r3/1kpR1qpp/p1n2p2/Qp2P2P/1N6/4Pb2/PPP3P1/2K2R2%20w%20-%20-%201%2023",
+            "a": "Qxc7#"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5pp1/p4n1p/1p2k3/8/1PK1P2P/P1B2P2/8%20b%20-%20-%200%2031&color=black",
+            "a": "Ne4+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1br2k1/1p2ppb1/p4np1/2p1p3/4P3/P2qBN1P/B5P1/2RQ1RK1%20w%20-%20-%200%2018",
+            "a": "Bxf7+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/1bppn3/pp2p1PR/8/3nP3/1Pq5/P1P5/2K4Q%20w%20-%20-%202%2028",
+            "a": "Rh8+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr2r1/1bp4n/1pq1p2p/p1P5/1P3B2/P6P/5RP1/RB3QK1%20b%20-%20-%204%2026&color=black",
+            "a": "Rd1"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r1rk1/p1p2pbp/1p4p1/7n/4P2q/1P2BP2/P1B3QP/3R1R1K%20w%20-%20-%207%2024",
+            "a": "Bg5"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=Q7/8/3B4/2p5/1rkn4/K7/8/8%20b%20-%20-%202%2054&color=black",
+            "a": "Nb5+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/pp4p1/7p/1PPp4/P2b2rq/5QN1/6PP/4R2K%20b%20-%20-%200%2030&color=black",
+            "a": "Qxh2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3k1nr/p4p1p/b1n5/3pPN2/1ppP2p1/2P1q1P1/PPK1B1P1/RN1Q1R2%20b%20kq%20-%203%2018&color=black",
+            "a": "b3+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4Q3/6bk/6pp/pp6/8/P2qBP1P/1P6/K1R5%20b%20-%20-%200%2037&color=black",
+            "a": "Qxa3+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qk2r/pp3ppp/5n2/2b1n3/6B1/8/PPPP1PPP/RNBQR1K1%20b%20kq%20-%202%209&color=black",
+            "a": "Bxf2+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr3r/ppp2ppp/2nbp3/6B1/P2P2n1/2N2N1q/1PP2P2/R2QRBK1%20b%20-%20-%203%2014&color=black",
+            "a": "Bh2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r2k1/1B3ppp/pPP1p3/P3P3/5P2/6Q1/3rp1PP/2R4K%20b%20-%20-%200%2038&color=black",
+            "a": "Rd1+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rk2/pp3pRp/3p1P2/2pP4/2P4r/6Q1/PP3P1P/3q3K%20w%20-%20-%203%2029",
+            "a": "Kg2"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/4Kpp1/7p/3N2kP/8/8/8%20b%20-%20-%203%2062&color=black",
+            "a": "g5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3k2r/pR3ppp/4pb2/3N4/8/8/P4PPP/4R1K1%20w%20kq%20-%201%2021",
+            "a": "Nc7+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3rk3/3N2R1/4P1pr/3pP3/2p5/8/PP4p1/2K5%20w%20-%20-%200%2030",
+            "a": "Nf6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/2B2p1p/P4Pp1/3p2P1/1b1Pb1kP/8/4K3%20w%20-%20-%201%2051",
+            "a": "a6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rnb2r2/ppp2B1k/3p3p/2b4Q/4P3/3P4/Pq1NKPPP/8%20w%20-%20-%200%2015",
+            "a": "Qg6+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/1k6/8/p7/1p1N2P1/5KP1/r3R3%20b%20-%20-%201%2055&color=black",
+            "a": "Rxe1"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/3B4/1p6/p4p2/P2kp3/1P3pK1/8/8%20b%20-%20-%203%2071&color=black",
+            "a": "Ke3"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/5pp1/1p2p2p/p2qP3/1r3B2/Q7/5PPP/1R4K1%20b%20-%20-%201%2032&color=black",
+            "a": "Qe4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/P1R5/4kp2/1BP3p1/3b2P1/6K1/r7/8%20b%20-%20-%200%2064&color=black",
+            "a": "Be5+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6p1/n3pp1p/1pk5/4PP2/1P1K3P/2N3P1/8%20b%20-%20-%200%2039&color=black",
+            "a": "Nb4+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/pp1r1p1p/3Pq1p1/2R5/2Q5/7P/5PP1/6K1%20w%20-%20-%201%2031",
+            "a": "Rc8+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qk2r/3pppb1/p4npp/1p6/3p3B/3P1Q2/PPP2PPP/R3RBK1%20w%20kq%20-%202%2015",
+            "a": "Bxf6"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r1r1kb/1b5p/2p1p1pB/1p3pN1/p3RQ2/P6P/q1P2PP1/4R1K1%20w%20-%20-%200%2027",
+            "a": "Rxe6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b1r1k1/pp1p1Npp/2p2q2/2bB3Q/8/3P4/PPP2PPP/R1B2RK1%20b%20-%20-%200%2012&color=black",
+            "a": "Qxf2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/pp1p1k1p/2pP2p1/2P3P1/1P2K2P/P7/8%20b%20-%20-%201%2045&color=black",
+            "a": "Ke5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4B1k1/2p2p1p/1p1p1P1K/p2P2P1/2P5/1n6/8/8%20w%20-%20-%200%2040",
+            "a": "Bxf7+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3k2r/ppnq2pp/2pb1p2/3p1n2/3P4/P2Q1N2/1PPBNPPP/R3R1K1%20w%20kq%20-%203%2014",
+            "a": "Ng3+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr1bnr/Bpq2ppp/2p1p3/3pP1N1/8/1P1Q4/P1P2PPP/RN2K2R%20b%20KQ%20-%200%2011&color=black",
+            "a": "Qxe5+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=Q7/6pk/7p/6PP/8/1q6/p4PK1/8%20w%20-%20-%200%2040",
+            "a": "g6#"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r2k1/p1Q1qp1p/6p1/P7/3r4/7P/n4PP1/1RR2BK1%20b%20-%20-%203%2031&color=black",
+            "a": "R4d7"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r2r1/Qpqkbp2/p1p1p2p/3nP3/8/2P1NP1N/PP6/1K1R3R%20w%20-%20-%204%2026",
+            "a": "c4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/8/5Ppp/3p4/1p2nN2/4r2P/6P1/2R4K%20w%20-%20-%200%2038",
+            "a": "Rc8+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2rqr1k1/B2b1ppp/5n2/8/7Q/3B4/P1P2PPP/R3R1K1%20b%20-%20-%204%2022&color=black",
+            "a": "Rxe1+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b1r1k1/pp1n1pb1/3p1q1p/2pP2p1/2P1B2P/4PNB1/PPQ2PP1/2KR3R%20b%20-%20-%200%2015&color=black",
+            "a": "Rxe4"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b2rk1/5p1p/p3pq2/1p1p4/7n/1P5P/P1P1QPB1/1K1R2R1%20w%20-%20-%200%2022",
+            "a": "Bxd5+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1bqr3/ppp1k1pp/1b3n2/nP1pp1NP/4P3/2PP4/P4PP1/RNBQK2R%20w%20KQ%20-%200%2012",
+            "a": "Ba3+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b2rk1/ppp4p/2n1pq2/3n2NQ/2BP3P/8/PP3PP1/R1B1R1K1%20b%20-%20-%202%2015&color=black",
+            "a": "Qxf2+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6k1/8/3Bq3/2p5/2P2Rp1/1P4P1/5R1K%20b%20-%20-%200%2043&color=black",
+            "a": "Qh5+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r3k2/5p1p/2p1pp2/P2n4/r3N3/P4PK1/2R2P1P/2R5%20w%20-%20-%2010%2030",
+            "a": "Nc5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/p5k1/6r1/1q1pp2R/4P3/4QK2/5P2/8%20w%20-%20-%200%2039",
+            "a": "Qxa7+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r4/ppN1kppp/5n2/8/1n3Nb1/4P3/1B3PPP/2R1KB1R%20b%20K%20-%201%2018&color=black",
+            "a": "Nc2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/3k1r2/p6P/3p1PQ1/6P1/1r2RK2/5R2/5q2%20b%20-%20-%206%2053&color=black",
+            "a": "Qh3+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/7p/1p2k3/2p4P/P1P1K3/8/8%20w%20-%20-%202%2054",
+            "a": "h5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7k/p5pp/2r2q2/2p4Q/8/8/P5PP/3r1R1K%20w%20-%20-%200%2030",
+            "a": "Qe8+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/8/P1K1p3/5k1p/5b2/5P2/5B2%20b%20-%20-%204%2046&color=black",
+            "a": "Ba8"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4K3/4P3/2k5/p7/Pp6/2pR4/2P2r2/8%20b%20-%20-%208%2049&color=black",
+            "a": "Rxc2"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5Q2/8/1bk1p1p1/5p2/3p4/5qPK/7P/8%20w%20-%20-%202%2052",
+            "a": "Qa8+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/R7/6K1/7P/8/8/6p1/7r%20w%20-%20-%200%2059",
+            "a": "Ra8#"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6pp/5p2/k1p5/3pPP2/P5PP/3Kb3/8%20w%20-%20-%200%2031",
+            "a": "Kxe2"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k5/2p2B2/Kp3Q1p/4p3/1B2P3/3r1Pr1/P1q5/R2R4%20b%20-%20-%200%2030&color=black",
+            "a": "Qa4+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k1R3r/1p6/2b5/2p2p2/1bP5/1P3N1p/RP6/1KB5%20b%20-%20-%200%2029&color=black",
+            "a": "Rxd8"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4r2/2p2qk1/2Pp2p1/p2PP1Q1/8/P5Nb/3R1npP/4R1K1%20w%20-%20-%200%2033",
+            "a": "Nh5+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2b5/6k1/ppB1P1p1/5nQp/1qP2p2/1P6/P5PP/3R2K1%20b%20-%20-%200%2031&color=black",
+            "a": "Qc5+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r3k/p3Q1pp/8/8/2p2q1n/2B2p2/PP3P1P/1K4NN%20b%20-%20-%200%2027&color=black",
+            "a": "Rd1+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rnbqk2r/ppp3pp/5n2/3P1p2/1b2pB2/2N5/PP3PPP/R2QKBNR%20w%20KQkq%20-%201%208",
+            "a": "Qa4+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/2rR1pp1/5b1p/1P5P/PKB5/4r3/8/3R4%20b%20-%20-%201%2036&color=black",
+            "a": "Bc3+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2q1k2/pppb2pQ/4p2r/5R1P/2PP4/2KB1R2/PP3PP1/8%20b%20-%20-%200%2026&color=black",
+            "a": "exf5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/pR1Q1ppp/4N3/3p1n2/8/7P/q4rP1/4R1K1%20w%20-%20-%200%2029",
+            "a": "Qxf7+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rn3rk1/4pp1p/3p2pB/2q4P/3QP1b1/Pp6/1P2B3/1K1R2NR%20b%20-%20-%200%2020&color=black",
+            "a": "Qc2+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1bq2k1/3p1N2/p1p1pbn1/2p2p2/4PP1Q/2NP4/PPP4P/R1B2RK1%20b%20-%20-%200%2015&color=black",
+            "a": "Bd4+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3k2r/pB2qppp/2pQ4/4n3/1B6/4P1Pb/PPP2P1P/R3K2R%20b%20KQkq%20-%200%2015&color=black",
+            "a": "Nf3+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3qr1k1/1b3pp1/p2p1b2/1p6/1P2PB2/P1pP1PQ1/B5PP/4R1K1%20b%20-%20-%201%2021&color=black",
+            "a": "Bh4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r2k1/6p1/p1p5/4Bbqp/2P2p2/1P2bP2/P5PQ/3R1R1K%20b%20-%20-%202%2030&color=black",
+            "a": "Rxd1"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3k2r/pp1n1p2/4p1p1/3pPnPp/2pP1Q1P/2B2N2/qPPK1P2/3R3R%20w%20kq%20-%200%2020",
+            "a": "Ra1"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b2rk1/1p2b1p1/pq2p1P1/3pn3/1P1P4/P1N1P3/6P1/R2QK2R%20w%20KQ%20-%200%2018",
+            "a": "Rh8+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr3r/1bpp1ppp/1b4q1/p3Pn2/PpN5/1BPP1P2/3BQ1PP/R4R1K%20b%20-%20-%200%2018&color=black",
+            "a": "Ng3+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/1p1r1p2/p1p4p/2Pn2p1/3R4/1P4P1/PN3PKP/8%20b%20-%20-%201%2029&color=black",
+            "a": "Nf4+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b2bnr/ppQp3p/2n2q1k/6pP/2B1P3/2PP4/PP3PP1/RNB1K2R%20b%20KQ%20-%200%2011&color=black",
+            "a": "Bd6"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r1q1rk1/1b2bppp/p7/1p2pP2/3pp1Q1/P2P2P1/BPP4P/R1B2RK1%20w%20-%20-%200%2017",
+            "a": "Bh6"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r2rk1/ppq2p2/4p1p1/n2p4/3Bn1Q1/2P4P/PP3P2/R3KBR1%20w%20Q%20-%202%2021",
+            "a": "Qh5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r4/5kpp/P2b2p1/1B6/4R3/1P6/3n1PKP/8%20w%20-%20-%200%2031",
+            "a": "Re8"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4rr2/3q1k2/pb1p1pp1/1p6/1PPp3Q/P7/8/5R1K%20w%20-%20-%200%2037",
+            "a": "Qh7+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/2p2pq1/1p1pnR1p/1P2P1pQ/2P5/3PB1PP/r3n1BK/8%20b%20-%20-%200%2038&color=black",
+            "a": "N2f4"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/2p2kp1/ppn4p/1P1pq2P/P5P1/2P3K1/4QB2%20w%20-%20-%200%2050",
+            "a": "Qxe4"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6bp/6p1/Nkp5/1p6/1PB3P1/P4P1P/6K1%20b%20-%20-%200%2028&color=black",
+            "a": "bxc3"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/5p2/4p2p/3pPP2/1R5P/2r5/2B5/2b2K2%20w%20-%20-%201%2047",
+            "a": "Rb8+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r3/pprn1pk1/q4p2/8/3P2P1/4NQ2/PP3PP1/5RK1%20w%20-%20-%200%2024",
+            "a": "Nf5+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/6Bp/3q2pP/5p2/p2PnQ2/2r5/P5PK/4R3%20w%20-%20-%202%2040",
+            "a": "Rxe4"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/5p1p/1qp2p2/p2pb2Q/P7/1r5P/4R1P1/4RN1K%20w%20-%20-%200%2033",
+            "a": "Rxe5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3r1k1/ppq1pp2/2p3nb/2Pp3p/3Pn2N/1P2P2P/PB3QP1/R4RK1%20w%20-%20-%200%2024",
+            "a": "Qxf7+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=rnbqk2r/pppp2Pp/8/2b5/2B5/5p2/PPPP2PP/RNBQK2R%20b%20KQkq%20-%200%207&color=black",
+            "a": "Qh4+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1q3k2/8/3pRP2/p1pP1Ppp/1rP5/4Q3/7P/6K1%20w%20-%20-%200%2040",
+            "a": "Qxg5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k4r/ppp3r1/5B2/4b3/1P2N1P1/P2P1p2/2P1n2P/5R1K%20w%20-%20-%200%2032",
+            "a": "Bxe5"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r2r3/4BRbk/p2pP1p1/q1p4p/4P2P/2NQ4/p5P1/K4R2%20b%20-%20-%200%2027&color=black",
+            "a": "Qa3"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/7p/4p1p1/3kN1P1/r4PN1/4K3/8%20w%20-%20-%202%2059",
+            "a": "Nf5+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k1r1b1r/n1p3p1/p3n1p1/1p2P3/P2B2Pq/2P2Q1P/1PB1K3/R6R%20w%20-%20-%201%2025",
+            "a": "Bxa7+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4R3/1p6/1Pp4K/5k2/P4r2/8/8/8%20w%20-%20-%200%2051",
+            "a": "Rf8+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r2k3/4bpp1/p1pp4/q4bP1/8/1PPB4/P2Q4/1NK4R%20w%20-%20-%200%2023",
+            "a": "Rh8+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r1k1/pp3p2/3p1Ppq/5P2/8/6RP/PP2rQ2/6RK%20w%20-%20-%203%2040",
+            "a": "Rxg6+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r6/p1p2n2/1pk2Pp1/6r1/8/2N5/PPP4K/3R2R1%20b%20-%20-%203%2024&color=black",
+            "a": "Rh8#"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3R4/p4p1p/2p3k1/6p1/1P1B4/r3PP2/2r3PP/5K2%20w%20-%20-%207%2032",
+            "a": "Rd6+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1R1r1bk1/5p1p/4p1p1/2p5/2Q2B2/2P2P1P/P4PK1/4q3%20b%20-%20-%2010%2029&color=black",
+            "a": "Rd1"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7R/8/8/6p1/2p1p1k1/2Pb3p/P4K2/8%20b%20-%20-%205%2071&color=black",
+            "a": "e3+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/1p6/8/p1k5/Pr3R2/6P1/5P1K/8%20b%20-%20-%200%2044&color=black",
+            "a": "Rxf4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1rb2rk1/6bp/1qppp1p1/2n3P1/4PP2/1pN2B2/P1PB3Q/2KR3R%20w%20-%20-%200%2020",
+            "a": "Qxh7+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/4p1bp/3p2p1/q1pP1P2/4QP2/4B3/1pK4P/1B1R3R%20b%20-%20-%201%2022&color=black",
+            "a": "Qc3#"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5nk1/q5b1/2Bp2bp/3Pp1p1/8/1P3Q2/3N1RPP/6K1%20b%20-%20-%202%2029&color=black",
+            "a": "e4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/4p2p/3k2p1/pK6/1p6/1P4PP/P1P5/8%20b%20-%20-%201%2037&color=black",
+            "a": "Kd5"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5Nk1/2q3p1/2p1Pp2/1p3P2/1PpP4/2P1n2Q/3b4/5R1K%20b%20-%20-%202%2032&color=black",
+            "a": "Nxf1"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r3nr/p5pp/b3k3/3p1p2/4p3/BP3P2/P1PN2PP/2KR3R%20w%20-%20-%200%2019",
+            "a": "fxe4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6k1/p4pp1/1nrqp3/1QN5/3Pp2p/2N5/P7/K5R1%20w%20-%20-%200%2032",
+            "a": "N5xe4"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7k/p5p1/2P5/4p2p/6n1/PqBQ2P1/7P/6K1%20b%20-%20-%200%2032&color=black",
+            "a": "Qb6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/1b4b1/4p2p/ppp3pQ/8/P5BP/1Pq3PN/5R1K%20w%20-%20-%200%2025",
+            "a": "Qf7+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r2k1/3B1pp1/p7/Pp3Q1p/5n2/q6P/3K4/3RR3%20b%20-%20-%205%2038&color=black",
+            "a": "Qb2+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k6/1Pp2qp1/p1R1r3/6pp/Q6P/1P6/P4PBK/3r4%20w%20-%20-%206%2035",
+            "a": "Qc4"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/2p1pp2/pp4p1/1q5r/5P2/2QP2R1/PP6/1K4R1%20w%20-%20-%201%2033",
+            "a": "Rxg6+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/p1p2ppp/6r1/3q1n2/5B2/Q1P3P1/P4P1P/3R1RK1%20b%20-%20-%202%2020&color=black",
+            "a": "Qf3"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b2rk1/ppp2p1p/6p1/1N1P2q1/1PPbBp2/6P1/1P2Q1P1/R1B2R1K%20b%20-%20-%200%2018&color=black",
+            "a": "Qh6+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3k2r/1p3ppp/p7/3npbB1/1n6/2N5/PP2PPPP/R2K1B1R%20w%20kq%20-%200%2013",
+            "a": "e4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r1k/6p1/2QBB2p/3Pb1q1/4p3/4P1P1/1P5P/2R3K1%20b%20-%20-%200%2035&color=black",
+            "a": "Qxe3+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r2/7k/pq1p2p1/2pPb1Pp/7P/1P1Q4/P2B4/1K3R2%20b%20-%20-%201%2030&color=black",
+            "a": "c4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1rbk3r/3qp1b1/p3P1Bp/1N4p1/8/P5P1/1P2Q1P1/R3K2R%20b%20KQ%20-%200%2023&color=black",
+            "a": "Qxb5"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b2rk1/1p3pp1/p1pp2np/2b1p2Q/4P2q/PB1P3P/1PP2PPN/R1B2RK1%20w%20-%20-%204%2014",
+            "a": "Qxg6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r2rk1/1b3ppp/p2pp3/bp1n4/3PQ1Nq/PP1B4/1BP2PPP/R4RK1%20w%20-%20-%204%2018",
+            "a": "Nf6+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r4k1/2q3p1/p3R2p/b2p4/2pP3N/6P1/1rQ1RPP1/6K1%20w%20-%20-%200%2032",
+            "a": "Re8+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2qr1k1/pb2bppp/2p2n2/3pN1B1/2P5/4P3/PPQ1BPPP/3RK2R%20b%20K%20-%204%2013&color=black",
+            "a": "Bb4+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/5pp1/3p3p/4p3/4N3/PR6/1p3PPP/6K1%20b%20-%20-%201%2033&color=black",
+            "a": "Rc8"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r7/pp1Qp1B1/3b4/3k4/4q3/8/PP3PP1/5K2%20w%20-%20-%205%2035",
+            "a": "Qxb7+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b5/7p/pp4pk/2qQ1n1r/8/PBN2P1P/1PP3P1/3RR2K%20b%20-%20-%200%2024&color=black",
+            "a": "Ng3+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/1p6/1P3kp1/3K3p/5P1P/5P2/8%20b%20-%20-%201%2034&color=black",
+            "a": "Kf4"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1q5r/p3kpp1/2Q1p2p/3pP2P/2n3P1/2N2P2/PrP1N3/K3R2R%20b%20-%20-%201%2026&color=black",
+            "a": "Rxa2+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/3p3k/B3b1pp/2P1P3/5K1P/8/8%20w%20-%20-%203%2051",
+            "a": "Bc7"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=Qn1qk2r/p4ppp/2p5/2bn4/4pPb1/2N4P/PPPP2P1/R1B1KBNR%20b%20KQk%20-%200%209&color=black",
+            "a": "Qh4+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5k2/7q/8/1p3Q2/6P1/8/6K1/8%20b%20-%20-%202%2062&color=black",
+            "a": "Qxf5"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k4r/ppp1q1p1/3b2p1/3Q4/1P2NPn1/P1P5/6P1/R1B2RKN%20b%20-%20-%200%2021&color=black",
+            "a": "Rxh1+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/6k1/6P1/KP6/P7/8/2b5%20w%20-%20-%201%2050",
+            "a": "b5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=kr6/1pR4p/p4R2/n7/P3p3/3rB3/6PP/6K1%20w%20-%20-%201%2039",
+            "a": "Rxa6+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5rk1/R5p1/5q1p/8/3p2Q1/1P6/P3rPPP/5RK1%20b%20-%20-%203%2038&color=black",
+            "a": "Qxf2+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5kr/5N1p/p1q3p1/3np3/4R3/b1P5/1P4PP/2B2R1K%20w%20-%20-%200%2030",
+            "a": "Nh6+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k5r/1p1Q4/pP1p4/P1pP3p/3qP3/2N3p1/2P5/R1K1R3%20b%20-%20-%204%2035&color=black",
+            "a": "Qxc3"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r5k1/pbR3pp/1q1r4/3pN3/3Q4/1P3BP1/5P1P/6K1%20w%20-%20-%203%2026",
+            "a": "Qxb6"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/6p1/3nkp1p/7P/1B2KPP1/8/8%20w%20-%20-%201%2055",
+            "a": "Bxd5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=6nr/p4p1p/k1p5/1p6/1QN5/2P1P3/4KPqP/8%20w%20-%20-%200%2027",
+            "a": "Qa5+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2k3r1/1p1q3p/1p2p3/1NbpQr2/P1p2P2/6P1/6KP/R4R2%20w%20-%20-%201%2032",
+            "a": "Na7+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2kr4/2pR4/2P1K1P1/8/8/4n3/p7/8%20w%20-%20-%200%2050",
+            "a": "Rxd8+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3r3/2q1b1pk/p3P1Np/5Qp1/8/8/PPpp1P2/2R1R1K1%20w%20-%20-%200%2031",
+            "a": "Nf8+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3rk2r/pQ3pp1/4p3/4P2p/q2n3P/P3B3/5PP1/R4RK1%20b%20k%20-%200%2020&color=black",
+            "a": "Ne2+"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1bq1rk1/ppp3p1/7p/4Pp1Q/2P1p3/P3P1P1/1PnNKPP1/3R1B1R%20b%20-%20-%200%2015&color=black",
+            "a": "Qd3#"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r5/1b3pk1/2qBp1pp/4P3/1P3P2/P7/3Q2PP/2R3K1%20b%20-%20-%203%2043&color=black",
+            "a": "Qxc1+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=4r2k/2q4r/2p4Q/p5P1/1p1Pp1P1/2P1N2P/PP6/4bRK1%20w%20-%20-%201%2029",
+            "a": "Rf8+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r4r/6b1/8/1b1pPQ2/2p2P1k/4P3/PP1B3q/2K5%20w%20-%20-%208%2034",
+            "a": "Be1+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7k/pb1qn1rn/1p2R2Q/2p2p2/2Pp4/3B4/PP3P1P/4RK2%20w%20-%20-%202%2028",
+            "a": "Qxg7+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/5k2/7p/p1P1bPpP/Pp2P3/1P1p1K2/5B2/8%20b%20-%20-%202%2047&color=black",
+            "a": "g4+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/R7/P7/5pk1/4r1p1/3K2P1/8/8%20w%20-%20-%204%2052",
+            "a": "Ra8"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7k/8/2r2PRp/1p6/4K3/8/8/8%20w%20-%20-%201%2052",
+            "a": "Rxh6+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r3k1/pp4p1/4pq1p/3p1r2/2n2P2/6P1/PP1NQ2P/R4R1K%20w%20-%20-%204%2021",
+            "a": "g4"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r4/R7/2p5/p1P2p2/1p4k1/nP2K3/P3NP2/8%20b%20-%20-%204%2041&color=black",
+            "a": "Nc2#"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k1r3r/1b1p1p2/p3p3/1p2PB2/3n2Np/P1Q5/1P3PPP/4NRK1%20b%20-%20-%200%2026&color=black",
+            "a": "Ne2+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4rk1/pp3p1p/2b1pPpb/3p4/3Q1qN1/2N5/PPP2PPP/R3K2R%20w%20KQ%20-%205%2016",
+            "a": "Ne2"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r2/2q1Qpk1/6p1/1p1p1bNn/3P3P/pPr2P2/P3N3/K2R2R1%20w%20-%20-%204%2028",
+            "a": "Ne6+"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r1bnr/2p2ppp/2bk4/R7/5P2/2N5/4N1PP/1R4K1%20w%20-%20-%204%2022",
+            "a": "Rd1+"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r3k1/5pp1/3b4/6p1/B1nP3p/P1P4P/1P4r1/1KBR1R2%20b%20-%20-%200%2029&color=black",
+            "a": "Nxb2"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r2k1bnr/p1pp1Bpp/1p6/4N1q1/3p4/2P5/PP2QPbP/RN2K2R%20w%20KQ%20-%200%2011",
+            "a": "Nc6+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r2/1bq4Q/p2kpr2/1p1n1pN1/5Pn1/8/PP4PP/3RRBK1%20w%20-%20-%203%2028",
+            "a": "Rxe6+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4r1k/6b1/b5Q1/p2Rp2p/1p6/PB2qP2/1PP3PP/1K5R%20w%20-%20-%200%2026",
+            "a": "Rd6"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b2k1r/p1bp2p1/1pn4p/2p5/4N1qN/1Q6/PP3PPP/R1B1R1K1%20w%20-%20-%204%2016",
+            "a": "Ng5"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k6/p2bRq2/1p1P1Pp1/2p4p/6r1/5QK1/P5P1/8%20w%20-%20-%208%2038",
+            "a": "Qxg4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/6pk/8/5Pp1/p7/7P/1b1R2K1/8%20b%20-%20-%204%2044&color=black",
+            "a": "a3"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=7k/p5q1/1pP5/5Q1p/8/P5P1/6KP/3r4%20w%20-%20-%208%2054",
+            "a": "Qxh5+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1rr3k1/5p2/3p2p1/3PP3/1p5R/2p2P2/2Q3PP/6K1%20b%20-%20-%201%2032&color=black",
+            "a": "b3"
+        },
+        {
+            "points": 200,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=2r5/3k1p2/5Pp1/PPBpP1P1/1K5P/5p2/8/8%20b%20-%20-%202%2045&color=black",
+            "a": "Rxc5"
+        },
+        {
+            "points": 400,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=5r1k/4n2p/1p4p1/pP5Q/P2pB2K/6P1/2P4P/4q3%20w%20-%20-%200%2038",
+            "a": "Qe5+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r4r1k/ppp1q1p1/6p1/5Q2/2B5/2P5/P1P2PPP/2KR4%20w%20-%20-%200%2022",
+            "a": "Qh3+"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=q1r5/3bp1k1/5p1p/3Pp1p1/3Q1P2/6PP/6B1/5RK1%20w%20-%20-%200%2031",
+            "a": "fxe5"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3q4/5kpQ/p1p5/1p1n4/2p3P1/P6P/1PPB4/1K6%20b%20-%20-%200%2033&color=black",
+            "a": "Nf6"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1r6/pp2kppQ/2n1p1n1/3p2P1/5P2/2PqP3/PP1N4/2KR3R%20b%20-%20-%204%2027&color=black",
+            "a": "Nb4"
+        },
+        {
+            "points": 600,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/8/p3k3/P1p1P1pp/4K3/6PP/8/8%20b%20-%20-%200%2036&color=black",
+            "a": "h4"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=3r4/1p4p1/2pB1bBp/p1Pk4/3rp3/P7/1PK2P2/4R3%20w%20-%20-%202%2032",
+            "a": "Bf7#"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r3k2r/ppp1qppp/3p4/2b1p3/2PnP1b1/3P1N2/PP2BPPP/R1BQK2R%20w%20KQkq%20-%203%209",
+            "a": "Nxd4"
+        },
+        {
+            "points": 600,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=8/3n4/1pB1pn2/1P1pk3/N1Pp4/2K1P3/8/8%20w%20-%20-%200%2036",
+            "a": "exd4+"
+        },
+        {
+            "points": 200,
+            "q": "الأبيض يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=r1b2rk1/p4ppp/2p5/6q1/6P1/3p1Q1P/PPP5/1K2RR2%20w%20-%20-%200%2018",
+            "a": "Qxf7+"
+        },
+        {
+            "points": 400,
+            "q": "الأسود يلعب - أوجد النقلة الحاسمة",
+            "image": "https://lichess1.org/export/fen.gif?fen=1k5r/pp4p1/7r/3p2p1/3P2R1/2P1pP1P/PP3b2/K4B1R%20b%20-%20-%201%2038&color=black",
+            "a": "Rxh3"
+        }
+    ]
+}
