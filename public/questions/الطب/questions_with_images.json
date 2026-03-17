@@ -1,0 +1,740 @@
+{
+  "category": "spot diagnosis",
+  "questions": [
+    {
+      "points": 200,
+      "desc": "Clubbing of fingers",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Dedos_con_acropaquia.jpg",
+      "q": "ما هي هذه العلامة السريرية؟",
+      "a": "Clubbing (تبقرط الأصابع)"
+    },
+    {
+      "points": 200,
+      "desc": "Jaundice yellow sclera eye",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Jaundice08.jpg",
+      "q": "ما هي هذه العلامة السريرية؟",
+      "a": "Jaundice / Icterus (اليرقان/الصفراء)"
+    },
+    {
+      "points": 200,
+      "desc": "Central cyanosis blue lips",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Cynosis.JPG",
+      "q": "ما هي هذه العلامة السريرية؟",
+      "a": "Central Cyanosis (زرقة مركزية)"
+    },
+    {
+      "points": 200,
+      "desc": "Exophthalmos proptosis eyes Graves disease",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Proptosis_and_lid_retraction_from_Graves%27_Disease.jpg",
+      "q": "ما هي هذه العلامة، وفي أي مرض تظهر؟",
+      "a": "Exophthalmos (جحوظ العينين) - Graves' disease"
+    },
+    {
+      "points": 200,
+      "desc": "Moon face Cushing syndrome",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/CushingsFace.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Cushing's Syndrome (متلازمة كوشينغ)"
+    },
+    {
+      "points": 200,
+      "desc": "Ascites distended abdomen",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Hepaticfailure.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Ascites (الاستسقاء)"
+    },
+    {
+      "points": 200,
+      "desc": "Gynaecomastia male breast enlargement",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Gynaecomastia.jpeg",
+      "q": "ما هي هذه العلامة السريرية؟",
+      "a": "Gynaecomastia (تثدي الرجال)"
+    },
+    {
+      "points": 200,
+      "desc": "Alopecia areata bald patches scalp",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Allopecia_areata.JPG",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Alopecia Areata (الثعلبة البقعية)"
+    },
+    {
+      "points": 200,
+      "desc": "Vitiligo depigmentation skin hands",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Vitiligo2.JPG",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Vitiligo (البهاق)"
+    },
+    {
+      "points": 200,
+      "desc": "Herpes zoster shingles rash dermatome",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Herpes_zoster_ophthalmicus.2.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Herpes Zoster / Shingles (الحزام الناري)"
+    },
+    {
+      "points": 200,
+      "desc": "Urticaria hives wheals skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Cold_Urticaria.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Urticaria / Hives (الأرتيكاريا/الشرى)"
+    },
+    {
+      "points": 200,
+      "desc": "Oral thrush white pseudomembranous candidiasis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Oral_pseudomembranous_candidiasis_on_the_dorsum_of_the_tongue_of_a_59-year-old_male_%28third_week_of_RT_for_a_squamous_cell_carcinoma_of_the_floor_of_the_mouth%2C_T3N0M0%2C_daily_dose_1.8_Gy%29.png",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Oral Candidiasis / Thrush (قلاع الفم)"
+    },
+    {
+      "points": 200,
+      "desc": "Angular cheilitis stomatitis mouth corner",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Angular_cheilitis1.jpg",
+      "q": "ما هي هذه العلامة السريرية؟",
+      "a": "Angular Cheilitis (التهاب الشفة الزاوي)"
+    },
+    {
+      "points": 200,
+      "desc": "Pterygium conjunctiva over cornea eye",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Pterygium_Slitlamp.jpg",
+      "q": "ما هو التشخيص الموضح في العين؟",
+      "a": "Pterygium (الظفرة)"
+    },
+    {
+      "points": 200,
+      "desc": "Hordeolum stye eyelid",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Stye02.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Hordeolum / Stye (شحاذ العين)"
+    },
+    {
+      "points": 200,
+      "desc": "Strawberry capillary hemangioma infant skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Capillary_haemangioma.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Capillary Hemangioma (ورم وعائي دموي)"
+    },
+    {
+      "points": 200,
+      "desc": "Tinea corporis ringworm annular skin lesion",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Fox_Plate_LXXXIX.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Tinea Corporis (القوباء الحلقية)"
+    },
+    {
+      "points": 200,
+      "desc": "Heberden nodes DIP joint osteoarthritis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Heberden-Arthrose.JPG",
+      "q": "ما اسم هذه العقد، وما المرض المرتبط بها؟",
+      "a": "Heberden's Nodes - Osteoarthritis"
+    },
+    {
+      "points": 200,
+      "desc": "Raynaud's phenomenon white blue fingertips",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Raynaud_syndrome_on_female_airman%27s_hand.jpg",
+      "q": "ما اسم هذه الظاهرة؟",
+      "a": "Raynaud's Phenomenon (ظاهرة رينود)"
+    },
+    {
+      "points": 200,
+      "desc": "Psoriasis silvery scales erythematous plaque skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Psoriasis_on_back1.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Plaque Psoriasis (الصدفية)"
+    },
+    {
+      "points": 200,
+      "desc": "Kayser-Fleischer ring slit lamp examination eye",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Kayser-Fleischer_ring.jpg",
+      "q": "ما اسم هذه الحلقة، وفي أي مرض تظهر؟",
+      "a": "Kayser-Fleischer Ring - Wilson's Disease"
+    },
+    {
+      "points": 200,
+      "desc": "Tinea capitis ringworm scalp",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Teigne_tondante_enfant.jpg",
+      "q": "ما هو التشخيص الموضح في فروة الرأس؟",
+      "a": "Tinea Capitis (سعفة الرأس)"
+    },
+    {
+      "points": 200,
+      "desc": "Tinea pedis athlete foot",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/FeetFungal.JPG",
+      "q": "ما هو التشخيص الموضح في القدم؟",
+      "a": "Tinea Pedis (القدم الرياضي)"
+    },
+    {
+      "points": 200,
+      "desc": "Seborrheic dermatitis cradle cap infant",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Seborrhoeic_dermatitis_highres.jpg",
+      "q": "ما هو التشخيص الموضح في فروة رأس الرضيع؟",
+      "a": "Seborrheic Dermatitis (قرف اللبن / التهاب جلدي دهني)"
+    },
+    {
+      "points": 200,
+      "desc": "Pityriasis rosea herald patch",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Pityriasisrosa.png",
+      "q": "ما اسم هذه البقعة الأولية التي تسبق انتشار الطفح الجلدي؟",
+      "a": "Herald Patch - Pityriasis Rosea"
+    },
+    {
+      "points": 200,
+      "desc": "Keloid scar hypertrophic skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Keloid%2C_Post_Surgical.JPG",
+      "q": "ما هو التشخيص الطبي لهذه الندبة المتضخمة؟",
+      "a": "Keloid Scar (ندبة جدرية)"
+    },
+    {
+      "points": 200,
+      "desc": "Rosacea facial erythema telangiectasia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Rosacea.jpg",
+      "q": "ما هو التشخيص الموضح في الوجه؟",
+      "a": "Rosacea (الوردية)"
+    },
+    {
+      "points": 200,
+      "desc": "Cherry angioma red skin papule",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Cherry_angioma.jpg",
+      "q": "ما هو التشخيص لهذه الحبة الحمراء الشائعة؟",
+      "a": "Cherry Angioma (ورم وعائي كرزي)"
+    },
+    {
+      "points": 200,
+      "desc": "Lipoma subcutaneous back",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Lipoma_02.jpg",
+      "q": "ما هو التشخيص لهذا الورم الحميد تحت الجلد؟",
+      "a": "Lipoma (ورم شحمي)"
+    },
+    {
+      "points": 200,
+      "desc": "Folliculitis infected hair follicles skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Isolated_folliculitis.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Folliculitis (التهاب الجريبات)"
+    },
+    {
+      "points": 200,
+      "desc": "Tinea cruris jock itch groin rash",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Tinea_cruris.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Tinea Cruris (سعفة الأرفاغ)"
+    },
+    {
+      "points": 200,
+      "desc": "Clubfoot Talipes equinovarus infant",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Pied_bot%2C_varus_%C3%A9quin_%28bilateral%29.jpg",
+      "q": "ما هو التشخيص لهذا التشوه في القدم؟",
+      "a": "Clubfoot / Talipes Equinovarus (حنف القدم)"
+    },
+    {
+      "points": 200,
+      "desc": "Polydactyly extra digits hand",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Wanitetlefthand.jpg",
+      "q": "ما هو الوصف الطبي لهذه الحالة؟",
+      "a": "Polydactyly (كثرة الأصابع)"
+    },
+    {
+      "points": 200,
+      "desc": "Cleft lip infant face",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Cleftlipandpalate.JPG",
+      "q": "ما هو العيب الخلقي الموضح؟",
+      "a": "Cleft Lip (الشفة المشقوقة / الأرنبية)"
+    },
+    {
+      "points": 200,
+      "desc": "Strabismus crossed eyes child",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/StrabismusVL2.jpg",
+      "q": "ما هو التشخيص الطبي الموضح في العينين؟",
+      "a": "Strabismus (الحول)"
+    },
+    {
+      "points": 200,
+      "desc": "Cataract cloudy white lens eye",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Cataract_in_human_eye.png",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Cataract (المياه البيضاء / الساد)"
+    },
+    {
+      "points": 200,
+      "desc": "Subconjunctival hemorrhage eye",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/SubconjunctivalHaemorrhage.jpeg",
+      "q": "ما هو التشخيص الموضح في العين؟",
+      "a": "Subconjunctival Hemorrhage (نزيف تحت الملتحمة)"
+    },
+    {
+      "points": 200,
+      "desc": "Gingival hyperplasia swollen gums",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Gingivitis_%28crop%29.jpg",
+      "q": "ما هي هذه العلامة التي قد يسببها دواء الفينيتوين (Phenytoin)؟",
+      "a": "Gingival Hyperplasia (تضخم اللثة)"
+    },
+    {
+      "points": 200,
+      "desc": "Geographic tongue",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Landkartenzunge_005.jpg",
+      "q": "ما هو الوصف الطبي لهذا المظهر في اللسان؟",
+      "a": "Geographic Tongue (اللسان الجغرافي)"
+    },
+    {
+      "points": 200,
+      "desc": "Erythema infectiosum slapped cheek child",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Fifth_disease.jpg",
+      "q": "ما هو اسم هذا الطفح المميز، أو اسم المرض؟",
+      "a": "Slapped Cheek - Erythema Infectiosum (Fifth Disease)"
+    },
+    {
+      "points": 200,
+      "desc": "Herpetic whitlow finger herpes simplex",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Herpetic_whitlow_in_young_child.jpg",
+      "q": "ما هو التشخيص لهذه العدوى الفيروسية في الإصبع؟",
+      "a": "Herpetic Whitlow"
+    },
+    {
+      "points": 200,
+      "desc": "Herpes labialis cold sore lip",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Herpes%28PHIL_1573_lores%29.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Herpes Labialis / Cold Sore (قرحة البرد)"
+    },
+    {
+      "points": 200,
+      "desc": "Aphthous ulcer canker sore oral mucosa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Aphtha2.jpg",
+      "q": "ما هو التشخيص لهذه القرحة الفموية المؤلمة؟",
+      "a": "Aphthous Ulcer (القرحة القلاعية)"
+    },
+    {
+      "points": 200,
+      "desc": "Oral leukoplakia white patch tongue",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Leukoplakia02-04-06.jpg",
+      "q": "ما هي هذه البقعة البيضاء التي لا يمكن كشطها؟",
+      "a": "Oral Leukoplakia (الطلاوة الفموية)"
+    },
+    {
+      "points": 200,
+      "desc": "Black hairy tongue",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Black_tongue.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Black Hairy Tongue (اللسان المشعر الأسود)"
+    },
+    {
+      "points": 200,
+      "desc": "Actinic keratosis scaly lesion skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/SolarAcanthosis.jpg",
+      "q": "ما هو التشخيص لهذه الآفة الجلدية التي تسبق السرطان؟",
+      "a": "Actinic Keratosis (التقران السفعي)"
+    },
+    {
+      "points": 400,
+      "desc": "Acanthosis nigricans hyperpigmentation neck skin fold",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Acanthosis-nigricans4.jpg",
+      "q": "ما هي هذه العلامة المرتبطة بمقاومة الإنسولين؟",
+      "a": "Acanthosis Nigricans (الشواك الأسود)"
+    },
+    {
+      "points": 400,
+      "desc": "Koilonychia spoon shaped nails",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Koilonychia_iron_deficiency_anemia.jpg",
+      "q": "ما اسم هذه العلامة، وإلى ماذا تشير؟",
+      "a": "Koilonychia (Spoon nails) - Iron deficiency"
+    },
+    {
+      "points": 400,
+      "desc": "Janeway lesions painless macules palms endocarditis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Janeway_lesion.JPG",
+      "q": "ما اسم هذه البقع (غير المؤلمة)؟",
+      "a": "Janeway Lesions"
+    },
+    {
+      "points": 400,
+      "desc": "Malar butterfly rash face SLE patient",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Lupusfoto.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Malar Rash (Butterfly Rash) - SLE"
+    },
+    {
+      "points": 400,
+      "desc": "Erythema migrans bulls eye target rash Lyme disease",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Bullseye_Lyme_Disease_Rash.jpg",
+      "q": "ما اسم هذا الطفح، وفي أي مرض يظهر؟",
+      "a": "Erythema Migrans - Lyme Disease"
+    },
+    {
+      "points": 400,
+      "desc": "Gowers sign muscular dystrophy child standing up sequence",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Duchenne-muscular-dystrophy.jpg",
+      "q": "ما اسم هذه العلامة السريرية؟",
+      "a": "Gowers' Sign - Duchenne Muscular Dystrophy"
+    },
+    {
+      "points": 400,
+      "desc": "Chancre painless genital ulcer primary syphilis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Fox_Plate_LXXVII.jpg",
+      "q": "ما هو التشخيص لهذه القرحة الغير مؤلمة؟",
+      "a": "Chancre - Primary Syphilis"
+    },
+    {
+      "points": 400,
+      "desc": "Condyloma acuminatum genital warts",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/SOA-Condylomata-acuminata-around-anus.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Condylomata Acuminata (Genital Warts)"
+    },
+    {
+      "points": 400,
+      "desc": "Koplik spots white lesions buccal mucosa measles",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Koplik_spots%2C_measles_6111_lores.jpg",
+      "q": "ما اسم هذه البقع، وفي أي مرض تظهر؟",
+      "a": "Koplik's Spots - Measles (الحصبة)"
+    },
+    {
+      "points": 400,
+      "desc": "Strawberry tongue scarlet fever child mouth",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Skarlatina.jpg",
+      "q": "ما اسم هذه العلامة السريرية؟",
+      "a": "Strawberry Tongue"
+    },
+    {
+      "points": 400,
+      "desc": "Xanthelasma palpebrarum yellowish plaques eyelids",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Xanthelasma.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Xanthelasma"
+    },
+    {
+      "points": 400,
+      "desc": "Tuberous xanthoma yellowish nodules elbows",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Xanthoma.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Tuberous Xanthoma"
+    },
+    {
+      "points": 400,
+      "desc": "Erysipelas sharply demarcated red swollen skin face leg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Facial_erysipelas.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Erysipelas (الحمرة)"
+    },
+    {
+      "points": 400,
+      "desc": "Livedo reticularis mottled purplish skin discoloration",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Livedo_reticularis_of_left_leg.jpg",
+      "q": "ما اسم هذه العلامة السريرية الجلدية؟",
+      "a": "Livedo Reticularis"
+    },
+    {
+      "points": 400,
+      "desc": "Erythema ab igne toasted skin syndrome reticular hyperpigmentation",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Hotbottlerash.JPG",
+      "q": "ما هو التشخيص الناتج عن التعرض المزمن للحرارة المعتدلة؟",
+      "a": "Erythema Ab Igne"
+    },
+    {
+      "points": 400,
+      "desc": "Melanoma irregular border mole skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Skin_Tumors-171.jpg",
+      "q": "ما هو التشخيص المرجح لهذه الشامة غير المنتظمة؟",
+      "a": "Malignant Melanoma (سرطان الجلد الميلانيني)"
+    },
+    {
+      "points": 400,
+      "desc": "Squamous cell carcinoma ulcerated skin lesion",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Squamous_Cell_Carcinoma.jpg",
+      "q": "ما هو نوع سرطان الجلد الموضح؟",
+      "a": "Squamous Cell Carcinoma (SCC)"
+    },
+    {
+      "points": 400,
+      "desc": "Seborrheic keratosis stuck on appearance skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Seborrheic_keratosis_on_human_back.jpg",
+      "q": "ما هو التشخيص لهذه الآفة الجلدية الحميدة؟",
+      "a": "Seborrheic Keratosis (التقران المثي)"
+    },
+    {
+      "points": 400,
+      "desc": "Neurofibroma skin tumor NF1",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Neurofibroma02.jpg",
+      "q": "ما اسم هذا الورم الحميد الموضح؟",
+      "a": "Neurofibroma"
+    },
+    {
+      "points": 400,
+      "desc": "Tophaceous gout tophi fingers",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gout_Signs_and_Symptoms.jpg",
+      "q": "ما هي هذه التراكمات الموضحة في الأصابع؟",
+      "a": "Gouty Tophi (النقرس التوفي)"
+    },
+    {
+      "points": 400,
+      "desc": "Dupuytren's contracture palmar fascia hand",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Morbus_dupuytren_1_%28fcm%29.jpg",
+      "q": "ما هو التشخيص الموضح في راحة اليد؟",
+      "a": "Dupuytren's Contracture (تقفّع دوبويتران)"
+    },
+    {
+      "points": 400,
+      "desc": "Prepatellar bursitis housemaid knee swelling",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Prepatellar_bursitis.JPG",
+      "q": "ما هو التشخيص لهذا التورم أمام الرضفة؟",
+      "a": "Prepatellar Bursitis (التهاب الجراب أمام الرضفة)"
+    },
+    {
+      "points": 400,
+      "desc": "Olecranon bursitis student elbow swelling",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Bursitis_Elbow_WC.JPG",
+      "q": "ما هو التشخيص الموضح في الكوع؟",
+      "a": "Olecranon Bursitis (التهاب الجراب الزجي)"
+    },
+    {
+      "points": 400,
+      "desc": "Pemphigus vulgaris flaccid bullae ruptured skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Pemphigus_vulgaris_-_intermed_mag.jpg",
+      "q": "ما هو المرض المناعي المسبب لهذه الفقاعات الرخوة (Flaccid)؟",
+      "a": "Pemphigus Vulgaris (الفقاع الشائع)"
+    },
+    {
+      "points": 400,
+      "desc": "Bullous pemphigoid tense bullae intact skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Legs_Bullous_Pemphigoid.jpg",
+      "q": "ما هو المرض المناعي المسبب لهذه الفقاعات المشدودة (Tense)؟",
+      "a": "Bullous Pemphigoid (الشبيه بالفقاع)"
+    },
+    {
+      "points": 400,
+      "desc": "Dermatitis herpetiformis grouped vesicles elbows celiac",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Dermatitis-herpetiformis.jpg",
+      "q": "ما اسم هذا الطفح الجلدي المرتبط بمرض السيلياك؟",
+      "a": "Dermatitis Herpetiformis (التهاب الجلد هربسي الشكل)"
+    },
+    {
+      "points": 400,
+      "desc": "Wickham striae oral lichen planus mucosa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Lichen_planus.jpg",
+      "q": "ما اسم هذه الخطوط البيضاء، وفي أي مرض تظهر؟",
+      "a": "Wickham Striae - Lichen Planus"
+    },
+    {
+      "points": 400,
+      "desc": "Acrochordon skin tags neck",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/NeckAcrochordons.jpg",
+      "q": "ما هو الوصف الطبي لهذه الزوائد الجلدية؟",
+      "a": "Acrochordons (Skin Tags)"
+    },
+    {
+      "points": 400,
+      "desc": "Lupus pernio sarcoidosis nose purplish lesion",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Lupus_pernio_01.jpg",
+      "q": "ما اسم هذه الآفة الجلدية، وفي أي مرض تظهر؟",
+      "a": "Lupus Pernio - Sarcoidosis"
+    },
+    {
+      "points": 400,
+      "desc": "Pretibial myxedema Graves disease leg skin",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Myxedema.jpg",
+      "q": "ما هي هذه العلامة الجلدية المرتبطة بفرط نشاط الغدة الدرقية؟",
+      "a": "Pretibial Myxedema"
+    },
+    {
+      "points": 400,
+      "desc": "Horner syndrome ptosis miosis unilateral eye",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Miosis.jpg",
+      "q": "ما اسم المتلازمة الموضحة في العين اليسرى؟",
+      "a": "Horner's Syndrome"
+    },
+    {
+      "points": 400,
+      "desc": "Bilateral facial palsy Moebius syndrome",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Infant_with_M%C3%B6bius_syndrome.jpg",
+      "q": "ما هو التشخيص (أو المتلازمة) الموضح في الوجه؟",
+      "a": "Bilateral Facial Palsy / Moebius Syndrome"
+    },
+    {
+      "points": 400,
+      "desc": "Macroglossia enlarged tongue amyloidosis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Macroglossia_with_crenations_along_the_margins_and_loss_of_papillae_on_dorsum_surface_of_the_tongue.png",
+      "q": "ما هو الوصف الطبي لتضخم اللسان الموضح؟",
+      "a": "Macroglossia (ضخامة اللسان)"
+    },
+    {
+      "points": 400,
+      "desc": "Beau's lines transverse grooves nails",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Beau%27s_line_on_left%2C_middle_fingernail.jpg",
+      "q": "ما اسم هذه الخطوط العرضية الغائرة في الأظافر؟",
+      "a": "Beau's Lines"
+    },
+    {
+      "points": 600,
+      "desc": "Lisch nodules iris slit lamp neurofibromatosis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Lisch_nodules.JPG",
+      "q": "ما اسم هذه العقد في القزحية، وفي أي مرض تظهر؟",
+      "a": "Lisch Nodules - Neurofibromatosis Type 1"
+    },
+    {
+      "points": 600,
+      "desc": "Cafe au lait macule spots hyperpigmented skin NF1",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/CALSpot.jpg",
+      "q": "ما اسم هذه البقع السريرية؟",
+      "a": "Café au lait Spots"
+    },
+    {
+      "points": 600,
+      "desc": "Ash leaf spot hypopigmented macule tuberous sclerosis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Symptoms_and_signs_of_tuberous_sclerosis.png",
+      "q": "ما اسم هذه البقعة، وفي أي مرض تظهر؟",
+      "a": "Ash-leaf Spot - Tuberous Sclerosis"
+    },
+    {
+      "points": 600,
+      "desc": "Port wine stain nevus flammeus Sturge Weber syndrome face",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/PortWineStainHand.jpg",
+      "q": "ما هو التشخيص، وإلى أي متلازمة قد يشير؟",
+      "a": "Port-wine Stain - Sturge-Weber Syndrome"
+    },
+    {
+      "points": 600,
+      "desc": "Hutchinson teeth notched incisors congenital syphilis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Hutchinson_teeth_congenital_syphilis_PHIL_2385.rsh.jpg",
+      "q": "ما اسم هذه العلامة في الأسنان، وما سببها؟",
+      "a": "Hutchinson's Teeth - Congenital Syphilis"
+    },
+    {
+      "points": 600,
+      "desc": "Sabre shins anterior bowing tibia congenital syphilis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Congenital_syphilis_saber_shin.jpg",
+      "q": "ما اسم هذا التشوه في عظمة الساق؟",
+      "a": "Sabre Shins (تحدب الساق) - Congenital Syphilis"
+    },
+    {
+      "points": 600,
+      "desc": "Ecthyma gangrenosum necrotic black eschar pseudomonas lesion",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/An_introduction_to_dermatology_%281905%29_ecthyma.jpg",
+      "q": "ما هو التشخيص الموضح؟",
+      "a": "Ecthyma Gangrenosum"
+    },
+    {
+      "points": 600,
+      "desc": "Swan neck deformity PIP hyperextension DIP flexion rheumatoid hands",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Swan_neck_deformity_in_a_65_year_old_Rheumatoid_Arthritis_patient-_2014-05-27_01-49.jpg",
+      "q": "ما اسم هذا التشوه في الأصابع؟",
+      "a": "Swan Neck Deformity"
+    },
+    {
+      "points": 600,
+      "desc": "Boutonniere deformity PIP flexion DIP hyperextension rheumatoid hands",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/RA_hand_deformity.JPG",
+      "q": "ما اسم هذا التشوه في الأصابع؟",
+      "a": "Boutonnière Deformity"
+    },
+    {
+      "points": 600,
+      "desc": "Arachnodactyly long slender spider fingers Marfan syndrome",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Aracnodactilia.jpg",
+      "q": "ما هو الوصف الطبي لهذه الأصابع؟",
+      "a": "Arachnodactyly (العنكبوتية) - Marfan Syndrome"
+    },
+    {
+      "points": 600,
+      "desc": "Pes cavus high arch foot Charcot Marie Tooth Friedreich ataxia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Charcot-marie-tooth_foot.jpg",
+      "q": "ما هو الوصف الطبي لهذه القدم؟",
+      "a": "Pes Cavus (High Arch)"
+    },
+    {
+      "points": 600,
+      "desc": "Dendritic ulcer cornea fluorescein staining herpes simplex keratitis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Dendritic_corneal_ulcer.jpg",
+      "q": "ما هو التشخيص الموضح بصبغة الفلورسين؟",
+      "a": "Dendritic Ulcer - HSV Keratitis"
+    },
+    {
+      "points": 600,
+      "desc": "Leukocoria white pupillary reflex child eye retinoblastoma",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rb_whiteeye.PNG",
+      "q": "ما اسم هذه العلامة، وما أخطر تشخيص لها في الأطفال؟",
+      "a": "Leukocoria - Retinoblastoma"
+    },
+    {
+      "points": 600,
+      "desc": "Battle's sign retroauricular ecchymosis mastoid basilar skull fracture",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Depressed_skull_fracture.jpg",
+      "q": "ما اسم هذه العلامة، وإلى ماذا تشير؟",
+      "a": "Battle's Sign - Basilar Skull Fracture"
+    },
+    {
+      "points": 600,
+      "desc": "Lindsay's nails half and half nails renal failure",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lindsays_Nails_1.jpg",
+      "q": "ما اسم هذه الأظافر (نصف ونصف)، وإلى ماذا تشير؟",
+      "a": "Lindsay's Nails (Half and half nails) - Renal Failure"
+    },
+    {
+      "points": 600,
+      "desc": "Yellow nail syndrome lymphedema",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Yns.jpg",
+      "q": "ما هي المتلازمة المرتبطة بهذه الأظافر؟",
+      "a": "Yellow Nail Syndrome"
+    },
+    {
+      "points": 600,
+      "desc": "Pterygium inversum unguis lichen planus nail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Lehman%2C_2009_Fig11.tiff",
+      "q": "ما هو التشخيص الموضح في ظفر المريض؟",
+      "a": "Pterygium Inversum Unguis - Lichen Planus"
+    },
+    {
+      "points": 600,
+      "desc": "Trachyonychia rough nails twenty nail dystrophy",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Lichen_planus_in_finger_nails.JPG",
+      "q": "ما هو الوصف الطبي لخشونة الأظافر الموضحة؟",
+      "a": "Trachyonychia (Rough nails)"
+    },
+    {
+      "points": 600,
+      "desc": "Peutz Jeghers syndrome mucocutaneous pigmentation lips",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Manifestations_of_Peutz-Jeghers_syndrome.png",
+      "q": "ما هي المتلازمة المرتبطة بهذا التصبغ على الشفاه؟",
+      "a": "Peutz-Jeghers Syndrome"
+    },
+    {
+      "points": 600,
+      "desc": "Osler Weber Rendu hereditary hemorrhagic telangiectasia lips",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Case_115.jpg",
+      "q": "ما هي المتلازمة الوراثية الموضحة؟",
+      "a": "Osler-Weber-Rendu (Hereditary Hemorrhagic Telangiectasia)"
+    },
+    {
+      "points": 600,
+      "desc": "Sweet's syndrome acute febrile neutrophilic dermatosis skin plaques",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Sweet-syndrome_skin.png",
+      "q": "ما هو التشخيص (متلازمة سويت)؟",
+      "a": "Sweet's Syndrome (Acute Febrile Neutrophilic Dermatosis)"
+    },
+    {
+      "points": 600,
+      "desc": "Kussmaul's sign JVP distention inspiration neck veins",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Elevated_JVP.JPG",
+      "q": "ما اسم هذه العلامة (انتفاخ أوردة الرقبة أثناء الشهيق)؟",
+      "a": "Kussmaul's Sign"
+    },
+    {
+      "points": 600,
+      "desc": "Carpopedal spasm Trousseau sign hypocalcemia hand",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Trousseau%27s_Sign_of_Latent_Tetany.jpg",
+      "q": "ما اسم هذه العلامة، وإلى ماذا تشير؟",
+      "a": "Trousseau's Sign of Tetany - Hypocalcemia"
+    },
+    {
+      "points": 600,
+      "desc": "Setting sun eyes hydrocephalus infant",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Hydrocephalus_%28cropped%29.jpg",
+      "q": "ما اسم هذه العلامة في العين، وبأي حالة ترتبط؟",
+      "a": "Setting Sun Sign (عيون غروب الشمس) - Hydrocephalus"
+    },
+    {
+      "points": 600,
+      "desc": "Myelomeningocele spina bifida infant back",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Spina-bifida.jpg",
+      "q": "ما هو التشخيص الموضح في ظهر الرضيع؟",
+      "a": "Myelomeningocele (Spina Bifida)"
+    }
+  ]
+}
